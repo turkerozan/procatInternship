@@ -1,0 +1,12 @@
+{
+  "app": {
+    "generic": {
+      "breadcrumbmain": "HomePage",
+      "controls": {
+        "buttons": {
+          "add": "Add"
+        }
+      }
+    }
+  }
+}

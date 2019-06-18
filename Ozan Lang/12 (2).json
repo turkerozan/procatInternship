@@ -1,0 +1,10 @@
+{
+  "app": {
+    "generic": {
+      "breadcrumbmain": "Anasayfa",
+      "controls": {
+        "buttons": {}
+      }
+    }
+  }
+}

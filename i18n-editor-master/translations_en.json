@@ -1,0 +1,3048 @@
+{
+  "app": {
+    "generic": {
+      "breadcrumbmain": "Home",
+      "controls": {
+        "buttons": {
+          "add": "Add",
+          "approve": "Approve",
+          "back": "Back",
+          "cancel": "Cancel",
+          "clearfilter": "Clear Filter",
+          "close": "Close",
+          "copy": " Copy",
+          "delete": "Delete",
+          "download": "Download",
+          "downloadexcel": "Excel",
+          "edit": "Edit",
+          "getdashboard": "Get dashboard",
+          "getresult": "Get Result",
+          "loadings": {
+            "proccess": "Proccessing please wait..."
+          },
+          "new": "New",
+          "no": "No",
+          "ok": "OK",
+          "processes": "Processes",
+          "productname": "Product Name",
+          "reject": "Reject",
+          "removeselected": "Remove selected",
+          "revise": "Revise",
+          "save": "Save",
+          "signin": "Signin",
+          "update": "Update",
+          "yes": "Yes"
+        },
+        "inputs": {
+          "placeholder": {
+            "entertext": "Enter text to search for",
+            "finishdate": "Enter the finish date.",
+            "search": "Search...",
+            "select": "Select",
+            "startdate": "Enter the start date."
+          }
+        },
+        "labels": {
+          "areyousure": "Are you sure ?",
+          "betweendates": "between",
+          "company": "Company",
+          "evaluateeuser": "Evaluatee Users",
+          "evaluatoruser": "Evaluator Users",
+          "filter": "Filter",
+          "filteroptions": "Options",
+          "finishdate": "Finish Date",
+          "leaverequest": "Leave Request",
+          "numberedevaluation": "Evaluation Id",
+          "numberedtask": "Task Id",
+          "numberedticket": "Ticket Id",
+          "project": "Projects",
+          "projectselect": "Project Selection",
+          "question": "Question",
+          "questionnaireform": "Evaluation Forms",
+          "quizform": "Quiz Forms",
+          "score": "Point",
+          "signinsubtitle": "Enter your credentials below.",
+          "signintitle": "Login to your account",
+          "startdate": "Start Date",
+          "status": "Status",
+          "unscorable": "Unscoreable",
+          "user": "Users"
+        },
+        "select": {
+          "placeholder": "Select",
+          "placeholders": {
+            "department": "Select Department",
+            "project": "Select Project",
+            "searchcompany": "Search for company...",
+            "searchprojects": "Search project",
+            "selectcompany": "Select a company",
+            "selecteditem": "item selected",
+            "selectitem": "Select an item",
+            "team": "Select Team",
+            "user": "Select User"
+          },
+          "questiontypes": {
+            "checkboxlist": "Checkbox List",
+            "dropdownlist": "Dropdown List",
+            "freetext": "Free text",
+            "radiobuttonlist": "Radiobutton List"
+          },
+          "vueselecteditem": "item selected"
+        }
+      },
+      "enums": {
+        "estatustype": {
+          "active": "Active",
+          "deleted": "Deleted",
+          "passive": "Passive"
+        },
+        "newtaskstatus": {
+          "1": "Active",
+          "10": "New",
+          "11": "Closed",
+          "12": "Canceled",
+          "13": "Working On",
+          "14": "On Hold",
+          "15": "Open",
+          "16": "Waiting Reply",
+          "2": "Working On",
+          "3": "Postponed",
+          "4": "Completed",
+          "5": "Canceled",
+          "6": "On Quiz"
+        }
+      },
+      "message": {
+        "loading": "Loading...",
+        "pleaseselectevaluationform": "Please select an evaluation form.",
+        "pleaseselectquestiongroup": "Please select a question group."
+      },
+      "plugins": {
+        "PNotify": {
+          "titles": {
+            "error": "Error",
+            "info": "Info",
+            "success": "Success",
+            "warning": "Warning"
+          }
+        },
+        "chart": {
+          "bar": "Bar chart",
+          "clearmark": "Clear mark",
+          "closeviewdata": "Close",
+          "funnel": "Funnel chart",
+          "line": "Line chart",
+          "mark": "Mark",
+          "nodata": "No data",
+          "pie": "Pie chart",
+          "resetzoom": "Reset zoom",
+          "restore": "Restore",
+          "save": "Save",
+          "savetitle": "Save as image",
+          "suffix": {
+            "euro": "�",
+            "minute": "min",
+            "percent": "%",
+            "point": "point",
+            "second": "sec"
+          },
+          "updatedata": "Update",
+          "viewdata": "View data",
+          "zoom": "Zoom"
+        },
+        "daterange": {
+          "apply": "Apply",
+          "cancel": "Cancel",
+          "customrange": "Custom range",
+          "endlabel": "End date",
+          "format": "MM/DD/YYYY",
+          "last30days": "Last 30 days",
+          "last7days": "Last 7 yays",
+          "lastmonth": "Last month",
+          "lastweek": "Last week",
+          "lastyear": "Last year",
+          "startlabel": "Start date",
+          "thismonth": "Current month",
+          "thisweek": "Current week",
+          "thisyear": "Current year",
+          "today": "Today",
+          "yesterday": "Yesterday"
+        },
+        "download": {
+          "downloadfail": "An unknown error occurred downloading the file. The file may has been deleted.",
+          "downloadpreparing": "The file is preparing to download..."
+        },
+        "dropzone": {
+          "cancel": "Cancel",
+          "cancelinformation": "Are you sure want to cancel the upload ?",
+          "message": "Drag the files you want to upload or click here to select your files.",
+          "remove": "Remove"
+        },
+        "switch": {
+          "active": "Active",
+          "passive": "Passive"
+        }
+      },
+      "table": {
+        "button": {
+          "all": "All",
+          "delete": "Delete",
+          "update": "Update",
+          "view": "View"
+        },
+        "message": {
+          "confirm": {
+            "title": "Are you sure ?"
+          }
+        }
+      }
+    },
+    "name": "Qua Services",
+    "notices": {
+      "notice1": "<strong>Procat</strong>",
+      "notice2": "Test"
+    }
+  },
+  "nav": {
+    "header": {
+      "myprofile": "My profile",
+      "signout": "Log out"
+    },
+    "left": {
+      "customreport": "Reporting Management",
+      "dashboard": "Panel",
+      "dim": {
+        "importdata": "Survey & Lead Data",
+        "main": "DiM Report Management",
+        "report": "DiM Report"
+      },
+      "main": "Home",
+      "management": {
+        "company": "Companies",
+        "connection": "Connections",
+        "department": "Departments",
+        "main": "Administration",
+        "project": "Projects",
+        "role": "Roles",
+        "team": "Teams",
+        "title": "Titles",
+        "user": "Users"
+      },
+      "opportunity": {
+        "data": {
+          "check": "Check Data",
+          "import": "Import Data",
+          "main": "Data Management"
+        },
+        "definitions": {
+          "campaigns": "Campaigns",
+          "finishcodes": "Finish Codes",
+          "main": "Definitions",
+          "marketinglist": "Marketing Lists",
+          "salesteams": "Sales Teams"
+        },
+        "leads": "Leads",
+        "main": "Opportunity Management",
+        "report": {
+          "endofdayreport": "End Of Day Report",
+          "main": "Reports",
+          "rawreport": "Raw Report",
+          "salesteamreport": "Sales Team Report",
+          "situationanalysisreport": "Situation Analysis Report"
+        }
+      },
+      "performance": {
+        "bonusandpenalties": "Bonus & Penalties",
+        "dashboard": "Dashboard",
+        "extrauserstatus": "Extra Statuses",
+        "importdata": "Import Data",
+        "kpi": {
+          "dashboard": "Compare Scorecard",
+          "data": "Data Management",
+          "list": "Metric Management",
+          "scorecard": "Display Scorecard",
+          "scorecards": "Scorecard Management",
+          "title": "Beta <span class='tag is-dark menu-tag'>v 4.1</span>"
+        },
+        "kpilist": "KPI List",
+        "kpiscorecards": "Scorecard List",
+        "main": "Performance Management",
+        "netpromoterscore": "NPS Scores",
+        "scorecard": "Score Card",
+        "surveyandcontactpoint": "Survey & Communication",
+        "tables": "Performance Tables",
+        "weltbilddashboard": "Weltbild Dashboard"
+      },
+      "questionnaire": {
+        "dashboard": "Dashboard",
+        "evaluatedquestionnaires": "User Evaluations",
+        "evaluation": "New Evaluation",
+        "forms": "Forms",
+        "main": "Evaluation Management",
+        "reports": {
+          "criteriareport": "Criteria Report",
+          "main": "Reports",
+          "periodicalgroupreport": "Group Report",
+          "periodicalreport": "Periodical Report",
+          "periodicaltotalpointreport": "Total Point Report",
+          "scoringuserreport": "Scoring User Report"
+        }
+      },
+      "quiz": {
+        "evaluation": "Assign Quiz",
+        "list": "Quiz List",
+        "main": "Quiz Management",
+        "quizzes": "Quiz Forms",
+        "report": {
+          "answeravarage": "Answer Averages",
+          "main": "Reports"
+        }
+      },
+      "task": "Task Management",
+      "ticket": {
+        "list": "Tickets",
+        "main": "Ticket Management",
+        "report": {
+          "categoryReport": "Category Reports",
+          "main": "Reports",
+          "projectReport": "Projet Reports",
+          "userReport": "User Reports"
+        }
+      },
+      "timeplanning": {
+        "additionalworks": "Overtime",
+        "definitions": {
+          "approvalprocesses": "Approval Processes",
+          "holidays": "Holidays",
+          "leaverules": "Time Off Rules",
+          "leavetypes": "Time Off Types",
+          "main": "Settings",
+          "workingcalendars": "Working Calendars"
+        },
+        "leavedays": "Time Off Days",
+        "main": "Payroll Management",
+        "workingdaysreport": "Time Planning Report"
+      },
+      "ttnet": {
+        "dashboard": "Telekom Dashboard",
+        "dataimport": "Telekom Data Import",
+        "main": "Telekom",
+        "telekomsalesentry": "Sales Entry",
+        "tivibusalesentry": "Tivibu Sales Entry"
+      }
+    }
+  },
+  "page": {
+    "custom": {
+      "customfinishcode": {
+        "agentname": "Agent",
+        "amount": "Amount",
+        "calldetail": "Call Detail",
+        "callid": "Call Id",
+        "careem": {
+          "Email": "Email",
+          "bookingid": "Booking Nr.",
+          "captainid": "Driver Id",
+          "customerid": "Cusomer Id"
+        },
+        "category": "Category",
+        "country": "Countries",
+        "description": "Description",
+        "finishcode": "Finish Code",
+        "interactiondate": "Interaction Date",
+        "noresult": "No data available in table.",
+        "phonenumber": "Phone Number",
+        "price": "Price",
+        "productname": "Product Name",
+        "products": "Products",
+        "quantity": "Quantity",
+        "title": "Finish Code",
+        "workgroup": "Workgroup"
+      }
+    },
+    "customreport": {
+      "allreports": "All Reports",
+      "breadcrumb": {
+        "reports": "Reports"
+      },
+      "description": "Create new reports and manage your reports.",
+      "header": "Report Management",
+      "lists": "Lists",
+      "newreport": "New Report",
+      "newreportmodal": {
+        "controls": {
+          "labels": {
+            "company": "Company",
+            "list": "List",
+            "name": {
+              "label": "Name",
+              "placeholder": "Enter the report name."
+            }
+          }
+        },
+        "header": "New Report"
+      },
+      "sharemodal": {
+        "controls": {
+          "labels": {
+            "project": "Projects",
+            "user": "Users"
+          }
+        },
+        "header": "Report Sharing"
+      },
+      "table": {
+        "button": {
+          "execute": "Execute",
+          "sharing": "Shared Lists"
+        },
+        "confirmmessage": "The selected report will be deleted !",
+        "created": "Created",
+        "execution": "Execution",
+        "name": "Name",
+        "object": "Object",
+        "status": "Status"
+      },
+      "title": "Report Management - Qua Services"
+    },
+    "customreportdetail": {
+      "allreports": "All Reports",
+      "breadcrumb": {
+        "reports": "All Reports"
+      },
+      "code": "Report code",
+      "columns": {
+        "avg": "Average",
+        "confirmmessage": "The selected column will be deleted !",
+        "count": "Count",
+        "formulaplaceholder": "Column and formulas",
+        "header": "Columns",
+        "importcolumn": "Import column",
+        "importcolumnheader": "Import column",
+        "labels": {
+          "group": "Group",
+          "name": "Column Name",
+          "nullvalue": "Null value",
+          "round": "Round"
+        },
+        "newcolumn": "New column",
+        "nullif": "Null if",
+        "operator": "Operators",
+        "placeholders": {
+          "name": "Enter the column name.",
+          "nullvalue": "Enter the null column value.",
+          "nullvaluehelp": "If the cell is null, the value in the text box is shown."
+        },
+        "sum": "Sum"
+      },
+      "description": "Create new reports and manage your reports.",
+      "execute": "Execute",
+      "filters": {
+        "and": "AND",
+        "confirmmessage": "The selected filter will be deleted !",
+        "control": "Control label",
+        "controldescription": "Control description",
+        "controldescriptionplaceholder": "Enter the control description.",
+        "controlplaceholder": "Enter the control label.",
+        "datacolumns": "Data columns",
+        "dynamic": "Dynamic value",
+        "filtertype": "Filter type",
+        "filtervalue": "Filter value",
+        "filtervalueplaceholder": "Enter the filter value.",
+        "header": "Filters",
+        "newfilter": "New filter",
+        "or": "OR"
+      },
+      "header": "Report Management",
+      "lists": "Lists",
+      "newreport": "New Report",
+      "newreportmodal": {
+        "controls": {
+          "labels": {
+            "company": "Companies",
+            "list": "Lists",
+            "name": {
+              "label": "Name",
+              "placeholder": "Enter the report name."
+            }
+          }
+        },
+        "header": "New Report"
+      },
+      "orders": {
+        "asc": "Ascending",
+        "confirmmessage": "The selected sort criteria will be deleted !",
+        "datacolumns": "Data columns",
+        "desc": "Descending",
+        "header": "Sort order",
+        "neworder": "New sort",
+        "sorttype": "Sort type"
+      },
+      "parameters": {
+        "and": "AND",
+        "confirmmessage": "The selected parameter will be deleted !",
+        "control": "Control label",
+        "controldescription": "Control description",
+        "controldescriptionplaceholder": "Enter the control description.",
+        "controlplaceholder": "Enter the control label.",
+        "dynamic": "Dynamic value",
+        "name": "Parameter",
+        "newparameter": "New Parameter",
+        "or": "OR",
+        "parametervalue": "Parameter value",
+        "parametervalueplaceholder": "Enter the parameter value.",
+        "title": "Parameters"
+      },
+      "reportsidebar": {
+        "controls": {
+          "button": {
+            "confirmmessage": "All connections to the report will be deleted !",
+            "create": "Create report",
+            "newreport": "New report"
+          },
+          "input": {
+            "displayrecord": {
+              "help": "Leave blank to display all records.",
+              "placeholder": "Enter the number of records to display."
+            },
+            "reportname": {
+              "placeholder": "Enter the report name."
+            },
+            "timeout": {
+              "help": "Default value is thirty seconds.",
+              "placeholder": "Enter the connection timeout."
+            }
+          },
+          "label": {
+            "connection": "Connection",
+            "database": "Database",
+            "displayrecord": "Number of records to display",
+            "object": "Object",
+            "objecttype": "Object Type",
+            "reportlist": "List",
+            "reportname": "Name",
+            "timeout": "Connection timeout"
+          }
+        },
+        "title": "REPORT INFO"
+      },
+      "share": "Share",
+      "table": {
+        "button": {
+          "execute": "Get Report",
+          "sharing": "Sharing"
+        },
+        "confirmmessage": "The selected report will be deleted !",
+        "created": "Created",
+        "execution": "Last Execution",
+        "name": "Name",
+        "object": "Object",
+        "status": "Status"
+      }
+    },
+    "customreportexecute": {
+      "breadcrumb": {
+        "reports": "Reports"
+      },
+      "edit": "Edit",
+      "reportsidebar": {
+        "controls": {
+          "button": {
+            "excel": "Excel",
+            "execute": "Execute",
+            "pdf": "Pdf"
+          }
+        },
+        "help": "You can view up to 500 records. To see all the records;",
+        "parameters": "Parameters",
+        "title": "REPORT INFO"
+      },
+      "share": "Share"
+    },
+    "dashboard": {
+      "header": "Panel"
+    },
+    "firstlogingeneratepassword": {
+      "control": {
+        "submit": "Create my password",
+        "textbox": {
+          "password": "Password"
+        }
+      },
+      "description": "Please create your password.",
+      "header": "Create your password",
+      "title": "Create your password - Qua Services"
+    },
+    "firstloginupdatepassword": {
+      "control": {
+        "submit": "Change password",
+        "textbox": {
+          "password": "Password"
+        }
+      },
+      "description": "Change your password for your security.",
+      "header": "Change your password",
+      "title": "Change your password - Qua Services"
+    },
+    "forgotpassword": {
+      "control": {
+        "submit": "Reset my password",
+        "textbox": {
+          "username": "User name or e-mail address"
+        }
+      },
+      "description": "Enter your user name or e-mail address.",
+      "header": "Forgot my password",
+      "messages": {
+        "usernotfound": "There is no such user."
+      },
+      "signin": "Sign in",
+      "title": "Forgot my password - Qua Services"
+    },
+    "index": {
+      "controls": {
+        "inputs": {
+          "author": "Author",
+          "typesomething": "Enter your quote"
+        },
+        "labels": {
+          "actives": "Active Menu Components",
+          "availables": "Available Menu Components",
+          "colors": "Colors",
+          "language": "Change Language",
+          "mymenu": "My Menu - Customize your menu",
+          "offer": "Suggest Quote of the Day",
+          "photos": "PhotosPhotos",
+          "settings": "Settings",
+          "wisdomwordsinfo": "Share your favourite quotes to see them in this very page!"
+        }
+      },
+      "header": "Home",
+      "menu": {
+        "account": "My Account",
+        "help": "Help",
+        "logout": "Logout",
+        "settings": "Settings",
+        "wisdomwords": "Suggest Quote of the Day"
+      },
+      "messages": {
+        "evening": "Good evening",
+        "morning": "Good morning",
+        "night": "Good night",
+        "noon": "Good days"
+      },
+      "notifications": {
+        "empty": "No Notification",
+        "title": "Notifications"
+      },
+      "tasks": {
+        "empty": "No Tasks",
+        "title": "My Task"
+      },
+      "tickets": {
+        "empty": "No Tickets",
+        "title": "My Tickets"
+      },
+      "title": "Home - Qua Services"
+    },
+    "management": {
+      "companies": {
+        "companydetails": {
+          "admin": "Administrator Information",
+          "companymodules": "Company Modules",
+          "companyname": "Company Name",
+          "email": "E-mail address",
+          "existinguser": "Existing User",
+          "filter": "Filter",
+          "info": "COMPANY INFORMATION",
+          "logo": "Logo",
+          "modules": "Modules",
+          "name": "First Name",
+          "newuser": "New User",
+          "none": "None selected",
+          "placeholders": {
+            "companyname": "Enter company name",
+            "e-mail": "Enter e-mail adress",
+            "name": "Enter name",
+            "startpage": "Enter the company start page",
+            "surname": "Enter surname",
+            "username": "Enter username"
+          },
+          "select": "Select user…",
+          "shown": "Shown {0}",
+          "startpage": "Start Page",
+          "surname": "Surname",
+          "username": "Username",
+          "users": "Users"
+        },
+        "confirmmessage": "The selected company and related data will be deleted!",
+        "confirmtitle": "Are you sure ?",
+        "databases": "Connections",
+        "datatable": {
+          "actions": "Actions",
+          "createddate": "Created Date",
+          "manager": "Administrator",
+          "name": "Company",
+          "projectcount": "Project Count",
+          "status": "Status",
+          "usercount": "User Count"
+        },
+        "definations": {
+          "company": "Create Company",
+          "role": "Create Role",
+          "title": "Options",
+          "user": "Create User"
+        },
+        "departments": "Deparments",
+        "description": "This is a list of companies in the system and you can perform company, project, user, role and connections management from this page.",
+        "header": "Companies",
+        "management": "Management",
+        "projects": "Projects",
+        "roles": "Roles",
+        "title": "Companies - Qua Services",
+        "users": "Users"
+      },
+      "connections": {
+        "add": "Create Connection",
+        "confirmmessage": "The selected connection and related data will be deleted!",
+        "datatable": {
+          "actions": "Actions",
+          "companyname": "Company",
+          "created": "Created",
+          "dbname": "Server",
+          "name": "Name",
+          "update": "Last Modified",
+          "username": "Username"
+        },
+        "description": "Under Connection administration you can add, update and delete connections.",
+        "header": "Connection Management",
+        "modal": {
+          "company": "Company",
+          "connection": "Connection Name",
+          "password": "Password",
+          "placeholders": {
+            "connection": "Enter connection name",
+            "password": "Enter password",
+            "server": "Enter server name",
+            "user": "Enter username"
+          },
+          "server": "Server Name",
+          "status": "Status",
+          "title": "Create New Connection",
+          "user": "Username",
+          "users": "Users"
+        },
+        "test": "Test Connection",
+        "title": "Connection Management - Qua Services"
+      },
+      "departments": {
+        "addtitle": "Create Department",
+        "confirmmessage": "The selected department will be deleted!",
+        "header": "Departments",
+        "labels": {
+          "titlename": "Department Name"
+        },
+        "placeholders": {
+          "titlename": "Enter the department name."
+        },
+        "table": {
+          "actions": "Actions",
+          "companyname": "Company Name",
+          "confirmmessage": "The selected department will be deleted !",
+          "created": "Created",
+          "lastupdate": "Last Modified",
+          "name": "Name",
+          "usercount": "Total Users"
+        },
+        "title": "Departments - Qua Services"
+      },
+      "myprofile": {
+        "controls": {
+          "labels": {
+            "activitytitle": "Activity History"
+          }
+        },
+        "messages": {
+          "uploadcovererror": "There was an error while saving the cover photo."
+        }
+      },
+      "projects": {
+        "add": "Create Project",
+        "close": "Close",
+        "confirmmessage": "The selected project will be deleted !",
+        "datatable": {
+          "actions": "Actions",
+          "companyname": "Company",
+          "created": "Created",
+          "name": "Name",
+          "update": "Last Modified",
+          "usercount": "User Count"
+        },
+        "description": "Under Project administration you can add, update and delete roles. ",
+        "header": "Project Management",
+        "modal": {
+          "company": "Company",
+          "name": "Name",
+          "placeholders": {
+            "name": "Enter project name"
+          },
+          "status": "Status",
+          "title": "Create New Project",
+          "users": "Users"
+        },
+        "save": "Save",
+        "ticketcategories": {
+          "add": "Create Category",
+          "categories": "Ticket Categories",
+          "confirmmessage": "The selected category will be deleted !",
+          "datatable": {
+            "actions": "Actions",
+            "created": "Created",
+            "createdby": "Created By",
+            "name": "Name",
+            "projectname": "Project",
+            "releated": "Releated Ticket Count",
+            "status": "Status"
+          },
+          "description": "You can add, update and delete the ticket categories from this page.",
+          "header": "Project Ticket Categories",
+          "modal": {
+            "name": "Name",
+            "placeholders": {
+              "name": "Enter category name"
+            },
+            "roles": "Roles",
+            "teams": "Teams",
+            "title": "Create New Category",
+            "users": "Users"
+          },
+          "title": "Project Ticket Categories - Qua Services"
+        },
+        "title": "Project Management - Qua Services"
+      },
+      "roles": {
+        "add": "Create Role",
+        "confirmmessage": "The selected role will be deleted !",
+        "datatable": {
+          "actions": "Actions",
+          "companyname": "Company",
+          "description": "Role Description",
+          "name": "Name",
+          "status": "Status",
+          "usercount": "User Count"
+        },
+        "description": "Under Role administration you can add, update and delete roles. ",
+        "header": "Role Management",
+        "roledetails": {
+          "backgroundcolor": "Background colour",
+          "company": "Company",
+          "description": "Description",
+          "info": "ROLE INFORMATION",
+          "name": "Name",
+          "none": "None selected",
+          "placeholders": {
+            "description": "Enter role description",
+            "filter": "Filter",
+            "name": "Enter role name"
+          },
+          "selectprivilege": "Select privilege",
+          "shown": "Shown {0}",
+          "status": "Status"
+        },
+        "title": "Role Management - Qua Services"
+      },
+      "teams": {
+        "add": "Create Team",
+        "close": "Close",
+        "confirmmessage": "The selected team will be deleted !",
+        "datatable": {
+          "actions": "Actions",
+          "companyname": "Company",
+          "created": "Created",
+          "name": "Name",
+          "update": "Last Modified"
+        },
+        "description": "Under Team administration you can add, update and delete teams.",
+        "header": "Team Management",
+        "modal": {
+          "company": "Company",
+          "description": "Description",
+          "finishdate": "Ended",
+          "leader": "Leader",
+          "name": "Name",
+          "placeholders": {
+            "description": "Enter team description",
+            "name": "Enter team name"
+          },
+          "startdate": "Started",
+          "status": "Status",
+          "user": "User",
+          "users": "Users"
+        },
+        "save": "Save",
+        "title": "Team Management - Qua Services"
+      },
+      "titles": {
+        "addtitle": "Add Title",
+        "header": "Titles",
+        "labels": {
+          "titlename": "Title Name"
+        },
+        "placeholders": {
+          "titlename": "Enter the title name."
+        },
+        "table": {
+          "actions": "Actions",
+          "companyname": "Company Name",
+          "confirmmessage": "The selected title will be deleted !",
+          "created": "Created",
+          "lastupdate": "Last Modified",
+          "name": "Name",
+          "usercount": "Total Users"
+        },
+        "title": "Titles - Qua Services"
+      },
+      "user": {
+        "activestatus": "Enabled"
+      },
+      "users": {
+        "active": "Activate",
+        "add": "Create User",
+        "apilogin": "Login with API",
+        "datatable": {
+          "actions": "Actions",
+          "createdate": "Created",
+          "email": "E-mail address",
+          "lastlogin": "Last Login",
+          "lastupdate": "Last Modified",
+          "name": "Name Surname",
+          "username": "Username"
+        },
+        "deletemessagetitle": "The selected user will be deleted !",
+        "description": "Under User administration you can add, update and delete users as well as performing password operations.",
+        "excel": "Excel Export",
+        "header": "Users",
+        "passive": "Make Passive",
+        "resetpassword": "Reset Password",
+        "setpassword": "Set Password",
+        "title": "Users - Qua Services",
+        "user": {
+          "activestatus": "Active"
+        },
+        "userdetails": {
+          "account": {
+            "administrative": "Administrator",
+            "administrativestatus": "Administrator Status",
+            "company": "Company",
+            "email": "E-mail address",
+            "name": "First Name",
+            "placeholders": {
+              "company": "Search for company",
+              "email": "Enter e-mail adress.",
+              "name": "Enter name.",
+              "surname": "Enter surname.",
+              "username": "Enter username."
+            },
+            "status": "Status",
+            "surname": "Surname",
+            "title": "Account Information",
+            "username": "Username"
+          },
+          "adress": {
+            "action": "Action",
+            "adress": "Adress",
+            "button": "Add Adress",
+            "countries": {
+              "options": {
+                "DE": "Germany",
+                "EN": "England",
+                "TR": "Turkey"
+              },
+              "title": "Country"
+            },
+            "placeholder": "Enter adress",
+            "title": "Adress Information",
+            "type": {
+              "options": {
+                "33956": "Home-1",
+                "33957": "Home-2",
+                "33958": "Work",
+                "33959": "Other"
+              },
+              "title": "Adres Type"
+            }
+          },
+          "all": "All selected",
+          "apimodal": {
+            "info": "To login with this user, copy and paste the link below into the browser.",
+            "title": "Login with User API"
+          },
+          "buttons": {
+            "apilogin": "API Login",
+            "close": "Close",
+            "passwordreset": "Reset Password",
+            "save": "Save",
+            "setpassword": "Set Password"
+          },
+          "company": {
+            "department": "Department",
+            "employeetypes": {
+              "33941": "Full Time",
+              "33942": "Part Time",
+              "33943": "Temporary",
+              "33944": "Kontratlı",
+              "33945": "Contracted",
+              "33946": "Intern",
+              "33947": "Mobile"
+            },
+            "leftdate": "Date of Quit",
+            "leftreason": "Reason For Leaving",
+            "outgoingtypes": {
+              "33931": "Military service",
+              "33932": "Extraction in the Trial Process",
+              "33933": "Other",
+              "33934": "Retirement",
+              "33935": "Termination of Employment Contract",
+              "33936": "Dismissal",
+              "33937": "Resignation",
+              "33938": "Death",
+              "33983": "Family",
+              "33984": "Another Job",
+              "33985": "Health",
+              "33986": "Cycle",
+              "33987": "Marriage",
+              "33988": "Adaptation",
+              "33989": "Education",
+              "33990": "City Change",
+              "34489": "Manager Mismatch"
+            },
+            "placeholder": "Enter date of leaving.",
+            "placeholderstartdate": "Enter hire date.",
+            "privelege": "Permission Definition",
+            "project": "Project",
+            "role": "Role Definition",
+            "startdate": "Hire Date",
+            "title": "Title",
+            "type": "Employee Type"
+          },
+          "contact": {
+            "action": "Action",
+            "buttons": {
+              "email": "Add E-mail Adress",
+              "phone": "Add Phone Number"
+            },
+            "email": "E-mail address",
+            "emailtype": {
+              "options": {
+                "33928": "Personal",
+                "33929": "Work",
+                "33930": "Other"
+              },
+              "title": "E-mail type"
+            },
+            "numbertype": {
+              "options": {
+                "33922": "Home",
+                "33923": "Work",
+                "33924": "Mobile",
+                "33925": "Extension",
+                "33926": "Fax",
+                "33927": "Other"
+              },
+              "title": "Number type"
+            },
+            "phone": "Phone",
+            "placeholders": {
+              "email": "Enter e-mail adress",
+              "phone": "Enter phone number"
+            },
+            "title": "Contact Information"
+          },
+          "emergency": {
+            "action": "Action",
+            "name": "Name Surname",
+            "phone": "Telephone number",
+            "placeholders": {
+              "name": "Enter name and surname.",
+              "phone": "Enter telephone number.",
+              "relationship": "Enter relationship."
+            },
+            "relationship": "Relationship",
+            "title": "Emergency Contact Information",
+            "userinfo": "Emergency Contact Information"
+          },
+          "new": "Create User",
+          "none": "No records were found.",
+          "personalinformations": {
+            "birthdate": "Date of Birth",
+            "defaultlanguage": "Native language",
+            "disabilitylevel": {
+              "options": {
+                "33896": "None",
+                "33897": "1.st degree",
+                "33898": "2.nd degree",
+                "33899": "3.rd degree"
+              },
+              "title": "Disability level"
+            },
+            "education": {
+              "options": {
+                "33904": "Primary school",
+                "33905": "Middle School",
+                "33906": "Secondary school",
+                "33907": "Foundation degree",
+                "33908": "Bachelor’s degree",
+                "33909": "Master’s degree",
+                "33910": "Doctorate",
+                "33911": "None"
+              },
+              "title": "Education Level"
+            },
+            "female": "Female",
+            "gender": "Gender",
+            "male": "Male",
+            "marriagestatus": {
+              "id": {
+                "0": "Single",
+                "1": "Not specified",
+                "2": "Divorced",
+                "3": "Married",
+                "33900": "Single",
+                "33901": "Married",
+                "33902": "Divorced",
+                "33903": "Not specified"
+              },
+              "title": "Marriage Status"
+            },
+            "militarystatus": {
+              "options": {
+                "33912": "Completed",
+                "33913": "Uncompleted",
+                "33914": "Exempt",
+                "33915": "Postponed"
+              },
+              "placeholder": "Enter postponed date",
+              "postponeddate": "Postponed Date",
+              "title": "Military Service Status"
+            },
+            "none": "None",
+            "numberofchildren": "Number of children",
+            "placeholders": {
+              "birthdate": "Enter Date of Birth  ",
+              "tc": "Enter National Identity No."
+            },
+            "tc": "National Identity No ",
+            "title": "Personal Information"
+          },
+          "resetpassword": {
+            "message": "Are you sure you want to reset the user's password?",
+            "title": "Are you sure ?"
+          },
+          "setpasswordmodal": {
+            "password": "New Password",
+            "passwordagain": "Confirm Password",
+            "title": "Setting User Password"
+          },
+          "update": "Update User"
+        }
+      }
+    },
+    "myprofile": {
+      "account": {
+        "email": "E-mail",
+        "name": "Name",
+        "surname": "Surname",
+        "title": "Account Information",
+        "username": "Username"
+      },
+      "activity": "Event History",
+      "activityloading": " Loading...",
+      "companies": "My Companies",
+      "notifications": {
+        "emailsending": "E-mail sent",
+        "info": "Notification information",
+        "notifyid": {
+          "17": "When I am evaluated in a form",
+          "18": "When a form I evaluated is calibrated",
+          "28": "When I create a task",
+          "29": "When I update a task",
+          "30": "When I am assigned a task",
+          "31": "When a file is uploaded to a task that was shared with me",
+          "32": "When a comment is made on a task that was shared with me",
+          "33": "When a sub-task is created for a task that was shared with me",
+          "35": "When a task that was shared with me is completed",
+          "37": "When I update my profile information",
+          "39": "When I change my password",
+          "52": "When a quiz score is updated",
+          "54": "When a user completes a quiz",
+          "55": "When I score a quiz",
+          "56": "When a task that was shared with me is updated",
+          "57": "When a new ticket is created",
+          "58": "When a ticket is updated",
+          "59": "When a ticket is deleted",
+          "60": "When a ticket is assigned to me",
+          "61": "When a comment is made to a ticket",
+          "62": "When I request a time-off request",
+          "63": "When a time-off request is waiting for approval",
+          "64": "When my requested time-off request is approved",
+          "65": "When my requested time-off request is updated",
+          "66": "When I approve a time-off request"
+        },
+        "off": "OFF",
+        "on": "ON",
+        "title": "Notification Settings"
+      },
+      "password": {
+        "newpassword": "New Password",
+        "oldpassword": "Current Password",
+        "passwordagain": "Confirm Password",
+        "placeholders": {
+          "newpassword": "Enter your new password",
+          "oldpassword": "Enter your current password",
+          "passwordagain": "Enter your new password again"
+        },
+        "title": "Change Password"
+      },
+      "personalinfo": {
+        "adress": "Address",
+        "birthday": "Date of Birth",
+        "female": "Female",
+        "gender": "Gender",
+        "male": "Male",
+        "mobilephone": "Mobile Phone Number",
+        "phone": "Telephone Number",
+        "placeholders": {
+          "adress": "Enter your address",
+          "birthday": "Enter your date of birth",
+          "mobilephone": "Enter your mobile phone number",
+          "phone": "Enter your phone number"
+        },
+        "title": "Personal Information"
+      },
+      "selectimagebutton": "Select Image",
+      "update": "Update",
+      "uploadimagebutton": "Upload Image"
+    },
+    "newTicket": {
+      "create": {
+        "category": "Category",
+        "description": "Description",
+        "errorMessages": {
+          "category": "Category is required",
+          "description": "Ticket description is required",
+          "error": "Error",
+          "errorMessage": "Fill in all required charts and try again",
+          "priority": "Priority is required",
+          "subject": "Ticket subject is required"
+        },
+        "placeholders": {
+          "category": "Select category",
+          "priority": "select priority",
+          "tag": "Etiket ekle"
+        },
+        "priority": "Priority",
+        "subject": "Subject",
+        "tag": "Tag",
+        "title": "Create a New Ticket"
+      },
+      "detail": {
+        "addReply": "Add Reply",
+        "assigneTo": "Assigne to",
+        "assignee": "Assignee",
+        "category": "Category",
+        "changeAssignee": "Change Assignee",
+        "changeCategory": "Change Category",
+        "changePriority": "Change Priority",
+        "commentTitle": "Comments",
+        "createdBy": "Created by",
+        "createdDate": "Created date",
+        "files": "Files",
+        "history": "Show history",
+        "historyTitle": "History",
+        "informations": "Informations",
+        "noFile": "There isn't a file to display",
+        "noTag": "There isn't a tag to display",
+        "noWork": "There isn't a work to display",
+        "priority": "Priority",
+        "privateMessage": "Private message",
+        "projectName": "Project Name",
+        "removeMeShare": "Remove me from share",
+        "reply": "Reply",
+        "reset": "Reset",
+        "share": "Share",
+        "status": "Status",
+        "systemMessage": "System message",
+        "tags": {
+          "addTag": "Add Tag",
+          "title": "Tags"
+        },
+        "ticketActions": "Ticket Actions",
+        "updateComment": "Update Comment",
+        "updatedBy": "Updated by",
+        "updatedDate": "Updated date",
+        "works": {
+          "addWorkedTime": "Add Worked Time",
+          "day": "Day",
+          "description": "Description",
+          "directors": "Directors",
+          "everyone": "Everyone",
+          "free": "Free",
+          "hour": "Hour",
+          "minute": "Minute",
+          "paid": "Paid",
+          "privacy": "Privacy",
+          "title": "Works"
+        }
+      },
+      "list": {
+        "assume": "Assume",
+        "comments": {
+          "title": "Comments"
+        },
+        "createButton": "Create Ticket",
+        "files": {
+          "createdBy": "Created By",
+          "download": "Download",
+          "fileName": "File Name",
+          "fileSize": "File Size",
+          "notFound": "Not found file",
+          "title": "Files"
+        },
+        "filter": "Filter",
+        "noTicket": "There are no Tickets to show here for you :(",
+        "placeholders": {
+          "customSearch": "Custom search",
+          "finishDate": "Finish date",
+          "noElement": "Oops! No elements found.",
+          "selectAssignedUser": "Select assigned user",
+          "selectCategory": "Select category",
+          "selectPriority": "Select priority",
+          "selectSortType": "Select sort type",
+          "selectStatus": "Select status",
+          "startDate": "Start date",
+          "tagSearch": "Tag search"
+        },
+        "show": "Show",
+        "sort": {
+          "oldestRecent": "Oldest to Recent",
+          "recentOldest": "Recent to Oldest",
+          "title": "Sort"
+        },
+        "ticketSelected": "ticket selected",
+        "title": "Tickets"
+      },
+      "messages": {
+        "assumeQuestion": "Are you sure you want to take the ticket?",
+        "commentAdded": "Comment added",
+        "commentAddedError": "Comment non added",
+        "commentDeletedQuestion": "Are you sure you want to delete the comment?",
+        "commentRemoved": "Comment removed",
+        "commentRemovedError": "Comment removing error",
+        "error": "Error",
+        "fileAdded": "File added",
+        "fileAddedError": "File non added",
+        "fileDeletedQuestion": "Are you sure you want to delete the file?",
+        "fileRemoved": "File removed",
+        "fileRemovedError": "File removing error",
+        "question": "Are you sure ?",
+        "successful": "Successful",
+        "tagAdded": "Tag added",
+        "tagAddedError": "Tag non added",
+        "tagRemoved": "Tag removed",
+        "tagRemovedError": "Tag removing error",
+        "ticketCreated": "Ticket created",
+        "ticketCreatedError": "Ticket creared error!",
+        "ticketCreatedQuestion": "Task number {{ticketId}} is created. Want to create a new ticket?",
+        "ticketUpdated": "Ticket updated",
+        "ticketUpdatedError": "Ticket updating error",
+        "unsuccessful": "Unsuccessful",
+        "workAdded": "Work added",
+        "workAddedError": "Work non added",
+        "workDeletedQuestion": "Are you sure you want to delete the work?",
+        "workRemoved": "Work removed",
+        "workRemovedError": "Work removing error"
+      },
+      "report": {
+        "filter": {
+          "button": "Filter",
+          "selectCategory": "Select category",
+          "selectProject": "Select project"
+        },
+        "table": {
+          "averageResolutionTime": "Average Resolution Time (Min.)",
+          "category": "Project / Category",
+          "closed": "Closed",
+          "firstResponseAverage": "First Response Average (Min.)",
+          "new": "New",
+          "onHold": "OnHold",
+          "open": "Open",
+          "project": "Project",
+          "solved": "Solved",
+          "total": "Total",
+          "user": "User",
+          "waiting": "Waiting"
+        }
+      },
+      "subMenu": {
+        "allPriorities": "All Priorities",
+        "allStatus": "All Status",
+        "allTickets": "All Tickets",
+        "assignedTickets": "Assigned Tickets",
+        "myTickets": "My Tickets",
+        "priorities": "Priorities",
+        "shared": "Shared With Me",
+        "statuses": "Statuses",
+        "title": "Tickets"
+      }
+    },
+    "payroll": {
+      "approvalprocess": {
+        "approversinfo": "You can't change users you've added to the approval process. Instead, you can create a new process.",
+        "datatable": {
+          "actions": "Actions",
+          "company": "Company",
+          "name": "Name",
+          "status": "Status",
+          "users": "Users & Groups"
+        },
+        "description": "You can make leave Approval Process definitions from this page.",
+        "header": "Approval Process Management",
+        "modal": {
+          "approvers": "Approver(s)",
+          "company": "Company",
+          "department": "Department",
+          "name": "Name",
+          "placeholders": {
+            "approvers": "Define the users you want to add to the approval process in the order you want.",
+            "name": "Enter approval process name"
+          },
+          "project": "Project",
+          "roles": "Roles",
+          "status": "Status",
+          "teams": "Teams",
+          "title": "Create New Approval Process",
+          "update": "Update Approval Process",
+          "user": "User"
+        },
+        "new": "New Approval Process",
+        "title": "Approval Process Management - Qua Services"
+      },
+      "holidays": {
+        "datatable": {
+          "actions": "Actions",
+          "company": "Company",
+          "end": "End",
+          "name": "Name",
+          "start": "Start",
+          "status": "Status",
+          "year": "Year"
+        },
+        "description": "You can make official holiday definitions from this page.",
+        "header": "Holiday Management",
+        "modal": {
+          "ancronym": "Ancronym",
+          "company": "Company",
+          "description": "Description",
+          "enddate": "End Date",
+          "name": "Schedule Name",
+          "placeholders": {
+            "ancronym": "Enter holiday ancronym",
+            "enddate": "End Date",
+            "name": "Enter holiday name",
+            "startdate": "Start Date"
+          },
+          "startdate": "Start Date",
+          "title": "Create New Holiday",
+          "year": "Year"
+        },
+        "new": "New Holiday",
+        "title": "Holiday Management - Qua Services",
+        "update": "Update Holiday"
+      },
+      "leaverules": {
+        "datatable": {
+          "actions": "Actions",
+          "all": " all",
+          "allowance": "Allowance",
+          "company": "Company",
+          "day": " day",
+          "description": "Year",
+          "month": " month",
+          "name": "Name",
+          "status": "Status",
+          "transferableave": "Transferable Leave",
+          "yearlyentitlement": "Annual Leave Entitlement"
+        },
+        "description": "You can make leave rule definitions from this page.",
+        "header": "Leave Rule Management",
+        "modal": {
+          "ancronym": "Ancronym",
+          "company": "Company",
+          "day": "Day",
+          "department": "Department",
+          "description": "Description",
+          "extra": "Extra",
+          "firsttime": "First Time to Deserve",
+          "friday": "Add Saturday when leave taken for Friday.",
+          "increaseofleave": "Increase of Leave",
+          "mondaytofriday": "Add Saturday when leave taken Monday to Friday.",
+          "name": "Name",
+          "newlevel": " Add New Level",
+          "paid": "Paid",
+          "placeholders": {
+            "ancronym": "Enter holiday ancronym",
+            "description": "Enter descripiton",
+            "extraday": "You can define the additional leave days to be given according to the year the employee is working in your company from here. ",
+            "limit": "Maximum number of days allowed per year",
+            "months": {
+              "1": "1 Month",
+              "10": "10 Month",
+              "11": "11 Month",
+              "12": "12 Month",
+              "2": "2 Month",
+              "3": "3 Month",
+              "4": "4 Month",
+              "5": "5 Month",
+              "6": "6 Month",
+              "7": "7 Month",
+              "8": "8 Month",
+              "9": "9 Month"
+            },
+            "monthstext": "It determines how many months should passed for give leave right to employee. The default value is 12 months.",
+            "name": "Enter leave type name",
+            "transferlimit": "The maximum day to can transferred to the next period. You can leave it blank if there is no limit.",
+            "year": "Year"
+          },
+          "project": "Project",
+          "status": "Status",
+          "title": "Create New Leave Rule",
+          "transferableave": "Transferable Leave",
+          "user": "User",
+          "yearlydeduct": "Deduct from leave entitlement",
+          "yearlyentitlement": "Annual Leave Entitlement",
+          "yearlylimit": "Yearly limit"
+        },
+        "new": "New Leave Rule",
+        "title": "Leave Rule Management - Qua Services",
+        "update": "Update Leave Rule"
+      },
+      "leavetypes": {
+        "datatable": {
+          "actions": "Actions",
+          "company": "Company",
+          "description": "Description",
+          "name": "Name",
+          "paid": "Paid",
+          "status": "Status",
+          "yearlydeduct": "Annual Leave Deduction",
+          "yearlylimit": "Yearly Limit"
+        },
+        "day": " Day",
+        "description": "You can make leave type definitions from this page.",
+        "header": "Leave Type Management",
+        "modal": {
+          "ancronym": "Ancronym",
+          "company": "Company",
+          "description": "Description",
+          "name": "Name",
+          "paid": "Paid",
+          "placeholders": {
+            "ancronym": "Enter holiday ancronym",
+            "description": "Enter descripiton",
+            "name": "Enter leave type name",
+            "yearlylimit": "Maximum number of days allowed per year"
+          },
+          "title": "Create New Leave Type",
+          "yearlydeduct": "Deduct from leave entitlement",
+          "yearlylimit": "Yearly limit"
+        },
+        "new": "New Leave Type",
+        "paid": "Paid",
+        "status": "Status",
+        "title": "Leave Type Management - Qua Services",
+        "unpaid": "Unpaid",
+        "update": "Update Leave Type"
+      },
+      "overtime": {
+        "datatable": {
+          "actions": "Actions",
+          "created": "Created",
+          "createdby": "Created By",
+          "date": "Overtime Date",
+          "duration": "Overtime Duration",
+          "projects": "Project",
+          "type": "Overtime Type",
+          "users": "Users"
+        },
+        "description": "You can manage overtime durations on this page.",
+        "filterlabels": {
+          "date": "By Date",
+          "projectfilter": "Project Filter",
+          "projecttitle": "Project and User",
+          "userfilter": "User Filter"
+        },
+        "header": "Overtime Durations",
+        "modal": {
+          "date": "Overtime Date",
+          "description": "Description",
+          "duration": "Overtime Duration",
+          "placeholders": {
+            "date": "Overtime Date",
+            "description": "Enter description of overtime",
+            "duration": "Overtime Duration"
+          },
+          "projects": "Project",
+          "roles": "Roles",
+          "teams": "Teams",
+          "type": "Overtime Type",
+          "types": {
+            "34355": "Time Completion",
+            "34356": "Overtime",
+            "34421": "National Holiday",
+            "34511": "National Holiday Overtime"
+          },
+          "users": "User"
+        },
+        "new": "New Overtime",
+        "title": "Overtime Durations - Qua Services"
+      },
+      "report": {
+        "description": "You can get working days report from this page.",
+        "excel": "Excel Report",
+        "filterlabels": {
+          "date": "By Date",
+          "departmentfilter": "Project Filter",
+          "projectfilter": "Project Filter",
+          "projecttitle": " By Project and User",
+          "rolefilter": "Role Filter",
+          "teamfilter": "Team Filter",
+          "userfilter": "User Filter"
+        },
+        "getreport": "Get Report",
+        "header": "Working Days Report",
+        "title": "Working Days Report - Qua Services"
+      },
+      "timeoffdays": {
+        "all": "All",
+        "create": "Create",
+        "datatable": {
+          "actions": "Actions",
+          "created": "Created",
+          "end": "End Date",
+          "info": "Request Information",
+          "start": "Start Date",
+          "status": "Status"
+        },
+        "description": "You can request time off days here and view your time off days informations on this page.",
+        "details": {
+          "addcomment": "Add comment",
+          "addedby": "Added by ",
+          "approve": "Approve & Reject",
+          "category": "Category",
+          "comment": "Comment",
+          "commentmodal": {
+            "label": "Status",
+            "notchanged": "No status changes",
+            "placeholder": "Drag a file here or click to select a file",
+            "title": "Add New Comment"
+          },
+          "commenttext": "You can enter comment",
+          "created": "Created",
+          "createdby": "Created By",
+          "date": "Request Date",
+          "delete": "Delete Task",
+          "end": "End Date",
+          "header": "Time Off Detail",
+          "lastmodifed": "Last Modified",
+          "leavefiles": "Related Files",
+          "owner": "Request Owner",
+          "priority": "Priority",
+          "project": "Project",
+          "shared": "Shared",
+          "start": "Start Date",
+          "status": "Status",
+          "update": "Update",
+          "updated": "Updated",
+          "updateleave": "Update Leave Request",
+          "upload": "Upload File",
+          "uploadmodal": {
+            "filecancel": "Are you sure you want to cancel the uploading ?",
+            "filedrag": "Drag a file here or click to select a file",
+            "title": "Add New File"
+          }
+        },
+        "filterlabels": {
+          "date": "By Date",
+          "leavestatus": {
+            "21": "Waiting for approval",
+            "22": "Approved",
+            "23": "Rejected",
+            "24": "Change Request",
+            "DEĞIŞIKLIK TALEBI": "Change Request",
+            "Düşük": "Low",
+            "Kritik": "Critical",
+            "Normal": "Normal",
+            "ONAY BEKLIYOR": "Waiting for approval",
+            "ONAYLANDI": "Approved",
+            "REDDEDILDI": "Rejected",
+            "Yüksek": "High",
+            "approved": "Approved",
+            "changerequest": "Change Request",
+            "rejected": "Rejected",
+            "title": "APPROVAL STATUSES",
+            "waiting": "Waiting for approval"
+          },
+          "status": "By Status",
+          "statustitle": "Time Off Request Statuses",
+          "type": "By Type",
+          "typeselection": "Request Type Selection",
+          "typetitle": "Request Types"
+        },
+        "header": "Time Off Days",
+        "modal": {
+          "comment": "Comment",
+          "company": "Company",
+          "cover": "Person who will Cover",
+          "description": "Description",
+          "else": "Someone else",
+          "end": "End Date",
+          "leaveuser": "User of leave",
+          "myown": "My Own",
+          "owner": "Request Owner",
+          "placeholders": {
+            "comment": "Enter comment",
+            "description": "Enter description"
+          },
+          "start": "Start Date",
+          "type": "Time off Type"
+        },
+        "new": "New Time Off Request",
+        "title": "Time Off Days - Qua Services",
+        "update": "Update Time Off Request",
+        "viewdetails": "View Details",
+        "waiting": "Waiting for Approval"
+      },
+      "workingcalendars": {
+        "datatable": {
+          "actions": "Actions",
+          "company": "Company",
+          "createdby": "Created By",
+          "createddate": "Created",
+          "name": "Shift Name",
+          "period": "Period",
+          "repeat": "Occurs every month",
+          "status": "Status"
+        },
+        "description": "The page where the work calendars are located. You can add, update and delete work schedule from this page.",
+        "details": {
+          "breaks": "Break Duration (mins)",
+          "breaktext": "Leave blank if no break time",
+          "day": "Day",
+          "description": "The page where the work calendars are located. You can add, update and delete work schedule from this page.",
+          "endtime": "End Time",
+          "header": "Working Calendar Detail",
+          "sidebar": {
+            "create": "Create table",
+            "departments": "Departments",
+            "description": "Calendar Description",
+            "descriptionplaceholder": "Enter calendar description",
+            "end": "End Date",
+            "name": "Calendar Name",
+            "nameplaceholder": "Enter calendar name",
+            "projects": "Projects",
+            "repeat": "Occurs every month",
+            "roles": "Roles",
+            "start": "Start Date",
+            "startdate": "Start - End Date",
+            "status": "Status",
+            "teams": "Teams",
+            "title": "Working Calendar Information",
+            "users": "Users"
+          },
+          "starttime": "Start Time",
+          "title": "Working Calendar Detail - Qua Services",
+          "workinghours": "Working Hours"
+        },
+        "header": "Working Calendar Management",
+        "modal": {
+          "company": "Company",
+          "description": "Description",
+          "name": "Schedule Name",
+          "placeholders": {
+            "description": "Enter calendar descrıption",
+            "name": "Enter calendar name"
+          },
+          "status": "Status",
+          "title": "Create New Working Calendar"
+        },
+        "new": "New Calendar",
+        "title": "Working Calendar Management - Qua Services"
+      }
+    },
+    "performance": {
+      "bonusandpenalties": {
+        "addnewvalue": "Define New Value",
+        "confirmmessage": "Selected data will be deleted.",
+        "header": "Bonus and Penalties",
+        "labels": {
+          "dateofdata": "Date",
+          "project": "Project",
+          "select": "Select",
+          "type": "Type",
+          "user": "User",
+          "value": "Value"
+        },
+        "new": "New",
+        "newvalue": "New Value",
+        "table": {
+          "actions": "Actions",
+          "name": "Name Surname",
+          "period": "Period",
+          "project": "Project",
+          "type": "Type",
+          "value": "Value"
+        },
+        "title": "Bonus and Penalties - Qua Services"
+      },
+      "dashboard": {
+        "getdashboard": "Get dashboard",
+        "header": "Performance dashboard",
+        "performancevalues": {
+          "legends": {
+            "actual": "Actual",
+            "average": "Average",
+            "total": "Total"
+          },
+          "suffix": {
+            "day": "day",
+            "euro": "€",
+            "minute": "min",
+            "percent": "%",
+            "point": "point",
+            "second": "sec"
+          },
+          "title": "User rankings",
+          "values": {
+            "acht": "ACHT",
+            "acw": "ACW",
+            "admtekliforani": "ADM Offer Rate",
+            "asa": "ASA",
+            "breaktime": "Break time",
+            "callqualityscore": "Call quality score",
+            "chat": "Chat response time",
+            "chatqualityscore": "Quality score",
+            "completedsurvey": "Completed survey rate",
+            "contactqualityscore": "Contact quality score",
+            "customersatisfactionscore": "Customer satisfaction score",
+            "email": "E-mail response time",
+            "emailqualityscore": "E-mail quality score",
+            "hold": "Hold",
+            "kapaniskodugirisorani": "Closing Code Input Rate",
+            "login": "Login duration",
+            "mailaht": "Mail AHT",
+            "opencontactrate": "Contact rate",
+            "orderaht": "Order AHT",
+            "outbound": "Outbound talk time",
+            "productivity": "Productivity",
+            "qualityscore": "Interaction quality score",
+            "quizandcompletedsurvey": "Quiz and Completed survey rate",
+            "quizandcustomersatisfactionandopencontactrate": "Quiz, Customer satisfaction score and Contact rate",
+            "quizandcustomersatisfactionscore": "Quiz and Customer satisfaction score",
+            "quizscore": "Quiz",
+            "salesamount": "Sales (ADM) Euro",
+            "servicelevel": "Service level",
+            "servicelevelorder": "Order Service level",
+            "servicelevelsupport": "Support Service level",
+            "socialmedia": "Social media response time",
+            "socialmediaqualityscore": "Social media quality score",
+            "supportaht": "Support AHT",
+            "ticketqualityscore": "Ticket quality score",
+            "totalleaveday": "Absenteeism",
+            "totaluserscount": "Users",
+            "userrank": "User Rankings",
+            "usersales": "User Sales",
+            "verintquality": "Verint interaction quality score",
+            "workgroup": "Workgroup performance"
+          }
+        },
+        "title": "Performance dashboard - Qua Services"
+      },
+      "extrauserstatuses": {
+        "datatableFields": {
+          "actionsField": "Actions",
+          "dateField": "Date",
+          "nameField": "Name Surname",
+          "projectField": "Project",
+          "statusField": "Type",
+          "valueField": "Value"
+        },
+        "description": "You can define additional user statuses on this page.",
+        "header": "Additional User Statuses",
+        "modal": {
+          "closeButton": "Close",
+          "date": "Date",
+          "projectSelection": "Project",
+          "saveButton": "Save",
+          "select": "Select",
+          "statusSelection": "Status Selection",
+          "title": "Define New Value",
+          "userSelection": "User",
+          "value": "Value",
+          "valueDescription": "Please enter the value only in minutes."
+        },
+        "title": "Additional User Statuses - Qua Services"
+      },
+      "forms": {
+        "copy": " Copy",
+        "deleteMessage": "The value that you have selected will be deleted!",
+        "deleteTitle": "Are you sure ?",
+        "newvalue": "New Value",
+        "search": "Search..."
+      },
+      "importdata": {
+        "cancelandnewupload": "Cancel and New Upload",
+        "excelsheets": "Excel Sheets",
+        "fileStatus": "File not selected.",
+        "header": "Import Performance Data",
+        "removeFile": "Delete",
+        "selectFile": "Select",
+        "selectfiles": "Select File",
+        "title": "Import Performance Data - Qua Services",
+        "upload": "Upload"
+      },
+      "kpimanagement": {
+        "header": "KPI Management",
+        "kpiadd": "New KPI"
+      },
+      "netpromoterscores": {
+        "datatableFields": {
+          "actionsField": "Actions",
+          "nameField": "Name Surname",
+          "periodField": "Period",
+          "projectField": "Project",
+          "scoreField": "Score"
+        },
+        "description": "You can define the users customer satisfaction points on this page.",
+        "header": "Customer Satisfaction Scores",
+        "modal": {
+          "closeButton": "Close",
+          "date": "Date",
+          "projectSelection": "Project",
+          "saveButton": "Save",
+          "score": "Score",
+          "select": "Select",
+          "title": "Define New Value",
+          "userSelection": "User"
+        },
+        "new": "New Value",
+        "title": "Customer Satisfaction Scores - Qua Services"
+      },
+      "scorecard": {
+        "getresult": "Get Result",
+        "header": "User Score Card",
+        "title": "User Score Card - Qua Services"
+      },
+      "surveyandcontactpoints": {
+        "datatableFields": {
+          "actionsField": "Actions",
+          "completedField": "Completed",
+          "nameField": "Name Surname",
+          "periodField": "Period",
+          "projectField": "Project",
+          "rateField": "Rate",
+          "targetField": "Target",
+          "typeField": "Type"
+        },
+        "description": "You can define the users target survey and contact points on this page.",
+        "header": "Survey and Contact Points",
+        "modal": {
+          "closeButton": "Close",
+          "completed": "Completed",
+          "date": "Date",
+          "projectSelection": "Project",
+          "saveButton": "Save",
+          "select": "Select",
+          "target": "Target",
+          "title": "Define New Value",
+          "typeSelection": "Type",
+          "userSelection": "User"
+        },
+        "new": "New Value",
+        "title": "Survey and Contact Points - Qua Services"
+      },
+      "weltbilddashboard": {
+        "header": "Weltbild Dashboard",
+        "title": "Weltbild Dashboard - Qua Services"
+      }
+    },
+    "questionnaire": {
+      "UserScoringFilerDate": "Date",
+      "UserScoringReportTable": {
+        "Count": "Count",
+        "Date": "Date",
+        "FullName": "Evaluator User",
+        "Name": "Project Name"
+      },
+      "criteriareport": {
+        "header": "Criteria Report",
+        "title": "Criteria Report - Qua Services"
+      },
+      "dashboard": {
+        "charts": {
+          "headers": {
+            "averagescore": "Average Score",
+            "callduration": "Call Duration",
+            "employeebasedaveragescore": "Employee-based Average Score",
+            "evaluationdistribution": "Evaluation Distribution",
+            "evaluationstatus": "Evaluation Statuses",
+            "pointdistribution": "Point Distribution",
+            "pointhistogram": "Point Histogram",
+            "projectmustbeselected": "You must select project firstly",
+            "projectmustbeselecteddetail": "Firstly you must select the project and then select the user from the top right corner to view the dashboard."
+          },
+          "values": {
+            "callduration": {
+              "1_2minutes": "1-2 min",
+              "2_3minutes": "2-3 min",
+              "3_4minutes": "3-4 min",
+              "4_5minutes": "4-5 min",
+              "lessthan1minute": "< 1 min",
+              "morethan5minutes": "> 5 min",
+              "text": "Call Duration"
+            },
+            "employeebasedaveragescore": {
+              "projectaverage": "Project Average : ",
+              "user": "Users"
+            },
+            "evaluationdistribution": {
+              "failed": "Failed",
+              "success": "Success",
+              "total": "Total"
+            },
+            "evaluationstatuses": {
+              "failed": "Failed",
+              "success": "Success",
+              "total": "Total"
+            },
+            "pointdistribution": {
+              "average": "Average"
+            },
+            "pointhistogram": {
+              "point": "Point"
+            }
+          }
+        },
+        "filteroptions": "Options",
+        "formfilter": "FORM FILTER",
+        "header": "Evaluation dashboard",
+        "title": "Evaluation dashboard - Qua Services",
+        "userfilter": "USER FILTER"
+      },
+      "detail": {
+        "addanswer": "Add Answer",
+        "answerdefinition": "Answer Definition",
+        "confirm": {
+          "answer": "The selected answer will be deleted !",
+          "group": "The selected question group will be deleted !",
+          "question": "The selected question will be deleted !"
+        },
+        "controls": {
+          "buttons": {
+            "add": "Add"
+          },
+          "help": {
+            "failedformscore": "Specifies the score of a failed evaluation. If it's left empty the score is taken from the form.",
+            "minimumformscore": "Ff the evaluation result is below zero, the evaluation result is the minimum score.."
+          },
+          "labels": {
+            "answername": "Answer text",
+            "answerscore": "Answer score",
+            "canbefileuploaded": "Can Be File Uploaded",
+            "canbescored": "Can Be Scored",
+            "canscore": "Can be scored",
+            "defaultselectedanswer": "Default selected",
+            "failedformscore": "Failed Form Score",
+            "gradepoints": "Grade Points",
+            "isrequired": "Required question",
+            "minimumformscore": "Minimum Form Score",
+            "name": "Form Name",
+            "questiongroup": "Question group",
+            "questiongroupname": "Group Name",
+            "questionname": "Question name",
+            "questionscore": "Question score",
+            "questiontype": "Question type",
+            "showfeedback": "Show feedback"
+          },
+          "placeholders": {
+            "answername": "Enter the answer text.",
+            "answerscore": "Enter the answer score.",
+            "failedformscore": "Enter the failed form score.",
+            "formscore": "Enter the form score.",
+            "gradedefinition": "Definition",
+            "gradepoint": "Point",
+            "maxfileoperations": "Enter the maximum number of file operations.",
+            "minimumformscore": "Enter the minimum form score.",
+            "name": "Enter the form name.",
+            "questiongroupname": "Enter the question group name.",
+            "questionname": "Enter the question name.",
+            "questionscore": "Enter the question score."
+          }
+        },
+        "groupprocess": "Group Processes",
+        "header": "Update Evaluation Form",
+        "newquestion": "New Question",
+        "newquestiongroup": "New Question Group",
+        "noquestions": "There are no questions on the evaluation form !",
+        "questiondefinition": "Question Definition",
+        "questiongroupdefinition": "Question Group Definition",
+        "questionprocess": "Question Processes",
+        "questions": "Questions",
+        "title": "Update Evaluation Form - Qua Services"
+      },
+      "evaluationdate": "Evaluation date",
+      "evaluationresult": {
+        "header": "Evaluation Result",
+        "labels": {
+          "answer": "Answer",
+          "answerscore": "Answer Score",
+          "feedback": "Feedback",
+          "lastdownload": "Last Downloader",
+          "lastlistener": "Last Listener",
+          "nocomment": "No comments yet.",
+          "nolistenauthority": "You can not listen to the audio file.",
+          "nosuggestions": "No suggestions yet.",
+          "question": "Question",
+          "questionscore": "Question Score"
+        },
+        "title": "Evaluation Result - Qua Services"
+      },
+      "forms": {
+        "controls": {
+          "inputs": {
+            "placeholders": {
+              "questionnaireformname": "Enter the form name.",
+              "questionnaireformscore": "Enter the form score."
+            }
+          },
+          "labels": {
+            "questionnaireformname": "Form Name",
+            "questionnaireformscore": "Form Score"
+          }
+        },
+        "header": "Evaluation Forms",
+        "newform": "New Evaluation Form",
+        "table": {
+          "confirmmessage": "The selected evaluation form will be deleted !",
+          "created": "Created",
+          "lastmodified": "Last Modified",
+          "name": "Name",
+          "project": "Project",
+          "score": "Score",
+          "totalevaluation": "Evaluation Count"
+        },
+        "title": "Evaluation Forms - Qua Services"
+      },
+      "interactiondate": "Interaction date",
+      "newevaluation": {
+        "controls": {
+          "labels": {
+            "interactiondate": "Interaction date",
+            "interactionid": "Interaction identity"
+          },
+          "placeholders": {
+            "interactiondate": "Enter the interaction date.",
+            "interactionid": "Enter the interaction identity."
+          }
+        },
+        "header": "New Evaluation",
+        "title": "New Evaluation - Qua Services"
+      },
+      "periodicalgroupreport": {
+        "header": "Periodical Group Report",
+        "title": "Periodical Group Report - Qua Services"
+      },
+      "periodicalreport": {
+        "header": "Periodical Report",
+        "title": "Periodical Report - Qua Services"
+      },
+      "statustypes": {
+        "failed": "Failed",
+        "pending": "Pending",
+        "success": "Success"
+      },
+      "totalpointreport": {
+        "header": "Total Point Report",
+        "title": "Total Point Report - Qua Services"
+      },
+      "userevaluation": {
+        "buttons": {
+          "removerecord": "Remove Sound File"
+        },
+        "header": "User Evaluation",
+        "inputs": {
+          "placeholders": {
+            "comment": "Enter the evaluation comment.",
+            "interactiondate": "Enter the interaction date.",
+            "interactionid": "Enter the interaction identity.",
+            "phonenumber": "Enter the phone number.",
+            "questionfeedback": "You can provide feedback on the question.",
+            "suggestion": "Enter the evaluation suggestions.",
+            "tags": "Type something and press enter."
+          }
+        },
+        "labels": {
+          "answerscore": "Selected Answer Score : ",
+          "comment": "Comment",
+          "deletefileconfirmmessage": "The selected file will be deleted !",
+          "evaluationdate": "Evaluation date",
+          "finishcodetags": "Finish Code Tags",
+          "includereport": "Include in reports",
+          "interactiondate": "Interaction date",
+          "interactionid": "Interaction identity",
+          "interactiontags": "Interaction Tags",
+          "phonenumber": "Phone Number",
+          "questionaverage": "Average Point : ",
+          "questionscore": "Question Score : ",
+          "soundfile": "Sound File",
+          "suggestion": "Suggestions",
+          "totalscore": "Total Point"
+        },
+        "requiredquestions": "The following questions need to be answered.",
+        "title": "User Evaluation - Qua Services"
+      },
+      "userevaluations": {
+        "controls": {
+          "buttons": {
+            "questiongroupreport": "Question Group Report",
+            "questionreport": "Question Report"
+          },
+          "labels": {
+            "finishcodetags": "Finish code tags",
+            "interactiontags": "Interaction tags"
+          },
+          "placeholders": {
+            "finishscore": "Finish",
+            "startscore": "Start"
+          }
+        },
+        "header": "User Evaluations",
+        "scorefilter": "Score Filter",
+        "statusfilter": "STATUS FILTER",
+        "statustypes": {
+          "failed": "Failed",
+          "pending": "Pending",
+          "success": "Başarılı"
+        },
+        "table": {
+          "columns": {
+            "evaluateeuser": "Evaluatee User",
+            "evaluatorinfo": "Evaluator Info",
+            "formname": "Form Name",
+            "interactioninfo": "Interaction Info",
+            "score": "Score",
+            "status": "Status"
+          },
+          "confirmmessage": "The selected evaluation will be deleted !"
+        },
+        "tags": "Tags",
+        "title": "User Evaluations - Qua Services"
+      }
+    },
+    "quiz": {
+      "evaluation": {
+        "correctanswer": "Correct Answer:",
+        "endquiz": "End Quiz",
+        "endquizevaluation": "End Evaluation",
+        "endquizmessage": "Quiz will be ended and your answers can't be changed later, do you want to continue?",
+        "extrascore": "Extra Score",
+        "extrascoreplaceholder": "Enter extra score",
+        "feedback": "Feedback",
+        "feedbackplaceholder": "Start typing something...",
+        "includeaverage": "Include to average",
+        "leavequiz": "If you leave this page, you may lose information. Do you want to continue?",
+        "markquestion": "Mark this question",
+        "questionoptions": "Options:",
+        "quizinfo": "QUIZ INFORMATION",
+        "quizquestions": "Quiz Questions",
+        "quiztimeend": "Quiz time has ended. Your quiz has been saved",
+        "quiztimeendtitle": "Quiz time has ended !",
+        "quiztimesaved": "Last saved at:",
+        "score": "Point"
+      },
+      "forms": {
+        "controls": {
+          "labels": {
+            "comment": "Quiz comment",
+            "priority": "Quiz Priority",
+            "prioritycritical": "Critical",
+            "priorityhigh": "High",
+            "prioritylow": "Low",
+            "prioritynormal": "Normal",
+            "quizformname": "Quiz Name"
+          },
+          "placeholders": {
+            "comment": "Enter quiz description",
+            "quizformname": "Select quiz"
+          },
+          "select": {
+            "evaluateeuserplaceholder": "If you don't select users explicitly, quiz will be assigned to all users in the project."
+          }
+        },
+        "newform": "New Quiz Form"
+      },
+      "list": {
+        "header": "Quiz List",
+        "table": {
+          "columns": {
+            "actions": "Actions",
+            "createdat": "Created At",
+            "creatoruser": "Created By",
+            "evaluatedate": "Evaluation Date",
+            "project": "Project",
+            "quizinformation": "Evaluator Information",
+            "quizname": "Quiz Name",
+            "quiztime": "Quiz Time",
+            "score": "Score",
+            "status": "Status",
+            "targetuser": "Target User",
+            "totalusage": "Total Evaluation"
+          }
+        },
+        "title": "Quiz List"
+      },
+      "message": {
+        "content": "Are you sure you want to do this?",
+        "error": "Error!",
+        "evaulationfinishmessage": "Are you sure to finish evaulation ?",
+        "newquiznotselectedproject": "Project field cannot be blank.",
+        "newquiznotselectedquiz": "Quiz Name field cannot be blank.",
+        "newquiznotselectedtargetuser": "Target User field cannot be blank.",
+        "questionname": "Question field cannot be blank.",
+        "questionscore": "Score field cannot be blank.",
+        "questiontype": "Question Type field cannot be blank.",
+        "title": "Are you sure ?"
+      },
+      "quizzes": {
+        "controls": {
+          "buttons": {
+            "copyquiz": "Copy Quiz",
+            "createquiz": "Create New Quiz"
+          },
+          "labels": {
+            "assigndate": "Assign Date",
+            "company": "Company",
+            "critical": "Critical",
+            "description": "Description",
+            "enddate": "Quiz End Time",
+            "evaluationdate": "Evaluation Date",
+            "high": "High",
+            "low": "Low",
+            "name": "Quiz Name",
+            "new": "New Quiz",
+            "normal": "Normal",
+            "priorities": {
+              "critical": "Critical",
+              "high": "High",
+              "low": "Low",
+              "normal": "Normal"
+            },
+            "priority": "Quiz Priority",
+            "project": "Project",
+            "quizname": "Quiz Name",
+            "score": "Quiz Score",
+            "startdate": "Quiz Start Time",
+            "status": "Status",
+            "teams": "Target Team",
+            "time": "Quiz Time",
+            "user": "User"
+          },
+          "placeholders": {
+            "description": "Enter quiz description",
+            "end": "Maximum Score",
+            "name": "Enter quiz form name..",
+            "score": "Enter quiz score.. Ex.: 100",
+            "start": "Minimum Score",
+            "time": "Enter quiz time.. (min)"
+          }
+        },
+        "details": {
+          "addanswer": "Add Answer",
+          "answerscore": "Answer Score ",
+          "answerscoreplaceholder": "Enter answer score",
+          "answerscoreupdated": "Answer Score : ",
+          "answertext": "Answer Text",
+          "breadcrumbtext": "Quiz",
+          "correctanswer": "Correct Answer",
+          "description": "You can update exam forms from this page.",
+          "header": "Quiz Forms",
+          "info1": "There are no questions and answers in your quiz !",
+          "info2": "You can add a new question from the top right corner",
+          "modal": {
+            "mandatory": "Mandatory Answer",
+            "name": "Question Name",
+            "placeholders": {
+              "info": "The picture size should be less than 1 MB.",
+              "name": "Enter question name",
+              "score": "Enter question score"
+            },
+            "scorable": "Scorable Question",
+            "score": "Question Score",
+            "type": "Question Type",
+            "types": {
+              "0": "Select",
+              "1": "List",
+              "2": "Dropdown List ",
+              "3": "Multi-Select",
+              "4": "Text"
+            }
+          },
+          "new": "Add New Question",
+          "newanswer": "Add New Answer",
+          "nonscoreable": "Non-Scoreable",
+          "question": "Question",
+          "questionactions": "Question Actions",
+          "questionindicator": ". Question",
+          "questions": "Quiz Questions",
+          "score": " - Score : ",
+          "sidebar": {
+            "add": "Add",
+            "description": "Quiz Description",
+            "duration": "Quiz Duration",
+            "period": "Performance Period",
+            "placeholders": {
+              "description": "Enter quiz description",
+              "duration": "Enter quiz duration",
+              "period": "Enter the performance date of the quiz.",
+              "point": "Point",
+              "quizscore": "Enter quiz score",
+              "scaledescription": "Description",
+              "usercanfinish": "The user is evaluated directly when the quiz is completed (All questions must be selective for this option.)"
+            },
+            "project": "Project",
+            "quizscore": "Quiz Score",
+            "scale": "Score Scale",
+            "scaledescription": "Description",
+            "status": "Status",
+            "title": "Quiz Informations",
+            "under": "and under",
+            "usercanfinish": "User can Finish"
+          },
+          "title": "Quiz Forms - Qua Services",
+          "updatequestion": "Update Question"
+        },
+        "messages": {
+          "deleteanswer": "The answer you selected will be deleted!",
+          "deletequestion": "The question you selected will be deleted!",
+          "deletequiz": "The quiz you selected will be deleted!",
+          "invalidquestionscore": "Question score can not be greater than.",
+          "invalidscore": "Answer score cannot be greater than question score.",
+          "noquiztime": "You didn't provide time limit for quiz. Are you sure you want to continue?",
+          "noscore": "You didn't provide score for quiz. Are you sure you want to continue?",
+          "noscorenoquiztime": "You didn't provide score and time limit for quiz. Are you sure you want to continue?",
+          "publish": "Are you sure yu want to publish quiz results?",
+          "titles": {
+            "publish": "Publish Quiz Results",
+            "rusure": "Are you sure?",
+            "unpublish": "Publish Quiz Results"
+          },
+          "unpublish": "Are you sure yu want to unpublish quiz results?"
+        },
+        "quizevaluation": {
+          "header": "User Quizzes"
+        },
+        "subtitle": "This is the page for listing quizzes on the project. You can manage quizzes and point grades from this page.",
+        "title": "Quiz Forms"
+      },
+      "report": {
+        "answeravarage": {
+          "header": "Average Quiz Scores List",
+          "table": {
+            "header": "Average Quiz Scores List"
+          }
+        }
+      },
+      "status": {
+        "Değerlendirme Bekliyor": "Waiting for Evaulation",
+        "Değerlendirme Sürecinde": "On Evaulation",
+        "Sınav Atanmış": "Quiz assigned",
+        "Sınavda": "On Quiz",
+        "Tamamlandı": "Completed"
+      }
+    },
+    "resetpassword": {
+      "changepassword": "Your password has been changed successfully",
+      "checklastpassword": "Your new password cannot be the same as your last 3 passwords.",
+      "checkpassword": "Your Password must be between 8 and 20 characters; must contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character, but cannot contain whitespace.",
+      "checkpasswordname": "Your password must not contain your first name, last name and e-mail.",
+      "comparepassword": "Please fill in all required fields. The passwords you entered do not match, re-enter your password. ",
+      "control": {
+        "submit": "Change my password",
+        "textbox": {
+          "password": "Password",
+          "passwordrepeat": "Password (Retype)"
+        }
+      },
+      "description": "Please enter your new password.",
+      "header": "Change your password",
+      "messages": {
+        "comparepassword": "The passwords you have entered is not matched. Please try again."
+      },
+      "title": "Change your password - Qua Services"
+    },
+    "signin": {
+      "control": {
+        "checkbox": {
+          "rememberme": "Remember me"
+        },
+        "submit": "Sign in",
+        "textbox": {
+          "password": "Password",
+          "username": "User name or e-mail address"
+        }
+      },
+      "description": "Enter your credentials below.",
+      "forgotpassword": "Forgot password",
+      "header": "Login to your account",
+      "title": "Sign in - Qua Services"
+    },
+    "task": {
+      "add": "Create Task",
+      "alltasks": "All Tasks",
+      "confirmmesage": "The selected task will be deleted !",
+      "create": "Create",
+      "datatable": {
+        "date": "Date",
+        "description": "Description",
+        "priority": "Priority",
+        "share": "Sharing",
+        "status": "Status"
+      },
+      "description": "Create new tasks and manage your own tickets",
+      "details": {
+        "addcomment": "Add comment",
+        "addedby": "Added by ",
+        "addtag": "Add tag",
+        "addworkitem": "Add Work Item",
+        "category": "Category",
+        "comment": "Comment",
+        "commentmodal": {
+          "label": "Status",
+          "notchanged": "No status changes",
+          "placeholder": "Drag a file here or click to select a file",
+          "title": "Add New Comment"
+        },
+        "created": "Created",
+        "createdby": "Created By",
+        "delete": "Delete Task",
+        "end": "End Date",
+        "header": "Task Detail",
+        "priority": "Priority",
+        "project": "Project",
+        "share": "Sharing",
+        "shared": "Shared",
+        "sharemodal": {
+          "placeholder": "Type the user name you want to share the task and select from the drop-down list.",
+          "title": "Share Task"
+        },
+        "start": "Start Date",
+        "status": "Status",
+        "statuses": {
+          "AÇIK": "Open",
+          "BEKLETILIYOR": "On Hold",
+          "ERTELENDI": "Postponed",
+          "ETKIN": "Active",
+          "KAPALI": "Closed",
+          "TAMAMLANDI": "Completed",
+          "YANIT BEKLENIYOR": "Waiting Response",
+          "YENI": "New",
+          "ÇALIŞILIYOR": "In Progress",
+          "İPTAL EDILDI": "Cancelled"
+        },
+        "sub-task": "Add Sub-Task",
+        "sub-tasktitle": "Create New Sub-Task",
+        "tag": "Tag",
+        "tagmodal": {
+          "label": "Tags",
+          "placeholder": "Write something to add tags to the ticket",
+          "title": "Edit Task Tags"
+        },
+        "ticketfiles": "Task Files",
+        "ticketworkitems": "Task Work Items",
+        "update": "Update",
+        "updated": "Updated",
+        "updateticket": "Update Ticket",
+        "uploadfile": "Upload File",
+        "uploadmodal": {
+          "title": "Add New File"
+        },
+        "workitemmodal": {
+          "companycolleguges": "Company Colleagues",
+          "days": "Days",
+          "description": "Description",
+          "duration": "Duration",
+          "everyone": "Everyone",
+          "hours": "Hours",
+          "minutes": "Minutes",
+          "onlyme": "Only Me",
+          "paid": "Paid",
+          "privacy": "Privacy",
+          "title": "Work Item Detail"
+        }
+      },
+      "excel": "Excel Report",
+      "filterlabels": {
+        "date": "By Date",
+        "leavestatus": {
+          "21": "Waiting for approval",
+          "22": "Approved",
+          "23": "Rejected",
+          "24": "Change Request",
+          "approved": "Approved",
+          "changerequest": "Change Request",
+          "rejected": "Rejected",
+          "title": "APPROVAL STATUSES",
+          "waiting": "Waiting for approval"
+        },
+        "leavetitle": "Leave Statuses",
+        "priority": "By Priority",
+        "prioritytitle": "Priority",
+        "status": "By Status",
+        "statustitle": "Task Status"
+      },
+      "header": "Tasks",
+      "lists": "Lists",
+      "modal": {
+        "category": "Category Selection",
+        "description": "Description",
+        "name": "Name",
+        "placeholders": {
+          "description": "Enter description",
+          "enddate": "Enter end date",
+          "filecancel": "Are you sure you want to cancel the uploading ?",
+          "filedrag": "Drag a file here or click to select a file",
+          "name": "Enter ticket name",
+          "senddate": "Enter end date",
+          "share": "Select the username or project that you want to share the task with from the list",
+          "startdate": "Enter start date"
+        },
+        "priority": "Critical",
+        "project": "Project Selection",
+        "share": "Share Task",
+        "startdate": "Start / End Date"
+      },
+      "mytickets": "My Tasks",
+      "priorities": {
+        "1": "Normal",
+        "2": "Critical",
+        "3": "High",
+        "4": "Low",
+        "Critical": "Critical",
+        "Düşük": "Low",
+        "Kritik": "Critical",
+        "Normal": "Normal",
+        "Yüksek": "High",
+        "critical": "Critical",
+        "high": "High",
+        "low": "Low",
+        "normal": "Normal"
+      },
+      "projects": "Projects",
+      "sharedtickets": "Shared with me",
+      "shareit": "Share",
+      "status": {
+        "1": "Active",
+        "12": "Cancelled",
+        "2": "In Progress",
+        "3": "Postponed",
+        "4": "Completed",
+        "active": "Active",
+        "cancelled": "Cancelled",
+        "completed": "Completed",
+        "inprogress": "In Progress",
+        "leavestatus": {
+          "approved": "Approved",
+          "changerequest": "Change Request",
+          "rejected": "Rejected",
+          "title": "Leave Statuses",
+          "waiting": "Pending Approval"
+        },
+        "postponed": "Postponed"
+      },
+      "title": "Tasks - Qua Services",
+      "todetails": "View Details"
+    },
+    "ticket": {
+      "add": "Create Ticket",
+      "alltickets": "All tickets",
+      "confirmmesage": "The selected ticket will be deleted !",
+      "datatable": {
+        "created": "Created",
+        "description": "Description",
+        "lastmodified": "Last Action",
+        "priority": "Priority",
+        "status": "Status"
+      },
+      "description": "Create new tickets and manage your own tickets",
+      "details": {
+        "addcomment": "Add comment",
+        "addedby": "Added by ",
+        "addtag": "Add tag",
+        "addworkitem": "Add Work Item",
+        "category": "Category",
+        "commentmodal": {
+          "label": "Status",
+          "notchanged": "No status changes",
+          "placeholder": "Drag a file here or click to select a file",
+          "title": "Add New Comment"
+        },
+        "created": "Created",
+        "createdby": "Created By",
+        "delete": "Delete",
+        "header": "Task Detail",
+        "priority": "Priority",
+        "project": "Project",
+        "share": "Sharing",
+        "shared": "Shared",
+        "sharemodal": {
+          "placeholder": "Type the user name you want to share the task and select from the drop-down list.",
+          "title": "Share Task"
+        },
+        "status": "Status",
+        "statuses": {
+          "AÇIK": "Open",
+          "BEKLETILIYOR": "On hold",
+          "KAPALI": "Closed",
+          "YANIT BEKLENIYOR": "In progress",
+          "YENI": "New",
+          "ÇALIŞILIYOR": "Pending"
+        },
+        "tag": "Tag",
+        "tagmodal": {
+          "label": "Tags",
+          "placeholder": "Write something to add tags to the task",
+          "title": "Edit Task Tags"
+        },
+        "ticketfiles": "Task Files",
+        "ticketworkitems": "Task Work Items",
+        "update": "Update",
+        "updated": "Updated",
+        "updateticket": "Update Ticket",
+        "uploadfile": "Upload File",
+        "uploadmodal": {
+          "title": "Add New File"
+        },
+        "workitemmodal": {
+          "companycolleguges": "Company Colleagues",
+          "days": "Days",
+          "description": "Description",
+          "duration": "Duration",
+          "everyone": "Everyone",
+          "hours": "Hours",
+          "minutes": "Minutes",
+          "onlyme": "Only Me",
+          "paid": "Paid",
+          "privacy": "Privacy",
+          "title": "Work Item Detail"
+        }
+      },
+      "filterlabels": {
+        "date": "By Date",
+        "priority": "By Priority",
+        "prioritytitle": "Priority",
+        "status": "By Status",
+        "statustitle": "Ticket Status"
+      },
+      "header": "Tickets",
+      "modal": {
+        "category": "Category Selection",
+        "description": "Description",
+        "name": "Name",
+        "placeholders": {
+          "description": "Enter description",
+          "filecancel": "Are you sure you want to cancel the uploading ?",
+          "filedrag": "Drag a file here or click to select a file",
+          "name": "Enter task name"
+        },
+        "priority": "Critical",
+        "project": "Project Selection"
+      },
+      "mytickets": "My Tickets",
+      "priorities": {
+        "1": "Normal",
+        "2": "Critical",
+        "3": "High",
+        "4": "Low",
+        "Critical": "Critical",
+        "Düşük": "Low",
+        "Kritik": "Critical",
+        "Normal": "Normal",
+        "Yüksek": "High",
+        "critical": "Critical",
+        "high": "High",
+        "low": "Low",
+        "normal": "Normal"
+      },
+      "projects": "Projects",
+      "sharedtickets": "Shared with me",
+      "status": {
+        "10": "New",
+        "11": "Closed",
+        "13": "In progress",
+        "14": "On hold",
+        "15": "Open",
+        "16": "Waiting Reply",
+        "closed": "Closed",
+        "inprogress": "In progress",
+        "new": "New",
+        "onhold": "On hold",
+        "open": "Open",
+        "pending": "Pending"
+      },
+      "title": "Tickets - Qua Services",
+      "todetails": "View Details"
+    },
+    "uploadimagemodal": {
+      "mirrorhorizontal": "Mirror Horizontal",
+      "mirrorvertical": "Mirror Vertical",
+      "title": "Upload Image",
+      "todown": "Pull Down",
+      "toleft": "Pull Left",
+      "toright": "Pull Right",
+      "toup": "Pull Up",
+      "turnleft": "Turn Left",
+      "turnright": "Turn Right",
+      "zoomin": "Zoom in",
+      "zoomout": "Zoom out"
+    },
+    "validations": {
+      "areyousure": "Are you sure ?",
+      "fileactions": {
+        "downloadfailed": "An error occurred while downloading the file. The file may have been deleted.",
+        "preparingmessage": "Preparing file for download..."
+      },
+      "management": {
+        "companyedetails": {
+          "adminnotselected": "Company manager field can not be blank !",
+          "namenotdefined": "Company name cannot be blank!"
+        },
+        "connections": {
+          "connectionnamelength": "Connection Name must be at least 3, maximum 150 characters",
+          "passwordlength": "Password must be at least 3, maximum 150 characters",
+          "servernamelength": "Server name length must be between 3 and 150 characters.",
+          "unabletoadd": "Failed to add SQL connection",
+          "usernamelength": "Username must be at least 3, maximum 150 characters"
+        },
+        "departments": {
+          "unabletosave": "Failed to save department"
+        },
+        "projects": {
+          "teamnamalength": "Team Name must be at least 3, maximum 150 characters"
+        },
+        "roledetails": {
+          "companynotdefined": "Company field cannot be blank!",
+          "namenotdefined": "Role name cannot be blank!"
+        },
+        "teams": {
+          "dapartmentnamelength": "Department name must be at least 3, maximum 150 characters",
+          "unabletocreate": "Unable to create team"
+        },
+        "titles": {
+          "unabletosave": "Failed to save title"
+        },
+        "users": {
+          "birthdate": "Please enter birth date of the user.",
+          "fillallfields": "Please fill in all fields.",
+          "makeactivemessage": "Are you sure you want to activate the user you selected?",
+          "makepassivemessage": "Are you sure you want to disable the user you selected?",
+          "passwordnotmatch": "Password and password repetition cannot be left blank or your password does not match with password repetition !",
+          "selectimage": "Please select an image file."
+        }
+      },
+      "payroll": {
+        "approvalprocess": {
+          "approversnotdefined": "The person (s) to approve must be selected!",
+          "confirmmessage": "The approval process you selected will be deleted!",
+          "nothingselected": "At least one of the User, Department, Project, Role or Team must be selected!",
+          "processnamenotdefined": "The process name field cannot be blank!"
+        },
+        "holidays": {
+          "ancronymnotdefined": "Ancronym field cannot be blank! Please fill in and try again.",
+          "companynotselected": "Company Information field can not be blank! Please select a company and try again.",
+          "confirmmessage": "The holiday you selected will be deleted!",
+          "namenotdefined": "Name field can not be blank! Please fill in and try again.",
+          "yearnotdefined": "Year field is empty can not be blank! Please fill in and try again."
+        },
+        "leavedays": {
+          "commentisempty": "Comment field cannot be blank !",
+          "companynotselected": "Leave request can not be created without selecting the company.",
+          "deletemessage": "The leave request you selected will be deleted!",
+          "filedeletemessage": "The file you selected will be deleted!",
+          "requestupdatedeletemessage": "The leave request update you selected will be removed!",
+          "typenotselected": "Leave request can not be created without selecting the leave type.",
+          "updatemessage": "The permission request you have selected will be updated and the approval process will start from the beginning!"
+        },
+        "leaverules": {
+          "companynotselected": "Company Information field can not be blank! Please select a company and try again.",
+          "confirmmessage": "The leave rule you selected will be deleted!",
+          "leavabalancenotdefined": "Annual Leave Rights field cannot be blank! Please fill in and try again.",
+          "namenotdefined": "Name field can not be blank! Please fill in and try again."
+        },
+        "leavetypes": {
+          "ancronymnotdefined": "Ancronym field cannot be blank! Please fill in and try again.",
+          "annualleavelimitnotdefined": "Annual leave limit field cannot be blank! Please fill in and try again.",
+          "companynotselected": "Company Information field can not be blank! Please select a company and try again.",
+          "confirmmessage": "The leave type you selected will be deleted!",
+          "namenotdefined": "Name field can not be blank! Please fill in and try again."
+        },
+        "overtime": {
+          "confirmmessage": "The overtime record you selected will be deleted!",
+          "nothingselected": "At least one of the User, Department, Project, Role or Team must be selected!"
+        },
+        "workingcalendars": {
+          "companynotselected": "Company Information field can not be blank! Please select a company and try again.",
+          "confirmmessage": "The working calendar you selected will be deleted!",
+          "schedulenamenotdefined": "Name field can not be blank! Please fill in and try again.",
+          "startdatenotdefined": "Start and end dates must be defined!"
+        },
+        "workingdaysreport": {
+          "nothingselected": "Please select a project, team or department!"
+        }
+      },
+      "performance": {
+        "bonusandpenalties": {
+          "completednotdefined": "Completed field can not be blank!",
+          "datenotdefined": "Date field can not be blank!",
+          "projectnotdefined": "Project field can not be blank!",
+          "targetnotdefined": "Target field can not be blank!",
+          "typenotdefined": "Type field can not be blank!",
+          "usernotdefined": "User field can not be blank!"
+        },
+        "dashboard": {
+          "enddatenotdefined": "End Date field can not be blank!",
+          "projectnotdefined": "Project field can not be blank!",
+          "startdate": "The end date cannot be less than the start date",
+          "startdatenotdefined": "Start Date field can not be blank!",
+          "usernotdefined": "User field can not be blank!"
+        },
+        "npscores": {
+          "datenotdefined": "Date field can not be blank!",
+          "projectnotdefined": "Project field can not be blank!",
+          "usernotdefined": "User field can not be blank!",
+          "valuenotdefined": "Value field can not be blank!"
+        },
+        "surveyandcontactpoints": {
+          "completednotdefined": "Completed field can not be blank!",
+          "datenotdefined": "Date field can not be blank!",
+          "projectnotdefined": "Project field can not be blank!",
+          "targetnotdefined": "Target field can not be blank!",
+          "typenotdefined": "Type field can not be blank!",
+          "usernotdefined": "User field can not be blank!"
+        }
+      },
+      "questionnaire": {
+        "questionnairedashboard": {
+          "usernotselected": "Select user"
+        },
+        "questionnairedetails": {
+          "failedscoreexception": "Failed Form Score cannot be greater than total score",
+          "groupnamenotdefined": "Group Name field can not be blank!",
+          "minimumscoreexception": "Minimum Form Score cannot be greater than total score",
+          "projectnotselected": "You did not select a project",
+          "questionanswernotdefined": "Answer score can not be blank!",
+          "questiongnamenotdefined": "Question Name field can not be blank!",
+          "questiongroupnotdefined": "Question Group field can not be blank!",
+          "questionnamenotdefined": "Answer name can not be blank!",
+          "questionscorenotdefined": "Question score can not be blank!",
+          "scoreexception": "Failed Form Score cannot be greater than total score",
+          "typenotdefined": "Question Type field can not be blank!"
+        },
+        "questionnaires": {
+          "companynotdefined": "Company field can not be blank!",
+          "namenotdefined": "Form Name field can not be blank!",
+          "projectnotdefined": "Project field can not be blank!"
+        },
+        "userevaluation": {
+          "info": "Info",
+          "infotext": "We could not create input(s) in the form.Please contact the system administrator"
+        }
+      },
+      "quiz": {
+        "list": {
+          "noauthority": "You have no authority!",
+          "noauthoritymessage": "You don't have permission to view this quiz's scores.",
+          "noauthoritytext": "You are not authorized to perform an evaluation.",
+          "nopermission": "You have no permission!",
+          "nopermissiontext": "Only the assigned person can enter the quiz.",
+          "onevaluation": "On Evaluation Process!",
+          "onevaluationtext": "You cannot view your quiz in the evaluation process. Please try again after the results are published.",
+          "onquiz": "On Quiz",
+          "onquizmessage": "Can not be evaluated until quiz end.",
+          "success": "Success",
+          "successmessage": "Record deleted."
+        },
+        "quizdetails": {
+          "answertextnotdefined": "Answer text cannot be blank!",
+          "companynotdefined": "Company information cannot be blank!",
+          "feedbackadded": "Feedback added!",
+          "feedbackaddfailed": "An error occurred while adding feedback!",
+          "filenotselected": "No file selected.",
+          "fileuploadlimit": "The file upload limit is 1 MB.",
+          "maximumanswerscore": "The maximum score the answer can take : ",
+          "maximumscore": "The maximum score the question can take : ",
+          "performanceperiodnotdefined": "Performance period cannot be blank!",
+          "projectnotdefined": "Project information cannot be blank!",
+          "questionscorenotdefined": "Question Score cannot be blank!",
+          "questiontextnotdefined": "Question text cannot be blank!",
+          "questiontypenotdefined": " Question Type cannot be blank!",
+          "quizdescriptionnotdefined": "Quiz Description cannot be blank!",
+          "quizscorenotdefined": "Quiz Score cannot be blank!",
+          "quiztimenotdefined": "Quiz Time cannot be blank!",
+          "scoreexception": "The total score for questions cannot be greater than the Quiz Score",
+          "scorescaledescriptionnotdefined": "Score Scale Description cannot be blank!",
+          "scorescalenotdefined": "Score Scale cannot be blank!",
+          "textanswer": "Quizzes which is contains text answers cannot be completed automatically",
+          "textquestions": "You can define a single answer to the text questions!"
+        },
+        "userevaluation": {
+          "emptyanswer": "You can not add feedback or score unanswered questions.",
+          "scorelessthanzero": "Score cannot be less than '0' !"
+        }
+      },
+      "task": {
+        "addoneworkatleast": "Enter at least one work time.",
+        "commentconfirmmessage": "The selected task comment will be deleted!",
+        "commentisempty": "Comment field cannot be blank !",
+        "confirmmessage": "The selected task and related data will be deleted!",
+        "descriptionnotdefined": "The task description cannot be blank!",
+        "fileconfirmmessage": "The selected file will be deleted!",
+        "fileuploadlimit": "The file upload limit is 1 MB.",
+        "projectnotdefined": "The project field cannot be empty!",
+        "shareconfirmmessage": "Task sharing will be removed from the people you choose",
+        "shareoneatleast": "You must share task with at least one user.",
+        "startdatenotdefined": "Start Date field cannot be blank!",
+        "tasknamenotdefined": "The task name cannot be blank!",
+        "ticketnotdefined": "The ticket name cannot be blank!",
+        "workconfirmmessage": "The selected work will be deleted!"
+      },
+      "ticket": {
+        "addoneworkatleast": "Enter at least one work time.",
+        "commentconfirmmessage": "The selected ticket comment and related data will be deleted!",
+        "commentisempty": "Comment field cannot be blank !",
+        "confirmmessage": "The selected ticket and related data will be deleted!",
+        "descriptionnotdefined": "The ticket description cannot be blank!",
+        "fileconfirmmessage": "The selected file will be deleted!",
+        "fileuploadlimit": "The file upload limit is 1 MB.",
+        "projectnotdefined": "The project field cannot be empty!",
+        "shareconfirmmessage": "Ticket sharing will be removed from the people you choose",
+        "shareoneatleast": "You must share ticket with at least one user.",
+        "ticketnamenotdefined": "The ticket name cannot be blank!",
+        "workconfirmmessage": "The selected work will be deleted!"
+      }
+    },
+    "weltbilddashboard": {
+      "answeredcall": "Answered Call",
+      "callcount": "Call Count",
+      "incomingcall": "Incoming Call"
+    }
+  }
+}

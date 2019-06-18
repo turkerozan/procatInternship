@@ -1,0 +1,3052 @@
+{
+    "app": {
+        "generic": {
+            "breadcrumbmain": "Anasayfa",
+            "controls": {
+                "buttons": {
+                    "add": "Ekle",
+                    "approve": "Onayla",
+                    "back": "Geri",
+                    "cancel": "Vazgeç",
+                    "clearfilter": "Filtreyi Temizle",
+                    "close": "Kapat",
+                    "copy": " Kopyala",
+                    "delete": "Sil",
+                    "download": "İndir",
+                    "downloadexcel": "Excel",
+                    "edit": "Güncelle",
+                    "getdashboard": "Grafikleri getir",
+                    "getresult": "Getir",
+                    "loadings": {
+                        "proccess": "İşleminiz yapılıyor..."
+                    },
+                    "new": "Yeni",
+                    "no": "Hayır",
+                    "ok": "Tamam",
+                    "processes": "İşlemler",
+                    "productname": "Ürün Adı",
+                    "reject": "Reddet",
+                    "removeselected": "Seçilenleri sil",
+                    "revise": "Revize Et",
+                    "save": "Kaydet",
+                    "signin": "Giriş Yap",
+                    "update": "Güncelle",
+                    "yes": "Evet"
+                },
+                "inputs": {
+                    "placeholder": {
+                        "entertext": "Aranacak metni giriniz",
+                        "finishdate": "Bitiş tarihini giriniz.",
+                        "search": "Arama...",
+                        "select": "Seçim yapınız",
+                        "startdate": "Başlangıç tarihini giriniz."
+                    }
+                },
+                "labels": {
+                    "areyousure": "Emin misiniz ?",
+                    "betweendates": " tarihleri arasında",
+                    "company": "Firma",
+                    "evaluateeuser": "Değerlendirilen Kullanıcı",
+                    "evaluatoruser": "Değerlendiren Kullanıcı",
+                    "filter": "Filtrele",
+                    "filteroptions": "Seçenekler",
+                    "finishdate": "Bitiş tarihi",
+                    "leaverequest": " İzin Talebi",
+                    "numberedevaluation": " Numaralı Değerlendirme",
+                    "numberedtask": "numaralı görev",
+                    "numberedticket": "numaralı talep",
+                    "project": "Proje",
+                    "projectselect": "Proje Seçimi",
+                    "question": "Soru",
+                    "questionnaireform": "Değerlendirme Formları",
+                    "quizform": "Sınav Formları",
+                    "score": "Puan",
+                    "signinsubtitle": "Giriş bilgilerinizi yazın",
+                    "signintitle": "Hesabınıza giriş yapın",
+                    "startdate": "Başlangıç tarihi",
+                    "status": "Durumu",
+                    "unscorable": "Puanlanamaz",
+                    "user": "Kullanıcı"
+                },
+                "select": {
+                    "placeholder": "Seçiniz",
+                    "placeholders": {
+                        "department": "Departman Seçimi",
+                        "project": "Proje Seçimi",
+                        "searchcompany": "Firma ara...",
+                        "searchprojects": "Proje ara",
+                        "selectcompany": "Seçim yapınız",
+                        "selecteditem": "adet seçildi",
+                        "selectitem": "Seçim yapınız",
+                        "team": "Takım Seçimi",
+                        "user": "Kullanıcı Seçimi"
+                    },
+                    "questiontypes": {
+                        "checkboxlist": "Çoklu Seçim",
+                        "dropdownlist": "Açılır Liste",
+                        "freetext": "Metin",
+                        "radiobuttonlist": "Seçenek Liste"
+                    },
+                    "vueselecteditem": "öğe seçildi"
+                }
+            },
+            "enums": {
+                "estatustype": {
+                    "active": "Aktif",
+                    "deleted": "Silinmiş",
+                    "passive": "Pasif"
+                },
+                "newtaskstatus": {
+                    "1": "Etkin",
+                    "10": "Yeni",
+                    "11": "Kapalı",
+                    "12": "İptal Edildi",
+                    "13": "Çalışılıyor",
+                    "14": "Bekletiliyor",
+                    "15": "Açık",
+                    "16": "Yanıt Bekleniyoor",
+                    "2": "Çalışılıyor",
+                    "3": "Ertelendi",
+                    "4": "Tamamlandı",
+                    "5": "İptal Edildi",
+                    "6": "Sınavda"
+                }
+            },
+            "message": {
+                "loading": "Lütfen bekleyin...",
+                "pleaseselectevaluationform": "Lütfen bir adet değerlendirme formu seçiniz.",
+                "pleaseselectquestiongroup": "Lütfen en az bir adet soru grubu seçiniz formu seçiniz."
+            },
+            "plugins": {
+                "PNotify": {
+                    "titles": {
+                        "error": "Hata",
+                        "info": "Bilgi",
+                        "success": "Başarılı",
+                        "warning": "Uyarı"
+                    }
+                },
+                "chart": {
+                    "bar": "Sütun görünüm",
+                    "clearmark": "Temizle",
+                    "closeviewdata": "Kapat",
+                    "funnel": "Huni",
+                    "line": "Çizgisel görünüm",
+                    "mark": "Çiz",
+                    "nodata": "Veri yok",
+                    "pie": "Pasta",
+                    "resetzoom": "Resetle",
+                    "restore": "Geri al",
+                    "save": "Kaydet",
+                    "savetitle": "Resim olarak kaydet",
+                    "suffix": {
+                        "euro": "€",
+                        "minute": "dk",
+                        "percent": "%",
+                        "point": "puan",
+                        "second": "sn"
+                    },
+                    "updatedata": "Güncelle",
+                    "viewdata": "Datayı gör",
+                    "zoom": "Yakınlaş"
+                },
+                "daterange": {
+                    "apply": "Uygula",
+                    "cancel": "Temizle",
+                    "customrange": "Tarih aralığı",
+                    "endlabel": "Bitiş tarihi",
+                    "format": "YYYY-MM-DD",
+                    "last30days": "Son 30 gün",
+                    "last7days": "Son 7 gün",
+                    "lastmonth": "Geçen ay",
+                    "lastweek": "Geçen hafta",
+                    "lastyear": "Geçen yıl",
+                    "startlabel": "Başlangıç tarihi",
+                    "thismonth": "Bu ay",
+                    "thisweek": "Bu hafta",
+                    "thisyear": "Bu yıl",
+                    "today": "Bugün",
+                    "yesterday": "Dün"
+                },
+                "download": {
+                    "downloadfail": "Dosyayı indirirken bir hata meydana geldi. Dosya silinmiş olabilir.",
+                    "downloadpreparing": "Dosya indirilmek için hazırlanıyor..."
+                },
+                "dropzone": {
+                    "cancel": "İptal Et",
+                    "cancelinformation": "Yüklemeyi iptal etmek istediğinizden emin misiniz ?",
+                    "message": "Yüklemek istediğiniz dosyaları sürükleyin veya buraya tıklayarak dosyalarınızı seçin.",
+                    "remove": "Sil"
+                },
+                "switch": {
+                    "active": "Aktif",
+                    "passive": "Pasif"
+                }
+            },
+            "table": {
+                "button": {
+                    "all": "Tümü",
+                    "delete": "Sil",
+                    "update": "Güncelle",
+                    "view": "Görüntüle"
+                },
+                "message": {
+                    "confirm": {
+                        "title": "Emin misiniz ?"
+                    }
+                }
+            }
+        },
+        "name": "Qua Services",
+        "notices": {
+            "notice1": "<p>2015 yılında başlattığımız, <strong>Procat</strong> bünyesinde geliştirilen <strong>“Qua Services”</strong> projemiz ile 3 yıl içerisinde binlerce aktif kullanıcıya ulaşarak birçok müşterimize hizmet sağladık. Müşterilerimize daha iyi hizmet sunmak amacıyla geliştirmelere devam ettiğimiz <strong>“Qua Services”</strong> kendi markası ile yoluna devam ediyor. </p><p><em>Qua Services</em>’in yeni yüzüyle ve yeni özellikleriyle <a href='https://app.quaservices.com'>“app.quaservices.com”</a> adresinde hizmet vermeye devam edeceğiz.</p><p><strong>08.10.2018</strong> tarihinden itibaren <em>Qua Services</em>’e <a href='https://app.quaservices.com'>“app.quaservices.com”</a> adresinden ulaşılacaktır.</p>",
+            "notice2": "Test"
+        }
+    },
+    "nav": {
+        "header": {
+            "myprofile": "Profilim",
+            "signout": "Çıkış Yap"
+        },
+        "left": {
+            "customreport": "Rapor Yönetimi",
+            "dashboard": "Panel",
+            "dim": {
+                "importdata": "Anket & Lead Datası",
+                "main": "DİM Rapor Yönetimi",
+                "report": "DİM Rapor"
+            },
+            "main": "Anasayfa",
+            "management": {
+                "company": "Firmalar",
+                "connection": "Bağlantılar",
+                "department": "Departmanlar",
+                "main": "Yönetim",
+                "project": "Projeler",
+                "role": "Roller",
+                "team": "Takımlar",
+                "title": "Ünvanlar",
+                "user": "Kullanıcılar"
+            },
+            "opportunity": {
+                "data": {
+                    "check": "Data Kontrolü",
+                    "import": "Data Yükleme",
+                    "main": "Data Yönetimi"
+                },
+                "definitions": {
+                    "campaigns": "Kampanyalar",
+                    "finishcodes": "Sonuç Kodları",
+                    "main": "Tanımlamalar",
+                    "marketinglist": "Pazarlama Listesi",
+                    "salesteams": "Sahalar"
+                },
+                "leads": "Fırsatlar",
+                "main": "Fırsat Yönetimi",
+                "report": {
+                    "endofdayreport": "Gün Sonu Raporu",
+                    "main": "Raporlar",
+                    "rawreport": "Ham Rapor",
+                    "salesteamreport": "Saha Raporu",
+                    "situationanalysisreport": "Durum Analiz Raporu"
+                }
+            },
+            "performance": {
+                "bonusandpenalties": "Bonus & Penaltılar",
+                "dashboard": "Dashboard",
+                "extrauserstatus": "Ek Statüler",
+                "importdata": "Data Yükle",
+                "kpi": {
+                    "dashboard": "Karne Karşılaştırma",
+                    "scorecard": "Karne Görüntüleme",
+                    "data": "Veri Yönetimi",
+                    "list": "Metrik Yönetimi",
+                    "scorecards": "Karne Yönetimi",
+                    "title": "Beta sürüm <span class='tag is-dark menu-tag'>v 4.1</span>"
+                },
+                "kpilist": "KPI Listesi",
+                "kpiscorecards": "Karne Listesi",
+                "main": "Performans Yönetimi",
+                "netpromoterscore": "NPS Puanları",
+                "scorecard": "Kullanıcı Karnesi",
+                "surveyandcontactpoint": "Anket & İrtibat",
+                "tables": "Performans Tabloları",
+                "weltbilddashboard": "Weltbild Dashboard"
+            },
+            "questionnaire": {
+                "dashboard": "Genel Durum",
+                "evaluatedquestionnaires": "Kullanıcı Değerlendirmeleri",
+                "evaluation": "Yeni Değerlendirme",
+                "forms": "Formlar",
+                "main": "Değerlendirme Yönetimi",
+                "reports": {
+                    "criteriareport": "Kriter Raporu",
+                    "main": "Raporlar",
+                    "periodicalgroupreport": "Grup Raporu",
+                    "periodicalreport": "Dönemsel Rapor",
+                    "periodicaltotalpointreport": "Toplam Puan Raporu",
+                    "scoringuserreport": "Değerlendiren Raporu"
+                }
+            },
+            "quiz": {
+                "evaluation": "Yeni Sınav",
+                "list": "Kullanıcı Sınavları",
+                "main": "Sınav Yönetimi",
+                "quizzes": "Sınav Formları",
+                "report": {
+                    "answeravarage": "Cevap Ortalamaları",
+                    "main": "Raporlar"
+                }
+            },
+            "task": "Görev Yönetimi",
+            "ticket": {
+                "list": "Talepler",
+                "main": "Talep Yönetimi",
+                "report": {
+                    "categoryReport": "Kategori Raporları",
+                    "main": "Raporlar",
+                    "projectReport": "Proje Raporları",
+                    "userReport": "Kullanıcı Raporları"
+                }
+            },
+            "timeplanning": {
+                "additionalworks": "Ek Çalışmalar",
+                "definitions": {
+                    "approvalprocesses": "Onay Süreçleri",
+                    "holidays": "Tatiller",
+                    "leaverules": "İzin Kuralları",
+                    "leavetypes": "İzin Türleri",
+                    "main": "Tanımlamalar",
+                    "workingcalendars": "Çalışma Takvimleri"
+                },
+                "leavedays": "İzinler",
+                "main": "Puantaj Yönetimi",
+                "workingdaysreport": "Puantaj Raporu"
+            },
+            "ttnet": {
+                "dashboard": "Telekom Genel Bakış",
+                "dataimport": "Telekom Datası Yükleme",
+                "main": "Telekom",
+                "telekomsalesentry": "Satış Girişi",
+                "tivibusalesentry": "Tivibu Satış Girişi"
+            }
+        }
+    },
+    "page": {
+        "custom": {
+            "customfinishcode": {
+                "agentname": "Müşteri Temsilcisi",
+                "amount": "Tutar",
+                "calldetail": "Çağrı Geçmişi",
+                "callid": "Çağrı Kimlik",
+                "careem": {
+                    "Email": "Eposta",
+                    "bookingid": "Rezervasyon No",
+                    "captainid": "Sürücü No",
+                    "customerid": "Müşteri No"
+                },
+                "category": "Kategori",
+                "country": "Ülkeler",
+                "description": "Açıklama",
+                "finishcode": "Sonuç Kodu",
+                "interactiondate": "Görüşme Tarihi",
+                "noresult": "Görüntülenecek kayıt bulunamadı.",
+                "phonenumber": "Telefon Numarası",
+                "price": "Fiyat",
+                "productname": "Ürün Adı",
+                "products": "Ürünler",
+                "quantity": "Adet",
+                "title": "Sonuç Kodu",
+                "workgroup": "Workgroup"
+            }
+        },
+        "customreport": {
+            "allreports": "Tüm Raporlar",
+            "breadcrumb": {
+                "reports": "Raporlar"
+            },
+            "description": "Yeni raporlar oluşturun ve raporlarınızı yönetin.",
+            "header": "Rapor Yönetimi",
+            "lists": "Listeler",
+            "newreport": "Yeni Rapor",
+            "newreportmodal": {
+                "controls": {
+                    "labels": {
+                        "company": "Firma Seçimi",
+                        "list": "Liste",
+                        "name": {
+                            "label": "Ad",
+                            "placeholder": "Rapor adını giriniz."
+                        }
+                    }
+                },
+                "header": "Yeni Rapor"
+            },
+            "sharemodal": {
+                "controls": {
+                    "labels": {
+                        "project": "Proje",
+                        "user": "Kullanıcı"
+                    }
+                },
+                "header": "Raporu Paylaş"
+            },
+            "table": {
+                "button": {
+                    "execute": "Rapor Al",
+                    "sharing": "Paylaşılanlar"
+                },
+                "confirmmessage": "Seçtiğiniz rapor ve buna bağlı herşey silinecektir !",
+                "created": "Oluşturulma",
+                "execution": "Çalışma",
+                "name": "Ad",
+                "object": "Obje",
+                "status": "Durum"
+            },
+            "title": "Rapor Yönetimi - Qua Services"
+        },
+        "customreportdetail": {
+            "allreports": "Tüm Raporlar",
+            "breadcrumb": {
+                "reports": "Raporlar"
+            },
+            "code": "Rapor kodu",
+            "columns": {
+                "avg": "Ortalama",
+                "confirmmessage": "Seçtiğiniz sütun silinecektir !",
+                "count": "Toplam adet",
+                "formulaplaceholder": "Sütun ve formüller",
+                "header": "Sütunlar",
+                "importcolumn": "Sütun aktar",
+                "importcolumnheader": "Sütun aktar",
+                "labels": {
+                    "group": "Grupla",
+                    "name": "Sütun ismi",
+                    "nullvalue": "Boş değeri",
+                    "round": "Yuvarla"
+                },
+                "newcolumn": "Yeni sütun",
+                "nullif": "Boş kontrolü",
+                "operator": "Operatörler",
+                "placeholders": {
+                    "name": "Sütun ismini giriniz.",
+                    "nullvalue": "Sütun boşluk değerini giriniz.",
+                    "nullvaluehelp": "Eğer sütun boş gelirse metin kutusundaki değer gösterilir."
+                },
+                "sum": "Toplam"
+            },
+            "description": "Yeni raporlar oluşturun ve raporlarınızı yönetin.",
+            "execute": "Çalıştır",
+            "filters": {
+                "and": "VE",
+                "confirmmessage": "Seçtiğiniz filtre silinecektir !",
+                "control": "Kontrol etiketi",
+                "controldescription": "Kontrol açıklaması",
+                "controldescriptionplaceholder": "Kontrol açıklamasını giriniz.",
+                "controlplaceholder": "Kontrol etiketini giriniz.",
+                "datacolumns": "Veri sütunları",
+                "dynamic": "Dinamik değer",
+                "filtertype": "Filtre türü",
+                "filtervalue": "Filtre değeri",
+                "filtervalueplaceholder": "Filtre değerini giriniz.",
+                "header": "Filtreler",
+                "newfilter": "Yeni filtre",
+                "or": "VEYA"
+            },
+            "header": "Rapor Yönetimi",
+            "lists": "Listeler",
+            "newreport": "Yeni Rapor",
+            "newreportmodal": {
+                "controls": {
+                    "labels": {
+                        "company": "Firma Seçimi",
+                        "list": "Liste",
+                        "name": {
+                            "label": "Ad",
+                            "placeholder": "Rapor adını giriniz."
+                        }
+                    }
+                },
+                "header": "Yeni Rapor"
+            },
+            "orders": {
+                "asc": "Artan",
+                "confirmmessage": "Seçtiğiniz sıralama kriteri silinecektir !",
+                "datacolumns": "Veri sütunları",
+                "desc": "Azalan",
+                "header": "Sıralamalar",
+                "neworder": "Yeni sıralama",
+                "sorttype": "Sıralama türü"
+            },
+            "parameters": {
+                "and": "VE",
+                "confirmmessage": "Seçtiğiniz parametre silinecektir !",
+                "control": "Kontrol etiketi",
+                "controldescription": "Kontrol açıklaması",
+                "controldescriptionplaceholder": "Kontrol açıklamasını giriniz.",
+                "controlplaceholder": "Kontrol etiketini giriniz.",
+                "dynamic": "Dinamik değer",
+                "name": "Parametre",
+                "newparameter": "Yeni Parametre",
+                "or": "VEYA",
+                "parametervalue": "Parametre Değeri",
+                "parametervalueplaceholder": "Parametre değerini giriniz.",
+                "title": "Parametreler"
+            },
+            "reportsidebar": {
+                "controls": {
+                    "button": {
+                        "confirmmessage": "Seçtiğiniz rapordaki bütün bağlantılar silinecektir !",
+                        "create": "Oluştur",
+                        "newreport": "Yeni rapor"
+                    },
+                    "input": {
+                        "displayrecord": {
+                            "help": "Tüm kayıtları görmek için boş bırakınız.",
+                            "placeholder": "Gösterilecek kayıt sayısını giriniz."
+                        },
+                        "reportname": {
+                            "placeholder": "Rapor tanımını giriniz."
+                        },
+                        "timeout": {
+                            "help": "Varsayılan değer 30 saniyedir.",
+                            "placeholder": "Zaman aşımı süresini giriniz."
+                        }
+                    },
+                    "label": {
+                        "connection": "Bağlantı",
+                        "database": "Veritabanı",
+                        "displayrecord": "Gösterilecek kayıt sayısı",
+                        "object": "Obje",
+                        "objecttype": "Obje Türü",
+                        "reportlist": "Rapor listesi",
+                        "reportname": "Rapor tanımı",
+                        "timeout": "Zaman aşımı süresi"
+                    }
+                },
+                "title": "RAPOR BİLGİLERİ"
+            },
+            "share": "Paylaş",
+            "table": {
+                "button": {
+                    "execute": "Rapor Al",
+                    "sharing": "Paylaşılanlar"
+                },
+                "confirmmessage": "Seçtiğiniz rapor ve buna bağlı herşey silinecektir !",
+                "created": "Oluşturulma",
+                "execution": "Çalışma",
+                "name": "Ad",
+                "object": "Obje",
+                "status": "Durum"
+            }
+        },
+        "customreportexecute": {
+            "breadcrumb": {
+                "reports": "Raporlar"
+            },
+            "edit": "Düzenle",
+            "reportsidebar": {
+                "controls": {
+                    "button": {
+                        "excel": "Excel",
+                        "execute": "Çalıştır",
+                        "pdf": "Pdf"
+                    }
+                },
+                "help": "En fazla 500 kayıt görüntüleyebilirsiniz. Tüm kayıtları görüntülemek için;",
+                "parameters": "Parametreler",
+                "title": "RAPOR BİLGİLERİ"
+            },
+            "share": "Paylaş"
+        },
+        "dashboard": {
+            "header": "Panel"
+        },
+        "firstlogingeneratepassword": {
+            "control": {
+                "submit": "Şifremi Oluştur",
+                "textbox": {
+                    "password": "Şifre"
+                }
+            },
+            "description": "Lütfen şifrenizi oluşturun.",
+            "header": "Şifre oluşturun",
+            "title": "Şifre oluşturun - Qua Services"
+        },
+        "firstloginupdatepassword": {
+            "control": {
+                "submit": "Şifremi Değiştir",
+                "textbox": {
+                    "password": "Şifre"
+                }
+            },
+            "description": "Güvenliğiniz için şifrenizi değiştirin.",
+            "header": "Şifrenizi değiştirin",
+            "title": "Şifre değiştirin - Qua Services"
+        },
+        "forgotpassword": {
+            "control": {
+                "submit": "Şifremi sıfırla",
+                "textbox": {
+                    "username": "Kullanıcı adı veya e-posta adresi"
+                }
+            },
+            "description": "Kullanıcı adı veya e-posta adresinizi girin.",
+            "header": "Şifremi unuttum",
+            "messages": {
+                "usernotfound": "Böyle bir kullanıcı bulunamadı."
+            },
+            "signin": "Giriş Yap",
+            "title": "Şifremi unuttum - Qua Services"
+        },
+        "index": {
+            "controls": {
+                "inputs": {
+                    "author": "Yazar",
+                    "typesomething": "Günün sözünü yazınız."
+                },
+                "labels": {
+                    "actives": "Seçili Bağlantılar",
+                    "availables": "Kullanılabilir Bağlantılar",
+                    "colors": "Renkler",
+                    "language": "Dil Değiştir",
+                    "mymenu": "Benim Menüm - Özelleştirin",
+                    "offer": "Günün sözü öner",
+                    "photos": "Resimler",
+                    "settings": "Ayarlar",
+                    "wisdomwordsinfo": "Bu ekranda görmek istediğiniz özlü söz ya da deyişleri bize gönderin, onaylanırsa bu ekranda görmeye başlayın."
+                }
+            },
+            "header": "Anasayfa",
+            "menu": {
+                "account": "Hesabım",
+                "help": "Yardım",
+                "logout": "Çıkış",
+                "settings": "Ayarlar",
+                "wisdomwords": "Günü Sözü Öner"
+            },
+            "messages": {
+                "evening": "İyi akşamlar",
+                "morning": "Günaydın",
+                "night": "İyi geceler",
+                "noon": "İyi günler"
+            },
+            "notifications": {
+                "empty": "Hiç bildiriminiz yok",
+                "title": "Bildirimler"
+            },
+            "tasks": {
+                "empty": "Hiç göreviniz yok",
+                "title": "Görevlerim"
+            },
+            "tickets": {
+                "empty": "Hiç talebiniz yok",
+                "title": "Taleplerim"
+            },
+            "title": "Anasayfa - Qua Services"
+        },
+        "management": {
+            "companies": {
+                "companydetails": {
+                    "admin": "Firma Yöneticisi Bilgileri",
+                    "companymodules": "Firma Modülleri",
+                    "companyname": "Firma Adı",
+                    "email": "E-posta Adresi",
+                    "existinguser": "Mevcut Kullanıcı",
+                    "filter": "Filtrele",
+                    "info": "FİRMA BİLGİLERİ",
+                    "logo": "Firma Logosu",
+                    "modules": "Modüller",
+                    "name": "Adı",
+                    "newuser": "Yeni Kullanıcı",
+                    "none": "Veri yok",
+                    "placeholders": {
+                        "companyname": "Firma adını giriniz",
+                        "e-mail": "Kullanıcının e-posta adresini giriniz",
+                        "name": "Kullanıcının adını giriniz",
+                        "startpage": "Firmanın özel karşılama sayfası varsa tanımlayınız",
+                        "surname": "Kullanıcının soyadını giriniz",
+                        "username": "Kullanıcının kullanıcı adını giriniz"
+                    },
+                    "select": "Seçim yapınız ",
+                    "shown": "Gösteriliyor {0}",
+                    "startpage": "Başlangıç Sayfası",
+                    "surname": "Soyadı",
+                    "username": "Kullanıcı Adı",
+                    "users": "Kullanıcılar"
+                },
+                "confirmmessage": "Seçtiğiniz firma ve buna bağlı herşey silinecektir !",
+                "confirmtitle": "Emin misiniz ?",
+                "databases": "Veritabanları",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "createddate": "Oluşturulma Tarihi",
+                    "manager": "Firma Yöneticisi",
+                    "name": "Firma Adı",
+                    "projectcount": "Proje Sayısı",
+                    "status": "Durum",
+                    "usercount": "Kullanıcı Sayısı"
+                },
+                "definations": {
+                    "company": "Firma Tanımla",
+                    "role": "Rol Tanımla",
+                    "title": "TANIMLAMALAR",
+                    "user": "Kullanıcı Tanımla"
+                },
+                "departments": "Departmanlar",
+                "description": "Projedeki firmaların listesidir. Firma yönetimini, kullanıcı işlemlerini, rol ve izin işlemlerini, departman işlemlerini, proje işlemlerini SQL bağlantı işlemlerini bu sayfadan yapabilirsiniz.",
+                "header": "Firmalar",
+                "management": "YÖNETİM",
+                "projects": "Projeler",
+                "roles": "Roller",
+                "title": "Firmalar - Qua Services",
+                "users": "Kullanıcılar"
+            },
+            "connections": {
+                "add": "Bağlantı Tanımla",
+                "confirmmessage": "Seçtiğiniz bağlantı ve buna bağlı herşey silinecektir !",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "companyname": "Firma Adı",
+                    "created": "Oluşturulma",
+                    "dbname": "Sunucu Adı",
+                    "name": "Bağlantı Adı",
+                    "update": "Güncelleme",
+                    "username": "Kullanıcı Adı"
+                },
+                "description": "Veritabanı bağlantılarının bulunduğu sayfadır. Veritabanı bağlantısı ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                "header": "Veritabanı Bağlantıları",
+                "modal": {
+                    "company": "Firma Bilgisi",
+                    "connection": "Bağlantı Adı",
+                    "password": "Şifre",
+                    "placeholders": {
+                        "connection": "Bağlantı adını giriniz",
+                        "password": "Şifre giriniz",
+                        "server": "Sunucu adını giriniz",
+                        "user": "Kullanıcı adını giriniz"
+                    },
+                    "server": "Sunucu Adı",
+                    "status": "Durumu",
+                    "title": "Yeni Bağlantı Tanımla",
+                    "user": "Kullanıcı Adı",
+                    "users": "Kullanıcılar"
+                },
+                "test": "Bağlantıyı Test Et",
+                "title": "Veritabanı Bağlantıları - Qua Services"
+            },
+            "departments": {
+                "addtitle": "Departman Ekle",
+                "confirmmessage": "Seçtiğiniz departman silinecektir !",
+                "header": "Departmanlar",
+                "labels": {
+                    "titlename": "Departman Adı"
+                },
+                "placeholders": {
+                    "titlename": "Departman adını giriniz."
+                },
+                "table": {
+                    "actions": "İşlemler",
+                    "companyname": "Firma Adı",
+                    "confirmmessage": "Seçtiğiniz departman silinecektir !",
+                    "created": "Oluşturulma",
+                    "lastupdate": "Son Güncelleme",
+                    "name": "Adı",
+                    "usercount": "Kullanıcı Sayısı"
+                },
+                "title": "Departmanlar - Qua Services"
+            },
+            "myprofile": {
+                "controls": {
+                    "labels": {
+                        "activitytitle": "Etkinlik Geçmişi"
+                    }
+                },
+                "messages": {
+                    "uploadcovererror": "Kapak fotoğrafı güncellenirken bir hata oluştu."
+                }
+            },
+            "projects": {
+                "add": "Proje Tanımla",
+                "close": "Kapat",
+                "confirmmessage": "Seçtiğiniz proje silinecektir !",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "companyname": "Firma Adı",
+                    "created": "Oluşturulma",
+                    "name": "Proje Adı",
+                    "update": "Güncelleme",
+                    "usercount": "Kullanıcı Sayısı"
+                },
+                "description": "Projelerin bulunduğu sayfadır. Proje ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                "header": "Projeler",
+                "modal": {
+                    "company": "Firma Bilgisi",
+                    "name": "Adı",
+                    "placeholders": {
+                        "name": "Proje adını giriniz"
+                    },
+                    "status": "Durumu",
+                    "title": "Yeni Proje Tanımla",
+                    "users": "Kullanıcılar"
+                },
+                "save": "Kaydet",
+                "ticketcategories": {
+                    "add": "Kategori Tanımla",
+                    "categories": "Talep Kategorileri",
+                    "confirmmessage": "Seçilen kategori silinecektir !",
+                    "datatable": {
+                        "actions": "İşlemler",
+                        "created": "Durumu",
+                        "createdby": "Oluşturan Kullanıcı",
+                        "name": "Kategori Adı",
+                        "projectname": "Proje Adı",
+                        "releated": "İlişkili Talep Sayısı",
+                        "status": "Oluşturulma Tarihi"
+                    },
+                    "description": "Proje talep kategorilerinin bulunduğu sayfadır. Talep kategorisi ekleme,güncelleme, silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                    "header": "Proje Talep Kategorileri",
+                    "modal": {
+                        "name": "Adı",
+                        "placeholders": {
+                            "name": "Kategori adını giriniz.."
+                        },
+                        "roles": "Roller",
+                        "teams": "Takımlar",
+                        "title": "Yeni Kategori Ekle",
+                        "users": "Kullanıcılar"
+                    },
+                    "title": "Proje Talep Kategorileri - Qua Services"
+                },
+                "title": "Projeler - Qua Services"
+            },
+            "roles": {
+                "add": "Rol Tanımla",
+                "confirmmessage": "Seçtiğiniz rol silinecektir !",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "companyname": "Firma Adı",
+                    "description": "Rol Tanımı",
+                    "name": "Rol Adı",
+                    "status": "Durumu",
+                    "usercount": "Toplam Kullanıcı"
+                },
+                "description": "Rollerin bulunduğu sayfadır. Rol ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                "header": "Roller",
+                "roledetails": {
+                    "backgroundcolor": "Arkaplan Rengi",
+                    "company": "Firma Seçimi",
+                    "description": "Açıklama",
+                    "info": "ROLE BİLGİLERİ",
+                    "name": "Adı",
+                    "none": "Veri Yok",
+                    "placeholders": {
+                        "description": "Rolün açıklamasını giriniz",
+                        "filter": "Filtrele",
+                        "name": "Rol adını giriniz."
+                    },
+                    "selectprivilege": "İzin Seçimi",
+                    "shown": "Gösteriliyor {0}",
+                    "status": "Durumu"
+                },
+                "title": "Roller - Qua Services"
+            },
+            "teams": {
+                "add": "Takım Tanımla",
+                "close": "Kapat",
+                "confirmmessage": "Seçtiğiniz takım silinecektir !",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "companyname": "Firma Adı",
+                    "created": "Oluşturulma",
+                    "name": "Takım Adı",
+                    "update": "Güncelleme"
+                },
+                "description": "Takım ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                "header": "Takım Yönetimi",
+                "modal": {
+                    "company": "Firma Bilgisi",
+                    "description": "Açıklama",
+                    "finishdate": "Bitiş",
+                    "leader": "Lider",
+                    "name": "Adı",
+                    "placeholders": {
+                        "description": "Takım açıklamasını giriniz.",
+                        "name": "Takım adını giriniz"
+                    },
+                    "startdate": "Başlangıç",
+                    "status": "Durumu",
+                    "user": "Kullanıcı",
+                    "users": "Kullanıcılar"
+                },
+                "save": "Kaydet",
+                "title": "Takım Yönetimi - Qua Services"
+            },
+            "titles": {
+                "addtitle": "Ünvan Ekle",
+                "header": "Ünvanlar",
+                "labels": {
+                    "titlename": "Ünvan Adı"
+                },
+                "placeholders": {
+                    "titlename": "Ünvan adını giriniz."
+                },
+                "table": {
+                    "actions": "İşlemler",
+                    "companyname": "Firma Adı",
+                    "confirmmessage": "Seçtiğiniz ünvan silinecektir !",
+                    "created": "Oluşturulma",
+                    "lastupdate": "Son Güncelleme",
+                    "name": "Adı",
+                    "usercount": "Kullanıcı Sayısı"
+                },
+                "title": "Ünvanlar - Qua Services"
+            },
+            "user": {
+                "activestatus": "Aktif"
+            },
+            "users": {
+                "active": "Aktif Yap",
+                "add": "Kullanıcı Tanımla",
+                "apilogin": "API ile Giriş Yap",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "createdate": "Oluşturulma Tarihi",
+                    "email": "E-Posta Adresi",
+                    "lastlogin": "Son Giriş",
+                    "lastupdate": "Güncelleme",
+                    "name": "Adı Soyadı",
+                    "username": "Kullanıcı Adı"
+                },
+                "deletemessagetitle": "Seçtiğiniz kullanıcı silinecektir ! ",
+                "description": "Kullanıcıların bulunduğu sayfadır. Kullanıcı ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                "excel": "Excel'e aktar",
+                "header": "Kullanıcılar",
+                "passive": "Pasif Yap",
+                "resetpassword": "Şifre Sıfırla",
+                "setpassword": "Şifre Ayarla",
+                "title": "Kullanıcılar - Qua Services",
+                "user": {
+                    "activestatus": "Aktif"
+                },
+                "userdetails": {
+                    "account": {
+                        "administrative": "Yönetici",
+                        "administrativestatus": "Yöneticilik Durumu",
+                        "company": "Firma Seçimi ",
+                        "email": "E-posta Adresi ",
+                        "name": "Adı",
+                        "placeholders": {
+                            "company": "Firma ara",
+                            "email": "E-posta adresini giriniz.",
+                            "name": "Kullanıcının adını giriniz.",
+                            "surname": "Kullanıcının soyadını giriniz.",
+                            "username": "Kullanıcı adını giriniz."
+                        },
+                        "status": "Durumu",
+                        "surname": "Soyadı",
+                        "title": "Hesap Bilgileri",
+                        "username": "Kullanıcı Adı"
+                    },
+                    "adress": {
+                        "action": "İşlem",
+                        "adress": "Adres",
+                        "button": "Adres Ekle",
+                        "countries": {
+                            "options": {
+                                "DE": "Almanya",
+                                "EN": "İngiltere",
+                                "TR": "Türkiye"
+                            },
+                            "title": "Ülke"
+                        },
+                        "placeholder": "Adres giriniz.",
+                        "title": "Adress Bilgileri",
+                        "type": {
+                            "options": {
+                                "33956": "Ev-1",
+                                "33957": "Ev-2",
+                                "33958": "İş",
+                                "33959": "Diğer"
+                            },
+                            "title": "Adres Türü"
+                        }
+                    },
+                    "all": "Tümü seçildi",
+                    "apimodal": {
+                        "info": "Bu kullanıcı ile giriş yapabilmek için aşağıdaki linki kopyalayıp tarayıcıya yapıştırın.",
+                        "title": "Kullanıcı API Bilgisi ile Giriş Yap "
+                    },
+                    "buttons": {
+                        "apilogin": "API Login",
+                        "close": "Kapat",
+                        "passwordreset": "Şifre Sıfırla",
+                        "save": "Kaydet",
+                        "setpassword": "Şifre Ayarla"
+                    },
+                    "company": {
+                        "department": "Departman",
+                        "employeetypes": {
+                            "33941": "Tam Zamanlı",
+                            "33942": "Yarı Zamanlı",
+                            "33943": "Geçici",
+                            "33944": "Kontratlı",
+                            "33945": "Serbest Çalışan",
+                            "33946": "Stajyer",
+                            "33947": "Gezici(mobil)"
+                        },
+                        "leftdate": "İşten Ayrılma Tarihi",
+                        "leftreason": "İşten Ayrılma Nedeni",
+                        "outgoingtypes": {
+                            "33931": "Askerlik",
+                            "33932": "Deneme Sürecinde Çıkarılma",
+                            "33933": "Diğer",
+                            "33934": "Emeklilik",
+                            "33935": "İş Sözleşmesinin Sona Ermesi",
+                            "33936": "İşten Çıkarılma",
+                            "33937": "İstifa",
+                            "33938": "Vefat",
+                            "33983": "Ailevi",
+                            "33984": "Başka Bir İş",
+                            "33985": "Sağlık",
+                            "33986": "Devir",
+                            "33987": "Evlilik",
+                            "33988": "Adaptasyon",
+                            "33989": "Eğitim",
+                            "33990": "Şehir Değişikliği",
+                            "34489": "Yönetici Uyuşmazlığı"
+                        },
+                        "placeholder": "İşten ayrılış tarihi giriniz.",
+                        "placeholderstartdate": "İşe giriş tarihini giriniz.",
+                        "privelege": "İzin Tanımı",
+                        "project": "Proje Tanımı",
+                        "role": "Rol Tanımı",
+                        "startdate": "İşe Giriş Tarihi",
+                        "title": "Ünvan",
+                        "type": "Çalışan Türü"
+                    },
+                    "contact": {
+                        "action": "İşlem",
+                        "buttons": {
+                            "email": "E-posta Ekle",
+                            "phone": "Numara Ekle"
+                        },
+                        "email": "E-posta Adresi",
+                        "emailtype": {
+                            "options": {
+                                "33928": "Kişisel",
+                                "33929": "İş",
+                                "33930": "Diğer"
+                            },
+                            "title": "E-posta Türü"
+                        },
+                        "numbertype": {
+                            "options": {
+                                "33922": "Ev",
+                                "33923": "İş",
+                                "33924": "Mobil",
+                                "33925": "Dahili",
+                                "33926": "Fax",
+                                "33927": "Diğer"
+                            },
+                            "title": "Numara Türü"
+                        },
+                        "phone": "Telefon",
+                        "placeholders": {
+                            "email": "E-posta adresi giriniz.",
+                            "phone": "Telefon numarası giriniz."
+                        },
+                        "title": "İletişim Bilgileri"
+                    },
+                    "emergency": {
+                        "action": "işlem",
+                        "name": "Ad Soyad",
+                        "phone": "Telefon",
+                        "placeholders": {
+                            "name": "Adını soyadını giriniz.",
+                            "phone": "Telefon numarası giriniz.",
+                            "relationship": "Yakınlık derecesini giriniz."
+                        },
+                        "relationship": "Yakınlık Derecesi",
+                        "title": "Acil Durum Bilgileri",
+                        "userinfo": "Kişi Bilgileri"
+                    },
+                    "new": "Kullanıcı Tanımla",
+                    "none": "Listelenecek kayıt bulunamadı.",
+                    "personalinformations": {
+                        "birthdate": "Doğum Tarihi",
+                        "defaultlanguage": "Varsayılan Dil",
+                        "disabilitylevel": {
+                            "options": {
+                                "33896": "Yok ",
+                                "33897": "1. derece ",
+                                "33898": "2. derece ",
+                                "33899": "3. derece "
+                            },
+                            "title": "Engel Seviyesi"
+                        },
+                        "education": {
+                            "options": {
+                                "33904": "İlkokul",
+                                "33905": "Ortaokul",
+                                "33906": "Lise",
+                                "33907": "Önlisan",
+                                "33908": "Lisan",
+                                "33909": "Yüksek Lisans",
+                                "33910": "Doktora",
+                                "33911": "Yok"
+                            },
+                            "title": "Eğıtım Durumu"
+                        },
+                        "female": "Kadın",
+                        "gender": "Cinsiyet",
+                        "male": "Erkek",
+                        "marriagestatus": {
+                            "id": {
+                                "0": "Bekar",
+                                "1": "Belirtilmemiş",
+                                "2": "Boşanmış",
+                                "3": "Evli",
+                                "33900": "Bekar",
+                                "33901": "Evli",
+                                "33902": "Boşanmış",
+                                "33903": "Belirtilmemiş"
+                            },
+                            "title": "Medeni Durum"
+                        },
+                        "militarystatus": {
+                            "options": {
+                                "33912": "Yapıldı",
+                                "33913": "Yapılmadı",
+                                "33914": "Muaf",
+                                "33915": "Tecilli"
+                            },
+                            "placeholder": "Tecil bitiş tarihini giriniz.",
+                            "postponeddate": "Tecil Tarihi",
+                            "title": "Askerlik Durumu"
+                        },
+                        "none": "Yok",
+                        "numberofchildren": "Çocuk Sayısı ",
+                        "placeholders": {
+                            "birthdate": "Doğum Tarihini giriniz",
+                            "tc": "T.C. Kimlik numarasını giriniz"
+                        },
+                        "tc": "T.C. Kimlik No ",
+                        "title": "Kişisel Bilgiler"
+                    },
+                    "resetpassword": {
+                        "message": "Kullanıcının şifresini sıfırlamak istediğinize emin misiniz ?",
+                        "title": "Emin misiniz ?"
+                    },
+                    "setpasswordmodal": {
+                        "password": "Şifre",
+                        "passwordagain": "Şifre Tekrar",
+                        "title": "Kullanıcı Şifresi Belirleme"
+                    },
+                    "update": "Kullanıcıyı Güncelle"
+                }
+            }
+        },
+        "myprofile": {
+            "account": {
+                "email": "E-Posta ",
+                "name": "Ad",
+                "surname": "Soyad",
+                "title": "Hesap Bilgilerim",
+                "username": "Kullancı Adı"
+            },
+            "activity": "Etkinlik Geçmişi",
+            "activityloading": " Yükleniyor...",
+            "companies": "Firmalarım",
+            "notifications": {
+                "emailsending": "E-posta Gönderimi",
+                "info": "Bildirim Bilgisi",
+                "notifyid": {
+                    "17": "Değerlendirme Formunda Değerlendirildiğimde",
+                    "18": "Değerlendirildiğim Form Kalibre Edildiğinde",
+                    "28": "Görev Oluşturduğumda",
+                    "29": "Görev Güncellediğimde",
+                    "30": "Bana Görev Atandığında",
+                    "31": "Benimle Paylaşılan Göreve Dosya Yüklendiğinde",
+                    "32": "Benimle Paylaşılan Göreve Yorum Yapıldığında",
+                    "33": "Benimle Paylaşılan Göreve Alt Görev Oluşturulduğunda",
+                    "35": "Benimle Paylaşılan Görev Tamamlandığında",
+                    "37": "Profil Bilgilerimi Güncellediğimde",
+                    "39": "Şifremi Değiştirdiğimde",
+                    "52": "Sınav Sonucu Güncellendiğinde",
+                    "54": "Kullanıcı Sınavı Bitirdiğinde\t",
+                    "55": "Sınav Değerlendirildiğinde",
+                    "56": "Benimle Paylaşılan Görev Güncellendiğinde",
+                    "57": "Yeni Talep Oluşturulduğunda",
+                    "58": "Talep Güncellendiğinde",
+                    "59": "Talep Silindiğinde",
+                    "60": "Bana Talep Atandığında",
+                    "61": "Talebe Yorum Yapıldığında",
+                    "62": "İzin İstediğimde",
+                    "63": "Onay Bekleyen İzin Olduğunda",
+                    "64": "İzin Talebim Onaylandığında",
+                    "65": "İzin Talebim Güncellendiğinde",
+                    "66": "İzin Talebi Onayladığımda"
+                },
+                "off": "Kapalı",
+                "on": "Açık",
+                "title": "Bildirim Ayarları"
+            },
+            "password": {
+                "newpassword": "Yeni Şifre",
+                "oldpassword": "Eski Şifre",
+                "passwordagain": "Yeni Şifre Tekrar",
+                "placeholders": {
+                    "newpassword": "Yeni şifrenizi giriniz  ",
+                    "oldpassword": "Eski şifrenizi giriniz",
+                    "passwordagain": "Yeni şifrenizi tekrar giriniz"
+                },
+                "title": "Şifre Değiştir"
+            },
+            "personalinfo": {
+                "adress": "Adres",
+                "birthday": "Doğum Tarihi",
+                "female": "Kadın",
+                "gender": "Cinsiyet",
+                "male": "Erkek",
+                "mobilephone": "Sabit Telefon ",
+                "phone": "Sabit Telefon ",
+                "placeholders": {
+                    "adress": "Adresinizi giriniz ",
+                    "birthday": "Doğum Tarihinizi giriniz ",
+                    "mobilephone": "Sabit telefonunuzu giriniz",
+                    "phone": "Mobil telefonunuzu giriniz "
+                },
+                "title": "Kişisel Bilgilerim"
+            },
+            "selectimagebutton": "Görsel Seç",
+            "update": "Güncelle",
+            "uploadimagebutton": "Görsel Yükle"
+        },
+        "newTicket": {
+            "create": {
+                "category": "Kategori",
+                "description": "Açıklama",
+                "errorMessages": {
+                    "category": "Kategori seçiniz",
+                    "description": "Talep açıklaması giriniz",
+                    "error": "Hata",
+                    "errorMessage": "Zorunlu tüm alanları doldurup, tekrar deneyiniz",
+                    "priority": "Öncelik belirtiniz",
+                    "subject": "Talep konusu giriniz"
+                },
+                "placeholders": {
+                    "category": "Ketegori seçiniz",
+                    "priority": "Öncelik seçiniz",
+                    "tag": "Etiket ekle"
+                },
+                "priority": "Önem",
+                "subject": "Konu",
+                "tag": "Etiket",
+                "title": "Yeni Talep Oluştur"
+            },
+            "detail": {
+                "addReply": "Cevabı Ekle",
+                "assigneTo": "Ata",
+                "assignee": "Atanan",
+                "category": "Kategori",
+                "changeAssignee": "Kişi ata",
+                "changeCategory": "Kategori değiştir",
+                "changePriority": "Öncelik değiştir",
+                "commentTitle": "Yorumlar",
+                "createdBy": "Oluşturan",
+                "createdDate": "Oluşturulma tarihi",
+                "files": "Dosyalar",
+                "history": "Geçmişi göster",
+                "historyTitle": "Geçmiş",
+                "informations": "Bilgiler",
+                "noFile": "Gösterilecek bir dosya bulunamadı.",
+                "noTag": "Gösterilecek bir etiket bulunamadı.",
+                "noWork": "Gösterilecek bir çalışma bulunamadı.",
+                "priority": "Öncelik",
+                "privateMessage": "Gizli mesaj",
+                "projectName": "Proje",
+                "removeMeShare": "Beni paylaşımdan çıkar",
+                "reply": "Cevapla",
+                "reset": "Temizle",
+                "share": "Paylaş",
+                "status": "Durum",
+                "systemMessage": "Sistem mesajı",
+                "tags": {
+                    "addTag": "Etiket Ekle",
+                    "title": "Etiketler"
+                },
+                "ticketActions": "Talep Özellikleri",
+                "updateComment": "Yorumu Güncelle",
+                "updatedBy": "Güncelleyen",
+                "updatedDate": "Güncelleme tarihi",
+                "works": {
+                    "addWorkedTime": "Çalışma Ekle",
+                    "day": "Gün",
+                    "description": "Açıklama",
+                    "directors": "Yöneticiler",
+                    "everyone": "Herkes",
+                    "free": "Ücretsiz",
+                    "hour": "Saat",
+                    "minute": "Dakika",
+                    "paid": "Ücretli",
+                    "privacy": "Gizlilik",
+                    "title": "Çalışmalar"
+                }
+            },
+            "list": {
+                "assume": "Üstlen",
+                "comments": {
+                    "title": "Yorumlar"
+                },
+                "createButton": "Talep oluştur",
+                "files": {
+                    "createdBy": "Oluşturan",
+                    "download": "İndir",
+                    "fileName": "Dosya Adı",
+                    "fileSize": "Dosya Boyutu",
+                    "notFound": "Dosya bulunamadı",
+                    "title": "Dosyalar"
+                },
+                "filter": "Filtrele",
+                "noTicket": "Gösterilecek bir talep bulunamadı :(",
+                "placeholders": {
+                    "customSearch": "Özel arama",
+                    "finishDate": "Bitiş tarihi",
+                    "noElement": "Hiç öğe bulunamadı.",
+                    "selectAssignedUser": "Atanan kişi seçiniz",
+                    "selectCategory": "Kategori seçiniz",
+                    "selectPriority": "Öncelik seçiniz",
+                    "selectSortType": "Sıralama tipi",
+                    "selectStatus": "Durum seçiniz",
+                    "startDate": "Başlangıç tarihi",
+                    "tagSearch": "Etiket arama"
+                },
+                "show": "Göster",
+                "sort": {
+                    "oldestRecent": "Eskiden yeniye",
+                    "recentOldest": "Yeniden eskiye",
+                    "title": "Sırala"
+                },
+                "ticketSelected": "talep seçildi",
+                "title": "Talepler"
+            },
+            "messages": {
+                "assumeQuestion": "Talebi üstlenmek istediğinize emin misiniz?",
+                "commentAdded": "Yorum eklendi",
+                "commentAddedError": "Yorum eklenirken bir hata meydana geldi",
+                "commentDeletedQuestion": "Bu yorumu silmek istediğinize emin misiniz?",
+                "commentRemoved": "Yorum silindi",
+                "commentRemovedError": "Yorum silinirken bir hata meydana geldi",
+                "error": "Hata",
+                "fileAdded": "Dosya eklendi",
+                "fileAddedError": "Dosya eklenirken bir hata meydana geldi",
+                "fileDeletedQuestion": "Dosyayı silmek istediğinize emin misiniz?",
+                "fileRemoved": "Dosya silindi",
+                "fileRemovedError": "Dosya silinirken bir hata meydana geldi",
+                "question": "Emin misiniz?",
+                "successful": "Başarılı",
+                "tagAdded": "Etiket eklendi",
+                "tagAddedError": "Etiket eklenirken bir hata meydana geldi",
+                "tagRemoved": "Etiket silindi",
+                "tagRemovedError": "Etiket silinirken bir hata meydana geldi",
+                "ticketCreated": "Talep oluşturuldu",
+                "ticketCreatedError": "Talep oluşturulurken bir hata meydana geldi",
+                "ticketCreatedQuestion": "{{ticketId}} numaralı talep oluşturuldu. Yeni bir talep oluşturmak ister misiniz?",
+                "ticketUpdated": "Talep güncellendi",
+                "ticketUpdatedError": "Talep güncellenirken bir hata meydana geldi",
+                "unsuccessful": "Başarısız",
+                "workAdded": "Çalışma eklendi",
+                "workAddedError": "Çalışma eklenirken bir hata meydana geldi",
+                "workDeletedQuestion": "Bu çalışmayı silmek istediğinize emin misiniz?",
+                "workRemoved": "Çalıma silindi",
+                "workRemovedError": "Çalışma silinirken bir hata meydana geldi"
+            },
+            "report": {
+                "filter": {
+                    "button": "Filtrele",
+                    "selectCategory": "Kategori seçiniz",
+                    "selectProject": "Proje seçiniz"
+                },
+                "table": {
+                    "averageResolutionTime": "Ortalama açık kalma süresi (Dk.)",
+                    "category": "Proje / Kategori",
+                    "closed": "Kapalı",
+                    "firstResponseAverage": "Ortalama ilk cevap süresi (Dk.)",
+                    "new": "Yeni",
+                    "onHold": "Çalışılıyor",
+                    "open": "Açık",
+                    "project": "Proje",
+                    "solved": "Tamamlandı",
+                    "total": "Toplam",
+                    "user": "Kullanıcı",
+                    "waiting": "Bekletiliyor"
+                }
+            },
+            "subMenu": {
+                "allPriorities": "Tümü",
+                "allStatus": "Tümü",
+                "allTickets": "Tüm Talepler",
+                "assignedTickets": "Bana Atanan Talepler",
+                "myTickets": "Benim Taleplerim",
+                "priorities": "Öncelikler",
+                "shared": "Benimle Paylaşılanlar",
+                "statuses": "Durumlar",
+                "title": "Talepler"
+            }
+        },
+        "payroll": {
+            "approvalprocess": {
+                "approversinfo": "Onay sürecine eklediğiniz kullanıcıları değiştiremezsiniz. Bunun yerine yeni bir süreç oluşturabilirsiniz.",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "company": "Firma",
+                    "name": "Adı",
+                    "status": "Durumu",
+                    "users": "Kullanıcılar & Gruplar"
+                },
+                "description": "İzin türlerinin tanımlarını bu sayfadan yapabilirsiniz",
+                "header": "Onay Süreçleri Yönetimi",
+                "modal": {
+                    "approvers": "Onaylayacak Kişi(ler)",
+                    "company": "Firma",
+                    "department": "Departman",
+                    "name": "Adı",
+                    "placeholders": {
+                        "approvers": "Onay sürecine eklemek istediğiniz kullanıcıları, istediğiniz sırayla tanımlayınız.",
+                        "name": "Onay süreci adı giriniz"
+                    },
+                    "project": "Proje",
+                    "roles": "Roller",
+                    "status": "Durumu",
+                    "teams": "Takımlar",
+                    "title": "Yeni Onay Süreci",
+                    "update": "Onay Süreci Güncelle",
+                    "user": "Kullanıcı"
+                },
+                "new": "Onay Süreci Tanımla",
+                "title": "Onay Süreçleri Yönetimi - Qua Services"
+            },
+            "holidays": {
+                "datatable": {
+                    "actions": "İşlemler",
+                    "company": "Firma",
+                    "end": "Bitiş",
+                    "name": "Adı",
+                    "start": "Başlangıç",
+                    "status": "Durumu",
+                    "year": "Yıl"
+                },
+                "description": "Resmi tatil tanımlarını bu sayfadan yapabilirsiniz",
+                "header": "Resmi Tatil Yönetimi",
+                "modal": {
+                    "ancronym": "Kısaltması",
+                    "company": "Firma Bilgisi",
+                    "description": "Açıklama",
+                    "enddate": "Bitiş Tarihi",
+                    "name": "Adı",
+                    "placeholders": {
+                        "ancronym": "İzin türü Kısaltması giriniz",
+                        "enddate": "Bitiş Tarihi",
+                        "name": "Açıklama girebilirsiniz",
+                        "startdate": "Başlangıç Tarihi"
+                    },
+                    "startdate": "Başlangıç Tarihi",
+                    "title": "Resmi Tatil Tanımla",
+                    "year": "Yıl"
+                },
+                "new": "Yeni Resmi Tatil",
+                "title": "Resmi Tatil Yönetimi - Qua Services",
+                "update": "Resmi Tatili Güncelle"
+            },
+            "leaverules": {
+                "datatable": {
+                    "actions": "İşlemler",
+                    "all": " hepsi",
+                    "allowance": "Hakediş",
+                    "company": "Firma",
+                    "day": " gün",
+                    "description": "Yıl",
+                    "month": " ay",
+                    "name": "Adı",
+                    "status": "Durumu",
+                    "transferableave": "Devredebilen İzin",
+                    "yearlyentitlement": "Yıllık İzin Hakkı"
+                },
+                "description": "İzin türlerinin tanımlarını bu sayfadan yapabilirsiniz.",
+                "header": "İzin Kuralları Yönetimi",
+                "modal": {
+                    "ancronym": "Kısaltma",
+                    "company": "Firma Bilgisi",
+                    "day": "Gün",
+                    "department": "Departman",
+                    "description": "Açıklama",
+                    "extra": "Ek",
+                    "firsttime": "İlk izin hakediş zamanı",
+                    "friday": " Cuma günü alınan izne Cumartesi'yi de ekle.",
+                    "increaseofleave": "İzin Artışı",
+                    "mondaytofriday": "Pazartesi’den Cuma’ya kadar alınan izine Cumartesi’yi de ekle.",
+                    "name": "Adı",
+                    "newlevel": "Yeni Kademe Ekle",
+                    "paid": "Ücretli",
+                    "placeholders": {
+                        "ancronym": "İzin türü Kısaltması giriniz",
+                        "description": "Açıklama girebilirsiniz",
+                        "extraday": "Çalışanın firmanızda çalıştığı yıla göre verilecek ek izin günlerini buradan tanımlayabilirsiniz.",
+                        "limit": "Bir yıl içinde alabileceği en fazla izin günü. ",
+                        "months": {
+                            "1": "1 Ay",
+                            "10": "10 Ay",
+                            "11": "11 Ay",
+                            "12": "12 Ay",
+                            "2": "2 Ay",
+                            "3": "3 Ay",
+                            "4": "4 Ay",
+                            "5": "5 Ay",
+                            "6": "6 Ay",
+                            "7": "7 Ay",
+                            "8": "8 Ay",
+                            "9": "9 Ay"
+                        },
+                        "monthstext": "Çalışana işe giriş tarihinden kaç ay sonra izin hakkı verileceğini belirler. Varsayılan değer 12 aydır.",
+                        "name": "İzin kuralı adını giriniz ",
+                        "transferlimit": "Bir sonraki döneme aktarılabilen en fazla izin günü. Herhangi bir sınır yoksa boş bırakabilirsiniz.",
+                        "year": "Yıl"
+                    },
+                    "project": "Proje",
+                    "status": "Durumu",
+                    "title": "İzin Türü Tanımla",
+                    "transferableave": "Devredebilen İzin",
+                    "user": "Kullanıcı",
+                    "yearlydeduct": "Yıllık İzinden Düşüm",
+                    "yearlyentitlement": "Yıllık İzin Hakkı",
+                    "yearlylimit": "Yıllık Limit"
+                },
+                "new": "Yeni İzin Kuralı",
+                "title": "İzin Kuralları Yönetimi - Qua Services",
+                "update": "İzin Kuralını Güncelle"
+            },
+            "leavetypes": {
+                "datatable": {
+                    "actions": "İşlemler",
+                    "company": "Firma",
+                    "description": "Açıklama",
+                    "name": "Adı",
+                    "paid": "Üçretli",
+                    "status": "Durumu",
+                    "yearlydeduct": "Yıllık İzinden Düşüm",
+                    "yearlylimit": "Yıllık Limit"
+                },
+                "day": " Gün",
+                "description": "İzin türlerinin tanımlarını bu sayfadan yapabilirsiniz",
+                "header": "İzin Türü Yönetimi",
+                "modal": {
+                    "ancronym": "Kısaltması",
+                    "company": "Firma Bilgisi ",
+                    "description": "Açıklama",
+                    "name": "Adı",
+                    "paid": "Ücretş,",
+                    "placeholders": {
+                        "ancronym": "İzin türü Kısaltması giriniz",
+                        "description": "Açıklama girebilirsiniz",
+                        "name": "İzin türü adını giriniz",
+                        "yearlylimit": "Yıllık Limit"
+                    },
+                    "title": "İzin Türü Tanımla",
+                    "yearlydeduct": "Yıllık İzinden Düşüm",
+                    "yearlylimit": "Yıllık Limit"
+                },
+                "new": "Yeni İzin Türü",
+                "paid": "Ücretli",
+                "status": "Durumu",
+                "title": "İzin Türü Yönetimi - Qua Services",
+                "unpaid": "Ücretsiz",
+                "update": "İzin Türünü Güncelle"
+            },
+            "overtime": {
+                "datatable": {
+                    "actions": "İşlemler",
+                    "created": "Oluşturulma",
+                    "createdby": "Oluşturan",
+                    "date": "Çalışma Tarihi",
+                    "duration": "Çalışma Süresi",
+                    "projects": "Proje",
+                    "type": "Çalışma Türü",
+                    "users": "Kullancılar"
+                },
+                "description": "Ek çalışma sürelerini bu sayfadan yönetebilirsiniz.",
+                "filterlabels": {
+                    "date": "Tarih Seçimi",
+                    "projectfilter": "Proje Filtresi",
+                    "projecttitle": "Proje ve Kullancı",
+                    "userfilter": "Kullanıcı Filtresi"
+                },
+                "header": "Ek Çalışma Süreleri",
+                "modal": {
+                    "date": "Çalışma Tarihi ",
+                    "description": "Açıklama",
+                    "duration": "Çalışma Süresi",
+                    "placeholders": {
+                        "date": "Çalışma Tarihi",
+                        "description": "Çalışma açıklaması girebilirsiniz",
+                        "duration": "Çalışma Süresi"
+                    },
+                    "projects": "Proje",
+                    "roles": "Roller",
+                    "teams": "Takımlar",
+                    "type": "Çalışma Türü",
+                    "types": {
+                        "34355": "Saat Tamamlama Çalışması",
+                        "34356": "Ek Çalışma",
+                        "34421": "Resmi Tatil Çalışması",
+                        "34511": "Resmi Tatil Mesai Çalışması"
+                    },
+                    "users": "Kullanıcı"
+                },
+                "new": "Yeni Ek Calışma",
+                "title": "Ek Çalışma Süreleri- Qua Services"
+            },
+            "report": {
+                "description": "Puantaj raporunu buradan alabilirsiniz.",
+                "excel": "Excel Raporu",
+                "filterlabels": {
+                    "date": "Tarih Seçimi",
+                    "departmentfilter": "Proje Filtresi",
+                    "projectfilter": "Proje Filtresi",
+                    "projecttitle": "Proje ve Kullancı ",
+                    "rolefilter": "Rol Filtresi",
+                    "teamfilter": "Takım Filtresi",
+                    "userfilter": "Kullanıcı Filtresi"
+                },
+                "getreport": "Rapor Al",
+                "header": "Personel Çalışma Süresi Raporu",
+                "title": "Personel Çalışma Süresi Raporu  - Qua Services"
+            },
+            "timeoffdays": {
+                "all": "Tümü",
+                "create": "Oluştur",
+                "datatable": {
+                    "actions": "İşlemler",
+                    "created": "Oluşturulma",
+                    "end": "Bitiş",
+                    "info": "İzin Bilgisi",
+                    "start": "Başlangıç",
+                    "status": "Durumu"
+                },
+                "description": "İzin taleplerinizi buradan yapabilir, izin bilgilerinizi buradan görüntüleyebilirsiniz.",
+                "details": {
+                    "addcomment": "Yorum Ekle",
+                    "addedby": "Ekleyen ",
+                    "approve": "Onayla & Reddet",
+                    "category": "Kategori",
+                    "comment": "Yorum",
+                    "commentmodal": {
+                        "label": "Durumu",
+                        "notchanged": "Durum değişikliği yok",
+                        "placeholder": "Dosyalarınızı sürükleyin veya buraya tıklayarak dosyalarınızı seçin.",
+                        "title": "Yeni Yorum Ekle"
+                    },
+                    "commenttext": "Yorum girebilirsiniz",
+                    "created": "Oluşturulma",
+                    "createdby": "Oluşturan",
+                    "date": "Talep Tarihi",
+                    "delete": "Talebi Sil",
+                    "end": "İzin Bitiş",
+                    "header": "İzin Detayları",
+                    "lastmodifed": "Son Güncellenme",
+                    "leavefiles": "İzin Dosyaları",
+                    "owner": "İzin Sahibi",
+                    "priority": "Önemi",
+                    "project": "Proje",
+                    "shared": "Paylaşım",
+                    "start": "İzin Başlangıç",
+                    "status": "Durumu",
+                    "update": "Güncelle",
+                    "updated": "Güncellenme",
+                    "updateleave": "İzin Talebini Güncelle",
+                    "upload": "Dosya Yükle",
+                    "uploadmodal": {
+                        "filecancel": "Yüklemeyi iptal etmek istediğinizden emin misiniz ?",
+                        "filedrag": "Dosyalarınızı sürükleyin veya buraya tıklayarak dosyalarınızı seçin.",
+                        "title": "Yeni Dosya Yükle"
+                    }
+                },
+                "filterlabels": {
+                    "date": "Tarih Seçimi",
+                    "leavestatus": {
+                        "21": "Onay Bekliyor",
+                        "22": "Onaylandı",
+                        "23": "Reddedildi",
+                        "24": "Değişiklik Talebi",
+                        "DEĞIŞIKLIK TALEBI": "Değişiklik Talebi",
+                        "Düşük": "Düşük",
+                        "Kritik": "Kritik",
+                        "Normal": "Normal",
+                        "ONAY BEKLIYOR": "Onay Bekliyor",
+                        "ONAYLANDI": "Onaylandı",
+                        "REDDEDILDI": "Reddedildi",
+                        "Yüksek": "Yüksek",
+                        "approved": "Onaylandı",
+                        "changerequest": "Değişiklik Talebi",
+                        "rejected": "Reddedildi",
+                        "title": "İzin Durumları",
+                        "waiting": "Onay Bekliyor"
+                    },
+                    "status": "Durumu Göre",
+                    "statustitle": "İzin Durumları",
+                    "type": "Türe göre",
+                    "typeselection": "İzin Türü Seçimi",
+                    "typetitle": "İzin Türleri"
+                },
+                "header": "İzinler",
+                "modal": {
+                    "comment": "Yorum",
+                    "company": "Firma Seçimi",
+                    "cover": "Yerine Bakacak Kişi",
+                    "description": "Açıklama",
+                    "else": "Başkası",
+                    "end": "Bitiş Tarihi",
+                    "leaveuser": "İzin kullanacak kışı",
+                    "myown": "Kendim",
+                    "owner": "İzin Sahibi",
+                    "placeholders": {
+                        "comment": "Yorum girebilirsiniz",
+                        "description": "Açıklama girebilirsiniz"
+                    },
+                    "start": "Başlangıç Tarihi ",
+                    "type": "İzin Türü"
+                },
+                "new": "Yeni İzin Talebi",
+                "title": "İzinler - Qua Services",
+                "update": "İzin Talebini Güncelle",
+                "viewdetails": "Detaya Git",
+                "waiting": "Onay Bekleyenler"
+            },
+            "workingcalendars": {
+                "datatable": {
+                    "actions": "İşlemler",
+                    "company": "Firma",
+                    "createdby": "Oluşturan",
+                    "createddate": "Oluşturulma Tarihi",
+                    "name": "Vardiya Adı",
+                    "period": "Dönem",
+                    "repeat": "Her Ay Tekrarlanır",
+                    "status": "Durumu"
+                },
+                "description": "Çalışma takvimlerinin bulunduğu sayfadır. Çalışma takvimi ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                "details": {
+                    "breaks": "Mola Süresi (dk)",
+                    "breaktext": "Dinlenme süresi yoksa boş bırakınız.",
+                    "day": "Gün",
+                    "description": "Çalışma takvimlerinin bulunduğu sayfadır. Çalışma takvimi ekleme, güncelleme ve silme işlemlerinizi bu sayfadan yapabilirsiniz.",
+                    "endtime": "Bitiş Zamamı",
+                    "header": "Calışma Takvimi Detayı",
+                    "sidebar": {
+                        "create": "Tabloyu Oluştur",
+                        "departments": "Departmanlar",
+                        "description": "Takvim Açıklaması",
+                        "descriptionplaceholder": "Takvim açıklamasını giriniz",
+                        "end": "Bitiş Tarihi",
+                        "name": "Takvim Adı",
+                        "nameplaceholder": "Takvim adını giriniz",
+                        "projects": "Projeler",
+                        "repeat": "Her ay tekrarlanır",
+                        "roles": "Roller",
+                        "start": "Başlangıç Tarihi",
+                        "startdate": "Başlangıç - Bitiş Tarihi",
+                        "status": "Durumu",
+                        "teams": "Takımlar",
+                        "title": "Çalışma Takvimi Bilgileri ",
+                        "users": "Kullanıcılar"
+                    },
+                    "starttime": "Başlangıç Zaman",
+                    "title": "Calışma Takvimi Detayı  - Qua Services",
+                    "workinghours": "Çalışma Saatleri"
+                },
+                "header": "Calışma Takvimi Yönetimi",
+                "modal": {
+                    "company": "Firma Bilgisi ",
+                    "description": "Açıklama",
+                    "name": "Takvim Adı",
+                    "placeholders": {
+                        "description": "Takvim açıklamasını giriniz",
+                        "name": "Takvim adını giriniz"
+                    },
+                    "status": "Durumu",
+                    "title": "Yeni Calışma Takvim Tanımla"
+                },
+                "new": "Yeni Takvim",
+                "title": "Calışma Takvimi Yönetimi - Qua Services"
+            }
+        },
+        "performance": {
+            "bonusandpenalties": {
+                "addnewvalue": "Yeni Değer Tanımla",
+                "confirmmessage": "Seçtiğiniz veri silinecektir!",
+                "header": "Bonus ve Penaltılar",
+                "labels": {
+                    "dateofdata": "Tarih",
+                    "project": "Proje",
+                    "select": "Seçiniz",
+                    "type": "Türü",
+                    "user": "Kullanıcı",
+                    "value": "Değer"
+                },
+                "new": "Yeni",
+                "newvalue": "Yeni Değer",
+                "table": {
+                    "actions": "İşlemler",
+                    "name": "Ad Soyad",
+                    "period": "Dönem",
+                    "project": "Proje",
+                    "type": "Tip",
+                    "value": "Değer"
+                },
+                "title": "Bonus ve Penaltılar - Qua Services"
+            },
+            "dashboard": {
+                "getdashboard": "Grafikleri getir",
+                "header": "Performans dashboard",
+                "performancevalues": {
+                    "legends": {
+                        "actual": "Gerçekleşen",
+                        "average": "Ortalama",
+                        "total": "Toplam"
+                    },
+                    "suffix": {
+                        "day": "gün",
+                        "euro": "€",
+                        "minute": "dk",
+                        "percent": "%",
+                        "point": "puan",
+                        "second": "sn"
+                    },
+                    "title": "Kullanıcı sıralaması",
+                    "values": {
+                        "acht": "Ortalama Görüşme Süresi",
+                        "acw": "ACW",
+                        "admtekliforani": "ADM Teklif Oranı",
+                        "asa": "ASA",
+                        "breaktime": "Mola süresi",
+                        "callqualityscore": "Çağrı kalitesi puanı",
+                        "chat": "Chat cevaplama",
+                        "chatqualityscore": "Chat kalitesi puanı",
+                        "completedsurvey": "Tamamlanan anket oranı",
+                        "contactqualityscore": "İrtibat kalitesi puanı",
+                        "customersatisfactionscore": "Müşteri memnuniyet puanı",
+                        "email": "E-mail cevaplama",
+                        "emailqualityscore": "E-mail kalitesi puanı",
+                        "hold": "Hold",
+                        "kapaniskodugirisorani": "Kapanış Kodu Giriş Oranı",
+                        "login": "Login uyum",
+                        "mailaht": "Mail AHT",
+                        "opencontactrate": "Açılan irtibat oranı",
+                        "orderaht": "Order AHT",
+                        "outbound": "Outbound konuşma",
+                        "productivity": "Verimlilik",
+                        "qualityscore": "Süreç kalitesi puanı",
+                        "quizandcompletedsurvey": "Yazılı sınav ve Tamamlanan anket oranı",
+                        "quizandcustomersatisfactionandopencontactrate": "Yazılı Sınav, Müşteri Memnuniyet Puanı, Açılan İrtibat Oranı",
+                        "quizandcustomersatisfactionscore": "Yazılı sınav ve Müşteri memnuniyet puanı",
+                        "quizscore": "Yazılı sınav",
+                        "salesamount": "Satış (ADM) Euro",
+                        "servicelevel": "Servis Seviyesi",
+                        "servicelevelorder": "Order Service level",
+                        "servicelevelsupport": "Support Service level",
+                        "socialmedia": "Sosyal medya cevaplama",
+                        "socialmediaqualityscore": "Sosyal medya yazışma kalitesi puanı",
+                        "supportaht": "Support AHT",
+                        "ticketqualityscore": "Ticket kalitesi puanı",
+                        "totalleaveday": "Devamsızlık",
+                        "totaluserscount": "Kullanıcılar",
+                        "userrank": "Kullanıcı Sıralaması",
+                        "usersales": "Kullanıcı Satışı",
+                        "verintquality": "Verint görüşme kalitesi",
+                        "workgroup": "Workgroup performansı"
+                    }
+                },
+                "title": "Performans dashboard - Qua Services"
+            },
+            "extrauserstatuses": {
+                "datatableFields": {
+                    "actionsField": "İşlemler",
+                    "dateField": "Tarih",
+                    "nameField": "Ad Soyad",
+                    "projectField": "Proje",
+                    "statusField": "Tür",
+                    "valueField": "Değer"
+                },
+                "description": "Kullanıcıların ek statülerini buradan tanımlayabilirsiniz.",
+                "header": "Kullanıcı Ek Statüleri",
+                "modal": {
+                    "closeButton": "Kapat",
+                    "date": "Tarih",
+                    "projectSelection": "Proje",
+                    "saveButton": "Kaydet",
+                    "select": "Seçiniz",
+                    "statusSelection": "Statü Seçimi",
+                    "title": "Yeni Değer Tanımla",
+                    "userSelection": "Kullanıcı",
+                    "value": "Değer",
+                    "valueDescription": "Sadece dakika türünde rakam olarak giriniz."
+                },
+                "title": "Kullanıcı Ek Statüleri - Qua Services"
+            },
+            "forms": {
+                "copy": " Kopyala",
+                "deleteMessage": "Seçtiğiniz değer silinecektir !",
+                "deleteTitle": "Emin misiniz ?",
+                "newvalue": "Yeni Değer",
+                "search": "Arama..."
+            },
+            "importdata": {
+                "cancelandnewupload": "Vazgeç ve yeni yükle",
+                "excelsheets": "Excel sayfası",
+                "fileStatus": "Dosya Seçilmedi",
+                "header": "Performans Datası Yükle",
+                "removeFile": "Sil",
+                "selectFile": "Seçin",
+                "selectfiles": "Dosya seçimi",
+                "title": "Performans Datası Yükle - Qua Services",
+                "upload": "Yükle"
+            },
+            "kpimanagement": {
+                "header": "KPI Yönetimi",
+                "kpiadd": "Yeni KPI"
+            },
+            "netpromoterscores": {
+                "datatableFields": {
+                    "actionsField": "İşlemler",
+                    "nameField": "Ad Soyad",
+                    "periodField": "Dönem",
+                    "projectField": "Proje",
+                    "scoreField": "Puan"
+                },
+                "description": "Kullanıcıların müşteri memnuniyet puanlarını buradan tanımlayabilirsiniz.",
+                "header": "Müşteri Memnuniyet Puanları",
+                "modal": {
+                    "closeButton": "Kapat",
+                    "date": "Tarih",
+                    "projectSelection": "Proje",
+                    "saveButton": "Kaydet",
+                    "score": "Puan",
+                    "select": "Seçiniz",
+                    "title": "Yeni Değer Tanımla",
+                    "userSelection": "Kullanıcı"
+                },
+                "new": "Yeni Değer",
+                "title": "Müşteri Memnuniyet Puanları - Qua Services"
+            },
+            "scorecard": {
+                "getresult": "Getir",
+                "header": "Kullanıcı karnesi",
+                "title": "Kullanıcı Karnesi - Qua Services"
+            },
+            "surveyandcontactpoints": {
+                "datatableFields": {
+                    "actionsField": "İşlemler",
+                    "completedField": "Tamamlanan",
+                    "nameField": "Ad Soyad",
+                    "periodField": "Dönem",
+                    "projectField": "Proje",
+                    "rateField": "Oran",
+                    "targetField": "Hedeflenen",
+                    "typeField": "Türü"
+                },
+                "description": "Kullanıcıların anket ve irtibat hedeflerini buradan tanımlayabilirsiniz.",
+                "header": "Anket ve İrtibat Oranları",
+                "modal": {
+                    "closeButton": "Kapat",
+                    "completed": "Tamamlanan",
+                    "date": "Tarih",
+                    "projectSelection": "Proje",
+                    "saveButton": "Kaydet",
+                    "select": "Seçiniz",
+                    "target": "Hedeflenen",
+                    "title": "Yeni Değer Tanımla",
+                    "typeSelection": "Türü",
+                    "userSelection": "Kullanıcı"
+                },
+                "new": "Yeni Değer",
+                "title": "Anket ve İrtibat Oranları - Qua Services"
+            },
+            "weltbilddashboard": {
+                "header": "Weltbild Dashboard",
+                "title": "Weltbild Dashboard - Qua Services"
+            }
+        },
+        "questionnaire": {
+            "UserScoringFilerDate": "Tarih",
+            "UserScoringReportTable": {
+                "Count": "Değerlendirme Adedi",
+                "Date": "Tarih",
+                "FullName": "Değerlendiren Kullanıcı",
+                "Name": "Proje"
+            },
+            "criteriareport": {
+                "header": "Kriter Raporu",
+                "title": "Kriter Raporu - Qua Services"
+            },
+            "dashboard": {
+                "charts": {
+                    "headers": {
+                        "averagescore": "Ortalama Puan",
+                        "callduration": "Çağrı Süreleri",
+                        "employeebasedaveragescore": "Çalışan Bazlı Ortalama Puan",
+                        "evaluationdistribution": "Değerlendirme Dağılımı",
+                        "evaluationstatus": "Değerlendirme Durumları",
+                        "pointdistribution": "Puan Dağılımı",
+                        "pointhistogram": "Puan Histogram",
+                        "projectmustbeselected": "Önce proje bilgisi seçilmelidir.",
+                        "projectmustbeselecteddetail": "Proje bilgisi seçildikten sonra sağ üst köşeden kullanıcıları seçerek grafiği görüntüleyebilirsiniz."
+                    },
+                    "values": {
+                        "callduration": {
+                            "1_2minutes": "1-2 dk",
+                            "2_3minutes": "2-3 dk",
+                            "3_4minutes": "3-4 dk",
+                            "4_5minutes": "4-5 dk",
+                            "lessthan1minute": "< 1 dk",
+                            "morethan5minutes": "> 5 dk",
+                            "text": "Çağrı Süreleri"
+                        },
+                        "employeebasedaveragescore": {
+                            "projectaverage": "Proje Ortalaması : ",
+                            "user": "Kullanıcı"
+                        },
+                        "evaluationdistribution": {
+                            "failed": "Başarısız",
+                            "success": "Başarılı",
+                            "total": "Toplam"
+                        },
+                        "evaluationstatuses": {
+                            "failed": "Başarısız",
+                            "success": "Başarılı",
+                            "total": "Toplam"
+                        },
+                        "pointdistribution": {
+                            "average": "Ortalama"
+                        },
+                        "pointhistogram": {
+                            "point": "Puan"
+                        }
+                    }
+                },
+                "filteroptions": "Seçenekler",
+                "formfilter": "FORM FİLTRESİ",
+                "header": "Değerlendirme Gösterge Paneli",
+                "title": "Değerlendirme Gösterge Paneli - Qua Services",
+                "userfilter": "KULLANICI FİLTRESİ"
+            },
+            "detail": {
+                "addanswer": "Cevap Ekle",
+                "answerdefinition": "Cevap Tanımı",
+                "confirm": {
+                    "answer": "Seçtğiniz cevap silinecektir !",
+                    "group": "Seçtiğiniz soru grubu silinecektir !",
+                    "question": "Seçtiğiniz soru silinecektir !"
+                },
+                "controls": {
+                    "buttons": {
+                        "add": "Ekle"
+                    },
+                    "help": {
+                        "failedformscore": "Başarısız bir değerlendirmenin skorunu belirler. Boş bırakırsanız cevaplardan aldığı skor yazılır.",
+                        "minimumformscore": "Değerlendirme sonucu eksiye düştüğünde değerlendirmenin skorunu belirler"
+                    },
+                    "labels": {
+                        "answername": "Cevap metni",
+                        "answerscore": "Cevap skoru",
+                        "canbefileuploaded": "Dosya Yüklenebilir",
+                        "canbescored": "Skorlanabilir",
+                        "canscore": "Skorlanabilir soru",
+                        "defaultselectedanswer": "Varsayılan seçili",
+                        "failedformscore": "Başarısız Form Skoru",
+                        "gradepoints": "Puan Cetveli",
+                        "isrequired": "Zorunlu soru",
+                        "minimumformscore": "Minimum Form Skoru",
+                        "name": "Form Adı",
+                        "questiongroup": "Soru grubu",
+                        "questiongroupname": "Grup adı",
+                        "questionname": "Soru adı",
+                        "questionscore": "Soru skoru",
+                        "questiontype": "Soru türü",
+                        "showfeedback": "Geri bildirim göster"
+                    },
+                    "placeholders": {
+                        "answername": "Cevap metnini giriniz.",
+                        "answerscore": "Cevap skorunu giriniz.",
+                        "failedformscore": "Başarısız formun skorunu giriniz.",
+                        "formscore": "Form skorunu giriniz.",
+                        "gradedefinition": "Tanım",
+                        "gradepoint": "Puan",
+                        "maxfileoperations": "Maksimum dosya işlem sayısını giriniz.",
+                        "minimumformscore": "Formun minimum skorunu giriniz.",
+                        "name": "Form adını giriniz.",
+                        "questiongroupname": "Grup adını giriniz.",
+                        "questionname": "Soru adını giriniz.",
+                        "questionscore": "Soru skorunu giriniz."
+                    }
+                },
+                "groupprocess": "Grup İşlemleri",
+                "header": "Değerlendirme Formu Güncelle",
+                "newquestion": "Yeni Soru",
+                "newquestiongroup": "Yeni Soru Grubu",
+                "noquestions": "Değerlendirme formunda soru bulunmamaktadır !",
+                "questiondefinition": "Soru Tanımı",
+                "questiongroupdefinition": "Soru Grubu Tanımı",
+                "questionprocess": "Soru İşlemleri",
+                "questions": "Sorular",
+                "title": "Değerlendirme Formu Güncelle - Qua Services"
+            },
+            "evaluationdate": "Değerlendirme tarihi",
+            "evaluationresult": {
+                "header": "Değerlendirme Sonucu",
+                "labels": {
+                    "answer": "Cevap",
+                    "answerscore": "Cevap Skoru",
+                    "feedback": "Geribildirim",
+                    "lastdownload": "Son indiren",
+                    "lastlistener": "Son dinleyen",
+                    "nocomment": "Henüz bir yorum eklenmemiş.",
+                    "nolistenauthority": "Dinleme yetkiniz bulunmamaktadır.",
+                    "nosuggestions": "Henüz bir öneri eklenmemiş.",
+                    "question": "Soru",
+                    "questionscore": "Soru Skoru"
+                },
+                "title": "Değerlendirme Sonucu - Qua Services"
+            },
+            "forms": {
+                "controls": {
+                    "inputs": {
+                        "placeholders": {
+                            "questionnaireformname": "Form Adı",
+                            "questionnaireformscore": "Form Skoru"
+                        }
+                    },
+                    "labels": {
+                        "questionnaireformname": "Form Adı",
+                        "questionnaireformscore": "Form Skoru"
+                    }
+                },
+                "header": "Değerlendirme Formları",
+                "newform": "Yeni Değerlendirme Formu",
+                "table": {
+                    "confirmmessage": "Seçtiğiniz form ve buna bağlı herşey silinecektir !",
+                    "created": "Oluşturulma",
+                    "lastmodified": "Son Güncelleme",
+                    "name": "Ad",
+                    "project": "Proje",
+                    "score": "Skor",
+                    "totalevaluation": "Toplam Değerlendirme"
+                },
+                "title": "Değerlendirme Formları - Qua Services"
+            },
+            "interactiondate": "Görüşme tarihi",
+            "newevaluation": {
+                "controls": {
+                    "labels": {
+                        "interactiondate": "Görüşme tarihi",
+                        "interactionid": "Görüşme kimliği"
+                    },
+                    "placeholders": {
+                        "interactiondate": "Görüşme tarihini giriniz.",
+                        "interactionid": "Görüşme kimliğini giriniz."
+                    }
+                },
+                "header": "Yeni Değerlendirme",
+                "title": "Yeni Değerlendirme - Qua Services"
+            },
+            "periodicalgroupreport": {
+                "header": "Dönemsel Grup Raporu",
+                "title": "Dönemsel Grup Raporu - Qua Services"
+            },
+            "periodicalreport": {
+                "header": "Dönemsel Rapor",
+                "title": "Dönemsel Rapor - Qua Services"
+            },
+            "statustypes": {
+                "failed": "Başarısız",
+                "pending": "Beklemede",
+                "success": "Başarılı"
+            },
+            "totalpointreport": {
+                "header": "Toplam Puan Raporu",
+                "title": "Toplam Puan Raporu - Qua Services"
+            },
+            "userevaluation": {
+                "buttons": {
+                    "removerecord": "Dosya Ekini Sil"
+                },
+                "header": "Kullanıcı Değerlendir",
+                "inputs": {
+                    "placeholders": {
+                        "comment": "Değerlendirme yorumunuzu giriniz.",
+                        "interactiondate": "Görüşme tarihini giriniz.",
+                        "interactionid": "Görüşme kimliğini giriniz.",
+                        "phonenumber": "Telefon numarasını giriniz.",
+                        "questionfeedback": "Soruyla ilgili geri bildirim yapabilirsiniz.",
+                        "suggestion": "Değerlendirme önerilerinizi giriniz.",
+                        "tags": "Birşeyler yazın ve enter'a basın."
+                    }
+                },
+                "labels": {
+                    "answerscore": "Seçilen Cevap Skoru : ",
+                    "comment": "Yorum",
+                    "deletefileconfirmmessage": "Seçtiğiniz dosya silinecektir !",
+                    "evaluationdate": "Değerlendirme tarihi",
+                    "finishcodetags": "Sonuç kodu etiketleri",
+                    "includereport": "Raporlara dahil et",
+                    "interactiondate": "Görüşme tarihi",
+                    "interactionid": "Görüşme kimliği",
+                    "interactiontags": "Görüşme etiketleri",
+                    "phonenumber": "Telefon numarası",
+                    "questionaverage": "Ortalama Puan : ",
+                    "questionscore": "Soru Skoru : ",
+                    "soundfile": "Dosya Eki",
+                    "suggestion": "Öneriler",
+                    "totalscore": "Toplam Puan"
+                },
+                "requiredquestions": "Aşağıdaki soruların yanıtlanması gerekmektedir.",
+                "title": "Kullanıcı Değerlendir - Qua Services"
+            },
+            "userevaluations": {
+                "controls": {
+                    "buttons": {
+                        "questiongroupreport": "Soru Grubu Raporu",
+                        "questionreport": "Soru Raporu"
+                    },
+                    "labels": {
+                        "finishcodetags": "Sonuç kodu etiketleri",
+                        "interactiontags": "Görüşme etiketleri"
+                    },
+                    "placeholders": {
+                        "finishscore": "Bitiş",
+                        "startscore": "Başlangıç"
+                    }
+                },
+                "header": "Kullanıcı Değerlendirmeleri",
+                "scorefilter": "SKOR FİLTRESİ",
+                "statusfilter": "DURUM FİLTRESİ",
+                "statustypes": {
+                    "failed": "Başarısız",
+                    "pending": "Beklemede",
+                    "success": "Başarılı"
+                },
+                "table": {
+                    "columns": {
+                        "evaluateeuser": "Değerlendirilen Kullanıcı",
+                        "evaluatorinfo": "Değerlendiren Bilgileri",
+                        "formname": "Form Adı",
+                        "interactioninfo": "Görüşme Bilgileri",
+                        "score": "Skor",
+                        "status": "Durumu"
+                    },
+                    "confirmmessage": "Seçtiğiniz değerlendirme silinecektir !"
+                },
+                "tags": "Etiketler",
+                "title": "Kullanıcı Değerlendirmeleri - Qua Services"
+            }
+        },
+        "quiz": {
+            "evaluation": {
+                "correctanswer": "Doğru Cevap:",
+                "endquiz": "Sınavı Bitir",
+                "endquizevaluation": "Değerlendirmeyi Bitir",
+                "endquizmessage": "Sınavı bitirilecek ve cevaplarınız daha sonra değiştirilemeyecek, devam etmek istiyor musunuz?",
+                "extrascore": "Ekstra Skor",
+                "extrascoreplaceholder": "Ekstra skor girin",
+                "feedback": "Geri bildirim",
+                "feedbackplaceholder": "Bir şeyler yazın..",
+                "includeaverage": "Ortalamaya Dahil Et",
+                "leavequiz": "Bu sayfadan ayrılırsanız bilgileri kaybedebilirsiniz. Devam etmek istiyor musunuz ?",
+                "markquestion": "Bu soruya geri dön",
+                "questionoptions": "Seçenekler:",
+                "quizinfo": "SINAV BİLGİLERİ",
+                "quizquestions": "Sınav Soruları",
+                "quiztimeend": "Sınav süresi bitti. Sınavınız kaydedildi.",
+                "quiztimeendtitle": "Süreniz doldu!",
+                "quiztimesaved": "Son kaydedilme:",
+                "score": "Puan"
+            },
+            "forms": {
+                "controls": {
+                    "labels": {
+                        "comment": "Sınav Açıklaması",
+                        "priority": "Sınav Önceliği",
+                        "prioritycritical": "Kritik",
+                        "priorityhigh": "Yüksek",
+                        "prioritylow": "Düşük",
+                        "prioritynormal": "Normal",
+                        "quizformname": "Sınav Adı"
+                    },
+                    "placeholders": {
+                        "comment": "Sınav açıklaması girin",
+                        "quizformname": "Sınav seçin"
+                    },
+                    "select": {
+                        "evaluateeuserplaceholder": "Kullanıcı seçimi yapılmadığında seçtiğiniz sınav projedeki tüm kullanıcılara atanacaktır."
+                    }
+                },
+                "newform": "Yeni Sınav"
+            },
+            "list": {
+                "header": "Sınav Listesi",
+                "table": {
+                    "columns": {
+                        "actions": "İşlemler",
+                        "createdat": "Oluşturulma Tarihi",
+                        "creatoruser": "Oluşturan Kullanıcı",
+                        "evaluatedate": "Değerlendirme Tarihi",
+                        "project": "Proje",
+                        "quizinformation": "Değerlendiren Bilgileri",
+                        "quizname": "Sınav Adı",
+                        "quiztime": "Sınav Süresi",
+                        "score": "Skor",
+                        "status": "Durum",
+                        "targetuser": "Değerlendirilen Kullanıcı",
+                        "totalusage": "Toplam Değerlendirme"
+                    }
+                },
+                "title": "Sınav Listesi"
+            },
+            "message": {
+                "content": "Bu işlemi yapmak istediğinize emin misiniz?",
+                "error": "Hata!",
+                "evaulationfinishmessage": "Değerlendirmeyi bitirmek istediğinize emin misiniz?",
+                "newquiznotselectedproject": "Proje alanı boş geçilemez.",
+                "newquiznotselectedquiz": "Sınav Adı alanı boş geçilemez.",
+                "newquiznotselectedtargetuser": "Değerlendirilen Kullanıcı alanı boş geçilemez.",
+                "questionname": "Soru adı alanı boş geçilemez.",
+                "questionscore": "Skor alanı boş geçilemez.",
+                "questiontype": "Soru türü alanı boş geçilemez.",
+                "title": "Emin misiniz?"
+            },
+            "quizzes": {
+                "controls": {
+                    "buttons": {
+                        "copyquiz": "Sınavı Kopyala",
+                        "createquiz": "Yeni Sınav Tanımla"
+                    },
+                    "labels": {
+                        "assigndate": "Atama Tarihi",
+                        "company": "Firma Bilgisi",
+                        "critical": "Kritik",
+                        "description": "Sınav Açıklaması",
+                        "enddate": "Sınav Bitiş Saati",
+                        "evaluationdate": "Değerlendirme Tarihi",
+                        "high": "Yüksek",
+                        "low": "Düşük",
+                        "name": "Sınav Adı",
+                        "new": "Yeni Sınav",
+                        "normal": "Normal",
+                        "priorities": {
+                            "critical": "Kritik",
+                            "high": "Yüksek",
+                            "low": "Düşük",
+                            "normal": "Normal"
+                        },
+                        "priority": "Sınav Önceliği",
+                        "project": "Proje Bilgisi",
+                        "quizname": "Sınav Adı",
+                        "score": "Sınav Skoru",
+                        "startdate": "Sınav Başlangıç Saati",
+                        "status": "Durumu",
+                        "teams": "Değerlendilen Takım",
+                        "time": "Sınav Süresi",
+                        "user": "Kullanıcı"
+                    },
+                    "placeholders": {
+                        "description": "Sınav açıklaması girin",
+                        "end": "Maksimum Skor",
+                        "name": "Sınav formu adını girin..",
+                        "score": "Sınav skorunu giriniz... Örn.: 100",
+                        "start": "Minimum Skor",
+                        "time": "Sınav süresi giriniz.. (dk)"
+                    }
+                },
+                "details": {
+                    "addanswer": "Cevap Tanımla",
+                    "answerscore": "Cevap Skoru ",
+                    "answerscoreplaceholder": "Cevap skorunu girin",
+                    "answerscoreupdated": "Cevap Skoru: ",
+                    "answertext": "Cevap Metni",
+                    "breadcrumbtext": "Sınav",
+                    "correctanswer": "Doğru Cevap",
+                    "description": "Sınav formunun güncellenmesi bu sayfadan yapılır.",
+                    "header": "Sınav Formları",
+                    "info1": "Sınavınızda soru ve cevap bulunmamaktadır !",
+                    "info2": "Sağ üst köşeden yeni bir soru tanımlayabilirsiniz.",
+                    "modal": {
+                        "mandatory": "Zorunlu Cevap",
+                        "name": "Soru Adı",
+                        "placeholders": {
+                            "info": "Resim boyutu en fazla 1 MB olabilir",
+                            "name": "Soru adını giriniz.",
+                            "score": "Soru skorunu giriniz."
+                        },
+                        "scorable": "Skorlanabilir Soru",
+                        "score": "Soru Skoru",
+                        "type": "Sorü Türü",
+                        "types": {
+                            "0": "Seçiniz",
+                            "1": "Liste",
+                            "2": "Açılır Liste",
+                            "3": "Birden çok Seçim",
+                            "4": "Metin"
+                        }
+                    },
+                    "new": "Yeni Soru Tanımla",
+                    "newanswer": "Yeni Cevap Tanımla",
+                    "nonscoreable": "Skorlanamaz",
+                    "question": "Soru",
+                    "questionactions": "Soru İşlemleri",
+                    "questionindicator": ". Soru",
+                    "questions": "Sınav Soruları",
+                    "score": " - Skoru : ",
+                    "sidebar": {
+                        "add": "Ekle",
+                        "description": "Sınav Tanımı",
+                        "duration": "Sınav Süresi",
+                        "period": "Performans Tarihi",
+                        "placeholders": {
+                            "description": "Sınav tanımını giriniz.",
+                            "duration": "Sınav süresini giriniz.",
+                            "period": "Sınavın yansıyacağı performans tarihini giriniz.",
+                            "point": "Puan",
+                            "quizscore": "Sınav skorunu giriniz.",
+                            "scaledescription": "Tanım",
+                            "usercanfinish": "Kullanıcı sınavı bitirdiğinde direkt olarak değerlendirilir.(Bu seçenek için tüm soruların seçenekli olması gerekir.)"
+                        },
+                        "project": "Proje Seçimi",
+                        "quizscore": "Sınav Skoru",
+                        "scale": "Puan Cetveli",
+                        "scaledescription": "Açıklama",
+                        "status": "Durumu",
+                        "title": "Sınav Bilgileri",
+                        "under": "ve altı",
+                        "usercanfinish": "Kullanıcı tamamlayabilir"
+                    },
+                    "title": "Sınav Formları",
+                    "updatequestion": "Soruyu Güncelle"
+                },
+                "messages": {
+                    "deleteanswer": "Seçtiğiniz cevap silinecektir !",
+                    "deletequestion": "Seçtiğiniz soru ve buna bağlı cevaplar silinecektir !",
+                    "deletequiz": "Seçtiğiniz sınav ve buna bağlı herşey silinecektir !",
+                    "invalidquestionscore": "Soru skoru sınav skorundan büyük olamaz.",
+                    "invalidscore": "Cevap skoru soru skorundan büyük olamaz.",
+                    "noquiztime": "Sınav için süre limiti belirlemediniz. Sınavı süresiz kaydetmek istiyor musunuz?",
+                    "noscore": "Sınav için bir skor belirlemediniz. Sınavı skorsuz kaydetmek istiyor musunuz?",
+                    "noscorenoquiztime": "Sınav için skor ve süre limiti belirlemediniz. Sınavı kaydetmek istiyor musunuz?",
+                    "publish": "Seçtiğiniz sınavın sonuçlarını yayınlamak istediğinize emin misiniz?",
+                    "titles": {
+                        "publish": "Sınav Sonuçlarını Yayınla",
+                        "rusure": "Emin misiniz?",
+                        "unpublish": "Sınav Sonuçlarını Kapat"
+                    },
+                    "unpublish": "Seçtiğiniz sınavın sonuçlarını kapatmak istediğinize emin misiniz?"
+                },
+                "quizevaluation": {
+                    "header": "Kullanıcı Sınavları"
+                },
+                "subtitle": "Projedeki sınavların listesidir. Sınav tanımlamalarını, sınav içeriklerinin ve puan cetvellerinin yönetimini bu sayfadan yapabilirsiniz.",
+                "title": "Sınav Formları"
+            },
+            "report": {
+                "answeravarage": {
+                    "header": "Sınav Sorusu Cevap Ortalamaları",
+                    "table": {
+                        "header": "Cevap Ortalamaları Listesi"
+                    }
+                }
+            },
+            "status": {
+                "Değerlendirme Bekliyor": "Değerlendirme Bekliyor",
+                "Değerlendirme Sürecinde": "Değerlendirme Sürecinde",
+                "Sınav Atanmış": "Sınav atanmış",
+                "Sınavda": "Sınavda",
+                "Tamamlandı": "Tamamlandı"
+            }
+        },
+        "resetpassword": {
+            "comparepassword": "Lütfen, gerekli tüm alanları doldurun. Girdiğiniz parolalar eşleşmiyor, lütfen parolanızı tekrar girin.",
+
+            "checklastpassword": "Yeni şifreniz son 3 şifreniz ile aynı olamaz.",
+
+            "checkpasswordname": "Şifreniz Adınızı, soyadınızı, emailinizi içermemelidir.",
+
+            "checkpassword": "Parolanız; en az 8 en fazla 20 karakter olmalı, en az bir küçük harf, en az bir büyük harf, en az bir rakam ve en az bir özel karakter içermelidir, boşluk içermemelidir.",
+
+            "changepassword": "Parolanız başarılı bir şekilde değiştirildi.",
+            "control": {
+                "submit": "Şifremi değiştir",
+                "textbox": {
+                    "password": "Şifre",
+                    "passwordrepeat": "Şifre (tekrar)"
+                }
+            },
+            "description": "Lütfen yeni şifrenizi girin.",
+            "header": "Şifre değiştirin",
+            "messages": {
+                "comparepassword": "Lütfen, gerekli tüm alanları doldurun. Girdiğiniz parolalar eşleşmiyor, lütfen parolanızı tekrar girin."
+            },
+            "title": "Şifre değiştirin - Qua Services"
+        },
+        "signin": {
+            "control": {
+                "checkbox": {
+                    "rememberme": "Beni hatırla"
+                },
+                "submit": "Giriş yap",
+                "textbox": {
+                    "password": "Şifre",
+                    "username": "Kullanıcı adı veya e-posta adresi"
+                }
+            },
+            "description": "Aşağıya hesap bilgilerinizi giriniz.",
+            "forgotpassword": "Şifremi unuttum",
+            "header": "Hesabınıza giriş yapın",
+            "title": "Giriş Yap - Qua Services"
+        },
+        "task": {
+            "add": "Görev Oluştur",
+            "alltasks": "Tüm Görevler",
+            "confirmmesage": "Seçtiğiniz görev silinecektir !",
+            "create": "Yeni",
+            "datatable": {
+                "date": "Tarih",
+                "description": "Açıklama",
+                "priority": "Önemi",
+                "share": "Paylaşım",
+                "status": "Durum"
+            },
+            "description": "Yeni görev oluşturun ve görevlerinizi yönetin.",
+            "details": {
+                "addcomment": "Yorum Ekle",
+                "addedby": "Ekleyen ",
+                "addtag": "Etiket Tanımla",
+                "addworkitem": "Çalışma Ekle",
+                "category": "Kategori",
+                "comment": "Yorum",
+                "commentmodal": {
+                    "label": "Durumu",
+                    "notchanged": "Durum Değişikliği Yok",
+                    "placeholder": "Dosya sürükleyin veya buraya tıklayarak dosyalarınız seçin",
+                    "title": "Yeni Yorum Ekle"
+                },
+                "created": "Oluşturulma",
+                "createdby": "Oluşturan",
+                "delete": "Sil",
+                "end": "Bitiş Tarihi",
+                "header": "Görev Detayları",
+                "priority": "Önemi",
+                "project": "Proje",
+                "share": "Paylaş",
+                "shared": "Paylaşım",
+                "sharemodal": {
+                    "placeholder": "Görevi paylaşmak istediğiniz kullanıcı ismini yazıp açılan listeden seçiniz.",
+                    "title": "Görevi Paylaş"
+                },
+                "start": "Başlangıç Tarihi",
+                "status": "Durumu",
+                "statuses": {
+                    "AÇIK": "Açık",
+                    "BEKLETILIYOR": "Bekletiliyor",
+                    "ERTELENDI": "Ertelendi",
+                    "ETKIN": "Etkin",
+                    "KAPALI": "Kapalı",
+                    "TAMAMLANDI": "Tamamlandı",
+                    "YANIT BEKLENIYOR": "Yanıt Bekleniyor",
+                    "YENI": "Yeni",
+                    "ÇALIŞILIYOR": "Çalışılıyor",
+                    "İPTAL EDILDI": "İptal Edildi"
+                },
+                "sub-task": "Yeni Alt Görev",
+                "sub-tasktitle": "Yeni alt görev oluştur",
+                "tag": "Etiket",
+                "tagmodal": {
+                    "label": "Etiketler",
+                    "placeholder": "Göreve etiket eklemek için bir şeyler yazın.",
+                    "title": "Görev Etiketlerini Düzenle"
+                },
+                "ticketfiles": "Görev Dosyaları",
+                "ticketworkitems": "Görev Çalışmaları",
+                "update": "Güncelle",
+                "updated": "Güncellenme",
+                "updateticket": "Talebi Güncelle",
+                "uploadfile": "Dosya Yükle",
+                "uploadmodal": {
+                    "title": "Yeni Dosya Ekle"
+                },
+                "workitemmodal": {
+                    "companycolleguges": "Firmamdakiler ",
+                    "days": "Gün",
+                    "description": "Açıklama",
+                    "duration": "Süre",
+                    "everyone": "Herkes",
+                    "hours": "Saat",
+                    "minutes": "Dakika",
+                    "onlyme": "Sadece Ben",
+                    "paid": "Ücretli",
+                    "privacy": "Gizlilik",
+                    "title": "Çalışma Detayı"
+                }
+            },
+            "excel": "Excel Raporu",
+            "filterlabels": {
+                "date": "Tarih Seçimi",
+                "leavestatus": {
+                    "21": "Onay Bekliyor",
+                    "22": "Onaylandı",
+                    "23": "Reddedildi",
+                    "24": "Değişiklik Talebi",
+                    "approved": "Onaylandı",
+                    "changerequest": "Değişiklik Talebi",
+                    "rejected": "Reddedildi",
+                    "title": "İzin Durumları",
+                    "waiting": "Onay Bekliyor"
+                },
+                "leavetitle": "İZİN DURUMLARI",
+                "priority": "Öneme göre",
+                "prioritytitle": "ÖNEMI",
+                "status": "Durumu Göre",
+                "statustitle": "GÖREV DURUMLARI"
+            },
+            "header": "Görevler",
+            "lists": "LİSTELER",
+            "modal": {
+                "category": "Kategori Seçimi",
+                "description": "Açıklama",
+                "name": "Adı",
+                "placeholders": {
+                    "description": "Görev açıklaması giriniz",
+                    "enddate": "Bitiş tarihi girin",
+                    "filecancel": "Yüklemeyi iptal etmek istediğinizden emin misiniz ?",
+                    "filedrag": "Dosya sürükleyin veya buraya tıklayarak dosyalarınız seçin",
+                    "name": "Görev adını giriniz",
+                    "senddate": "Bitiş tarihini girin",
+                    "share": "Görevi paylaşmak istediğiniz kullanıcı veya proje ismini yazıp açılan listeden seçiniz.",
+                    "startdate": "Başlangıç tarihini girin"
+                },
+                "priority": "Önemi",
+                "project": "Proje Seçimi",
+                "share": "Görevi Paylaş",
+                "startdate": "Başlangıç / Bitiş Tarihi"
+            },
+            "mytickets": "Benim Görevlerim",
+            "priorities": {
+                "1": "Normal",
+                "2": "Kritik",
+                "3": "Yüksek",
+                "4": "Düşük",
+                "Critical": "Kritik",
+                "Düşük": "Düşük",
+                "Kritik": "Kritik",
+                "Normal": "Normal",
+                "Yüksek": "Yüksek",
+                "critical": "Kritik",
+                "high": "Yüksek",
+                "low": "Düşük",
+                "normal": "Normal"
+            },
+            "projects": "Projeler",
+            "sharedtickets": "Benimle Paylaşılanlar",
+            "shareit": "Paylaş",
+            "status": {
+                "1": "Etkin",
+                "12": "İptal Edildi",
+                "2": "Çalışılıyor",
+                "3": "Ertelendi",
+                "4": "Tamamlandı",
+                "active": "Etkin",
+                "cancelled": "İptal Edildi",
+                "completed": "Tamamlandı",
+                "inprogress": "Çalışılıyor",
+                "leavestatus": {
+                    "approved": "Onaylandı",
+                    "changerequest": "Değişiklik Talebi",
+                    "rejected": "Reddedildi",
+                    "title": "İZİN DURUMLARI",
+                    "waiting": "Onay Bekliyor"
+                },
+                "postponed": "Ertelendi"
+            },
+            "title": "Görevler - Qua Services",
+            "todetails": "Detaya Git"
+        },
+        "ticket": {
+            "add": "Talep Oluştur",
+            "alltickets": "Tüm Talepler",
+            "confirmmesage": "Seçtiğiniz talep silinecektir !",
+            "datatable": {
+                "created": "Oluşturulma",
+                "description": "Açıklama",
+                "lastmodified": "Son İşlem",
+                "priority": "Önemi",
+                "status": "Durum"
+            },
+            "description": "Yeni talep oluşturun ve taleplerinizi yönetin.",
+            "details": {
+                "addcomment": "Yorum Ekle",
+                "addedby": "Ekleyen ",
+                "addtag": "Etiket Tanımla",
+                "addworkitem": "Çalışma Ekle",
+                "category": "Kategori",
+                "commentmodal": {
+                    "label": "Durumu",
+                    "notchanged": "Durum Değişikliği Yok",
+                    "placeholder": "Dosya sürükleyin veya buraya tıklayarak dosyalarınız seçin",
+                    "title": "Yeni Yorum Ekle"
+                },
+                "created": "Oluşturulma",
+                "createdby": "Oluşturan",
+                "delete": "Sil",
+                "header": "Talep Detayları",
+                "priority": "Önemi",
+                "project": "Proje",
+                "share": "Paylaş",
+                "shared": "Paylaşım",
+                "sharemodal": {
+                    "placeholder": "Talebi paylaşmak istediğiniz kullanıcı ismini yazıp açılan listeden seçiniz.",
+                    "title": "Talebi Paylaş"
+                },
+                "status": "Durumu",
+                "statuses": {
+                    "AÇIK": "Açık",
+                    "BEKLETILIYOR": "Bekletiliyor",
+                    "KAPALI": "Kapalı",
+                    "YANIT BEKLENIYOR": "Yanıt Bekleniyor",
+                    "YENI": "Yeni",
+                    "ÇALIŞILIYOR": "Çalışılıyor"
+                },
+                "tag": "Etiket",
+                "tagmodal": {
+                    "label": "Etiketler",
+                    "placeholder": "Talebe etiket eklemek için bir şeyler yazın.",
+                    "title": "Talep Etiketlerini Düzenle"
+                },
+                "ticketfiles": "Talep Dosyaları",
+                "ticketworkitems": "Talep Çalışmaları",
+                "update": "Güncelle",
+                "updated": "Güncellenme",
+                "updateticket": "Talebi Güncelle",
+                "uploadfile": "Dosya Yükle",
+                "uploadmodal": {
+                    "title": "Yeni Dosya Ekle"
+                },
+                "workitemmodal": {
+                    "companycolleguges": "Firmamdakiler ",
+                    "days": "Gün",
+                    "description": "Açıklama",
+                    "duration": "Süre",
+                    "everyone": "Herkes",
+                    "hours": "Saat",
+                    "minutes": "Dakika",
+                    "onlyme": "Sadece Ben",
+                    "paid": "Ücretli",
+                    "privacy": "Gizlilik",
+                    "title": "Çalışma Detayı"
+                }
+            },
+            "filterlabels": {
+                "date": "Tarih Seçimi",
+                "priority": "Öneme göre",
+                "prioritytitle": "ÖNEMI",
+                "status": "Durumu Göre",
+                "statustitle": "TALEP DURUMLARI"
+            },
+            "header": "Talepler",
+            "modal": {
+                "category": "Kategori Seçimi",
+                "description": "Açıklama",
+                "name": "Adı",
+                "placeholders": {
+                    "description": "Talep açıklaması giriniz",
+                    "filecancel": "Yüklemeyi iptal etmek istediğinizden emin misiniz ?",
+                    "filedrag": "Dosya sürükleyin veya buraya tıklayarak dosyalarınız seçin",
+                    "name": "Talep adını giriniz"
+                },
+                "priority": "Önemi",
+                "project": "Proje Seçimi"
+            },
+            "mytickets": "Benim taleplerim",
+            "priorities": {
+                "1": "Normal",
+                "2": "Kritik",
+                "3": "Yüksek",
+                "4": "Düşük",
+                "Critical": "Kritik",
+                "Düşük": "Düşük",
+                "Kritik": "Kritik",
+                "Normal": "Normal",
+                "Yüksek": "Yüksek",
+                "critical": "Kritik",
+                "high": "Yüksek",
+                "low": "Düşük",
+                "normal": "Normal"
+            },
+            "projects": "PROJELER",
+            "sharedtickets": "Benimle Paylaşılanlar",
+            "status": {
+                "10": "Yeni",
+                "11": "Kapalı",
+                "13": "Çalışılıyor",
+                "14": "Bekletiliyor",
+                "15": "Açık",
+                "16": "Yanıt Bekleniyor",
+                "closed": "Kapalı",
+                "inprogress": "Çalışılıyor",
+                "new": "Yeni",
+                "onhold": "Bekletiliyor",
+                "open": "Açık",
+                "pending": "Bekleniyor"
+            },
+            "title": "Talepler - Qua Services",
+            "todetails": "Detaya Git"
+        },
+        "uploadimagemodal": {
+            "mirrorhorizontal": "Yatay Hizala",
+            "mirrorvertical": "Dikey Hizala",
+            "title": "Resim Yükle",
+            "todown": "Aşağı Çek",
+            "toleft": "Sola Çek",
+            "toright": "Sağa Çek",
+            "toup": "Yukarı Çek",
+            "turnleft": "Sola Döndür",
+            "turnright": "Sağa Döndür",
+            "zoomin": "Yakınlaş",
+            "zoomout": "Uzaklaş"
+        },
+        "validations": {
+            "areyousure": "Emin misiniz ?",
+            "fileactions": {
+                "downloadfailed": "Dosyayı indirirken bir hata meydana geldi. Dosya silinmiş olabilir.",
+                "preparingmessage": "Dosya indirilmek için hazırlanıyor..."
+            },
+            "management": {
+                "companyedetails": {
+                    "adminnotselected": "Firma yöneticisi alanı boş veya eksik bilgi ile geçilemez!",
+                    "namenotdefined": "Firma adı boş geçilemez!"
+                },
+                "connections": {
+                    "connectionnamelength": "Bağlantı Adı en az 3 en fazla 150 karakterden oluşmalıdır",
+                    "passwordlength": " Şifre en az 3 en fazla 150 karakterden oluşmalıdır",
+                    "servernamelength": " Sunucu Adı en az 3 en fazla 150 karakterden oluşmalıdır",
+                    "unabletoadd": "Sql baglantısı eklenemedi",
+                    "usernamelength": " Kullanıcı Adı en az 3 en fazla 150 karakterden oluşmalıdır"
+                },
+                "departments": {
+                    "unabletosave": "Departman kayıt edilemedi"
+                },
+                "projects": {
+                    "teamnamalength": "Takım Adı en az 3 en fazla 150 karakterden oluşmalıdır"
+                },
+                "roledetails": {
+                    "companynotdefined": "Firma alanı boş geçilemez!",
+                    "namenotdefined": "Rol Adı alanı boş geçilemez!"
+                },
+                "teams": {
+                    "dapartmentnamelength": " Departman Adı en az 3 en fazla 150 karakterden oluşmalıdır",
+                    "unabletocreate": "Takım oluşturulamadı"
+                },
+                "titles": {
+                    "unabletosave": "Ünvan kayıt edilemedi"
+                },
+                "users": {
+                    "birthdate": "Lütfen kullanıcının doğum tarihini giriniz.",
+                    "fillallfields": "Lütfen tüm alanları doldurunuz.",
+                    "makeactivemessage": "Seçtiğiniz kullanıcıyı aktif hale getirmek istediğinize emin misiniz?",
+                    "makepassivemessage": "Seçtiğiniz kullanıcıyı pasif hale getirmek istediğinize emin misiniz?",
+                    "passwordnotmatch": "Şifre ve Şifre tekrarı boş bırakılamaz yada şifre terarınız eşleşmiyor!",
+                    "selectimage": "Lütfen bir resim dosyası seçiniz."
+                }
+            },
+            "payroll": {
+                "approvalprocess": {
+                    "approversnotdefined": "Onaylayacak kişi(ler) seçilmesi gerekmektedir!",
+                    "confirmmessage": "Seçtiğiniz onay süreci silinecektir !",
+                    "nothingselected": "Kullanıcı, Departman, Proje, Rol veya Takımlardan en az birinin seçilmesi gerekmektedir!",
+                    "processnamenotdefined": "Süreç adı alanı boş geçilemez!"
+                },
+                "holidays": {
+                    "ancronymnotdefined": "Kısaltması alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz.",
+                    "companynotselected": "Firma Bilgisi alanı boş geçilemez! Lütfen bir firma seçiniz ve tekrar deneyiniz.",
+                    "confirmmessage": "Seçtiğiniz izin türü silinecektir !",
+                    "namenotdefined": "Adı alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz.",
+                    "yearnotdefined": "Yıl alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz."
+                },
+                "leavedays": {
+                    "commentisempty": "Yorum alanı boş bırakılamaz.",
+                    "companynotselected": "İzin alınacak şirket seçilmeden, talep oluşturulamaz!",
+                    "deletemessage": "Seçtiğiniz izin talebi silinecektir !",
+                    "filedeletemessage": "Seçtiğiniz dosya silinecektir !",
+                    "requestupdatedeletemessage": "Seçtiğiniz görev güncellemesi kaldırılacaktır !",
+                    "typenotselected": "İzin türü şeçilmeden, talep oluşturulamaz!",
+                    "updatemessage": "Seçtiğiniz izin talebi güncellenecek ve onay süreci baştan başlayacaktır!"
+                },
+                "leaverules": {
+                    "companynotselected": "Firma Bilgisi alanı boş geçilemez! Lütfen bir firma seçiniz ve tekrar deneyiniz.",
+                    "confirmmessage": "Seçtiğiniz izin kuralı silinecektir !",
+                    "leavabalancenotdefined": "Yıllık İzin Hakkı alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz.",
+                    "namenotdefined": "Adı alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz."
+                },
+                "leavetypes": {
+                    "ancronymnotdefined": "Kısaltması alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz.",
+                    "annualleavelimitnotdefined": "Yıllık izin limit alanı boş bırakılamaz. Lütfe bu alanı doldurup tekrar deneyin.",
+                    "companynotselected": "Firma Bilgisi alanı boş geçilemez! Lütfen bir firma seçiniz ve tekrar deneyiniz.",
+                    "confirmmessage": "Seçtiğiniz izin türü silinecektir !",
+                    "namenotdefined": "Adı alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz."
+                },
+                "overtime": {
+                    "confirmmessage": "Seçtiğiniz ek çalışma kaydı silinecektir !",
+                    "nothingselected": "Kullanıcı, Departman, Proje, Rol veya Takımlardan en az birinin seçilmesi gerekmektedir!"
+                },
+                "workingcalendars": {
+                    "companynotselected": "Firma Bilgisi alanı boş geçilemez! Lütfen bir firma seçiniz ve tekrar deneyiniz.",
+                    "confirmmessage": "Seçtiğiniz çalışma takvimi silinecektir !",
+                    "schedulenamenotdefined": "Takvim Adı alanı boş geçilemez! Lütfen doldurunuz ve tekrar deneyiniz.",
+                    "startdatenotdefined": "Başlangıç ve bitiş tarihleri belirtilmelidir !"
+                },
+                "workingdaysreport": {
+                    "nothingselected": "Lütfen bir proje,takım veya departman seçiniz !"
+                }
+            },
+            "performance": {
+                "bonusandpenalties": {
+                    "completednotdefined": "Tamamlanan alanı boş geçilemez!",
+                    "datenotdefined": "Tarih alanı boş geçilemez!",
+                    "projectnotdefined": "Proje alanı boş geçilemez!",
+                    "targetnotdefined": "Hedeflenen alanı boş geçilemez!",
+                    "typenotdefined": "Tür alanı boş geçilemez!",
+                    "usernotdefined": "Kullanıcı alanı boş geçilemez!!"
+                },
+                "dashboard": {
+                    "enddatenotdefined": "Bitiş tarihi boş geçilemez!",
+                    "projectnotdefined": "Proje alanı boş geçilemez!",
+                    "startdate": "Bitiş tarihi başlangıç tarihinden küçük olamaz",
+                    "startdatenotdefined": "Başlangıç tarihi boş geçilemez!",
+                    "usernotdefined": "Kullanıcı alanı boş geçilemez!!"
+                },
+                "npscores": {
+                    "datenotdefined": "Tarih alanı boş bırakılamaz.",
+                    "projectnotdefined": "Proje alanı boş bırakılamaz.",
+                    "usernotdefined": "Kullanıcı alanı boş bırakılamaz.",
+                    "valuenotdefined": "Değer  alanı boş bırakılamaz."
+                },
+                "surveyandcontactpoints": {
+                    "completednotdefined": "Tamamlanan alanı boş geçilemez!",
+                    "datenotdefined": "Tarih alanı boş geçilemez!",
+                    "projectnotdefined": "Proje alanı boş geçilemez!",
+                    "targetnotdefined": "Hedeflenen alanı boş geçilemez!",
+                    "typenotdefined": "Tür alanı boş geçilemez!",
+                    "usernotdefined": "Kullanıcı alanı boş geçilemez!!"
+                }
+            },
+            "questionnaire": {
+                "questionnairedashboard": {
+                    "usernotselected": "Kullanıcı seçiniz"
+                },
+                "questionnairedetails": {
+                    "failedscoreexception": "Başarısız Form Skoru skorlanabilir değerden büyük olamaz",
+                    "groupnamenotdefined": "Grup adı alanı boş geçilemez!",
+                    "minimumscoreexception": "Minumum form skoru skorlanabilir değerden büyük olamaz",
+                    "projectnotselected": "Proje Seçimi yapmadınız",
+                    "questionanswernotdefined": "Cevap skoru boş geçilemez!",
+                    "questiongnamenotdefined": "Soru adı alanı boş geçilemez!",
+                    "questiongroupnotdefined": "Soru grubu alanı boş geçilemez!",
+                    "questionnamenotdefined": "Cevap adı boş geçilemez!",
+                    "questionscorenotdefined": "Soru skoru boş geçilemez!",
+                    "scoreexception": "Başarısız Form Skoru skorlanabilir değerden büyük olamaz",
+                    "typenotdefined": "Soru türü alanı boş geçilemez!"
+                },
+                "questionnaires": {
+                    "companynotdefined": "Firma alanı boş geçilemez!",
+                    "namenotdefined": "Form Adı alanı boş geçilemez!",
+                    "projectnotdefined": "Proje alanı boş geçilemez!"
+                },
+                "userevaluation": {
+                    "info": "Bilgi",
+                    "infotext": "Formun içerisinde input/ları oluşturamadık sistem yöneticisi ile iletişime geçin"
+                }
+            },
+            "quiz": {
+                "list": {
+                    "noauthority": "Yetkiniz Yok!",
+                    "noauthoritymessage": "Bu sınava ait sonuçları görüntüleme yetkiniz bulunmamaktadır.",
+                    "noauthoritytext": "Değerlendirme yapabilmek için yetkiniz bulunmamaktadır.",
+                    "nopermission": "İzniniz Yok!",
+                    "nopermissiontext": "Sınava sadece atanan kişi girebilir.",
+                    "onevaluation": "Değerlendirme Sürecinde!",
+                    "onevaluationtext": "Değerlendirme sürecinde sınavınızı görüntüleyemezsiniz. Lütfen sonuçlar yayınlandıktan sonra tekrar deneyiniz.",
+                    "onquiz": "Sınav Modunda",
+                    "onquizmessage": "Sınav bitmeden değerlendirme yapılamaz.",
+                    "success": "Başarılı",
+                    "successmessage": "Kayıt silindi."
+                },
+                "quizdetails": {
+                    "answertextnotdefined": "Cevap metni boş geçilemez",
+                    "companynotdefined": " Firma bilgisi boş geçilmez",
+                    "feedbackadded": "Feedback eklendi!",
+                    "feedbackaddfailed": "Feedback eklenirken bir hata meydana geldi!",
+                    "filenotselected": "Dosya seçilmedi.",
+                    "fileuploadlimit": "Dosya yükleme limiti 1 MB olarak sınırlandırılmıştır.",
+                    "maximumanswerscore": "Cevabın alabileceği maksimum skor : ",
+                    "maximumscore": "Sorunun alabileceği maksimum skor : ",
+                    "performanceperiodnotdefined": "Performans tarihi boş geçilemez",
+                    "projectnotdefined": "Proje bilgisi boş geçilemez",
+                    "questionscorenotdefined": "Soru skoru boş geçilemez",
+                    "questiontextnotdefined": "Soru metni boş geçilemez",
+                    "questiontypenotdefined": " Soru türü boş geçilmez",
+                    "quizdescriptionnotdefined": "Sınav tanımı boş geçilemez",
+                    "quizscorenotdefined": "Sınav skoru boş geçilemez",
+                    "quiztimenotdefined": "Sınav süresi boş geçilemez",
+                    "scoreexception": "Sorular için belirlenmiş skorların toplamı Sınav Skorundan büyük olamaz",
+                    "scorescaledescriptionnotdefined": "Puan Cetveli 'Tanım' boş geçilemez",
+                    "scorescalenotdefined": "Puan cetveli 'puan' boş geçilemez",
+                    "textanswer": "Metin cevabı olan sınavlar otomatik olarak tamamlanamaz",
+                    "textquestions": "Metin sorularına tek bir cevap tanımlayabilirsiniz!"
+                },
+                "userevaluation": {
+                    "emptyanswer": "Kullanıcı cevap vermediği için, bu soruya feedback veya score ekleyemezsiniz.",
+                    "scorelessthanzero": "Verilen puan '0' dan küçük olamaz!"
+                }
+            },
+            "task": {
+                "addoneworkatleast": "En az bir çalışma süresi giriniz.",
+                "commentconfirmmessage": "Seçtiğiniz görev güncellemesi silinecektir!",
+                "commentisempty": "Yorum alanı boş bırakılamaz.",
+                "confirmmessage": "Seçtiğiniz görev ve buna bağlı her şey silinecektir!",
+                "descriptionnotdefined": "Açıklama boş geçilemez!",
+                "fileconfirmmessage": "Seçtiğiniz dosya silinecektir!",
+                "fileuploadlimit": "Dosya yükleme limiti 1 MB olarak sınırlandırılmıştır.",
+                "projectnotdefined": "Proje alanı boş geçilemez!",
+                "shareconfirmmessage": "Seçtiğiniz kişilerden görev paylaşımı kaldırılacaktır",
+                "shareoneatleast": "En az bir kullanıcıyla paylaşmanız gerekmektedir.",
+                "startdatenotdefined": "Başlangıç tarihi alanı boş bırakılamaz!",
+                "tasknamenotdefined": "Görev adı boş geçilemez!",
+                "ticketnotdefined": "Talep adı boş geçilemez!",
+                "workconfirmmessage": "Seçtiğiniz çalışma süresi silinecektir!"
+            },
+            "ticket": {
+                "addoneworkatleast": "En az bir çalışma süresi giriniz.",
+                "commentconfirmmessage": "Seçtiğiniz yorum ve buna bağlı her şey silinecektir!",
+                "commentisempty": "Yorum alanı boş bırakılamaz.",
+                "confirmmessage": "Seçtiğiniz talep ve buna bağlı her şey silinecektir!",
+                "descriptionnotdefined": "Açıklama boş geçilemez!",
+                "fileconfirmmessage": "Seçtiğiniz dosya silinecektir!",
+                "fileuploadlimit": "Dosya yükleme limiti 1 MB olarak sınırlandırılmıştır.",
+                "projectnotdefined": "Proje alanı boş geçilemez!",
+                "shareconfirmmessage": "Seçtiğiniz kişilerden talep paylaşımı kaldırılacaktır",
+                "shareoneatleast": "En az bir kullanıcıyla paylaşmanız gerekmektedir.",
+                "ticketnamenotdefined": "Talep adı boş geçilemez!",
+                "workconfirmmessage": "Seçtiğiniz çalışma süresi silinecektir!"
+            }
+        },
+        "weltbilddashboard": {
+            "answeredcall": "Cevaplanan Çağrı",
+            "callcount": "Çağrı Adedi",
+            "incomingcall": "Gelen Çağrı"
+        }
+    }
+}
