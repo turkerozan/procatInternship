@@ -1,0 +1,905 @@
+{
+  "app": {
+    "generic": {
+      "breadcrumbmain": "Startseite",
+      "controls": {
+        "buttons": {
+          "add": "Hinzufügen",
+          "clearfilter": "Filter löschen",
+          "close": "Schließen",
+          "download": "İndir",
+          "downloadexcel": "Excel",
+          "getdashboard": "Grafiken bringen",
+          "getresult": "Bingen",
+          "loadings": {
+            "proccess": "Proccessing please wait..."
+          },
+          "new": "Neu",
+          "no": "Nein",
+          "processes": "Transaktionen",
+          "productname": "Produktname",
+          "removeselected": "Ausgewählte löschen",
+          "save": "Speichern",
+          "update": "Güncelle",
+          "yes": "Ja"
+        },
+        "inputs": {
+          "placeholder": {
+            "finishdate": "Enddatum eingeben.",
+            "startdate": "Anfangsdatum eingeben."
+          }
+        },
+        "labels": {
+          "company": "Firma",
+          "evaluateeuser": "Benutzerbewertung",
+          "evaluatoruser": "Bewertung vom Benutzer",
+          "filter": "Filter",
+          "filteroptions": "Seçenekler Almanca",
+          "finishdate": "Enddatum",
+          "project": "Projekt",
+          "questionnaireform": "Bewertungsformulare",
+          "startdate": "Anfangsdatum",
+          "status": "Status",
+          "user": "Benutzer"
+        },
+        "select": {
+          "questiontypes": {
+            "checkboxlist": "Checkboxliste",
+            "dropdownlist": "Dropdown-Liste",
+            "freetext": "Text",
+            "radiobuttonlist": "Option Liste"
+          }
+        }
+      },
+      "enums": {
+        "newtaskstatus": {}
+      },
+      "message": {
+        "loading": "Bitte Warten...",
+        "pleaseselectevaluationform": "Bitte wählen Sie ein Bewertungsformular.",
+        "pleaseselectquestiongroup": "Bitte wählen Sie mindestens eine Fragengruppe aus."
+      },
+      "plugins": {
+        "chart": {
+          "bar": "Spaltenansicht",
+          "clearmark": "Löschen",
+          "closeviewdata": "schließen",
+          "funnel": "Funnel",
+          "line": "Lineare Ansicht",
+          "mark": "Markieren",
+          "nodata": "keine daten",
+          "pie": "Pie",
+          "resetzoom": "Reset",
+          "restore": "rückgängig machen",
+          "save": "speichern",
+          "savetitle": "als Bild speichern",
+          "suffix": {
+            "euro": "€",
+            "minute": "min",
+            "percent": "%",
+            "point": "punkte",
+            "second": "sek"
+          },
+          "updatedata": "Aktualisierung",
+          "viewdata": "Daten sehen",
+          "zoom": "Zoom"
+        },
+        "daterange": {
+          "apply": "Anwenden",
+          "cancel": "Löschen",
+          "customrange": "Datumsbereich",
+          "endlabel": "Enddatum",
+          "format": "DD.MM.YYYY",
+          "last30days": "Letzten 30 Tage",
+          "last7days": "Letzten 7 Tage",
+          "lastmonth": "Letzter Monat",
+          "lastweek": "Letzte Woche",
+          "lastyear": "Letztes Jahr",
+          "startlabel": "Anfangsdatum",
+          "thismonth": "Dieser Monat",
+          "thisweek": "Diese Woche",
+          "thisyear": "Dieses Jahr",
+          "today": "Heute",
+          "yesterday": "Gestern"
+        },
+        "download": {
+          "downloadfail": "Ein Fehler beim Herunterladen der Datei ist aufgetreten. Die Datei wurde möglicherweise gelöscht.",
+          "downloadpreparing": "Datei zum Download vorbereiten..."
+        },
+        "dropzone": {
+          "cancel": "İptal Et",
+          "cancelinformation": "Yüklemeyi iptal etmek istediğinizden emin misiniz ?",
+          "message": "Yüklemek istediğiniz dosyaları sürükleyin veya buraya tıklayarak dosyalarınızı seçin.",
+          "remove": "Sil"
+        },
+        "switch": {
+          "active": "Active",
+          "passive": "Passive"
+        }
+      },
+      "table": {
+        "button": {
+          "delete": "Löschen",
+          "update": "Aktualisierung",
+          "view": "Ansicht"
+        },
+        "message": {
+          "confirm": {
+            "title": "Sicher?"
+          }
+        }
+      }
+    },
+    "name": "Qua Services"
+  },
+  "nav": {
+    "header": {
+      "myprofile": "Mein Profil",
+      "signout": "Ausloggen"
+    },
+    "left": {
+      "customreport": "Berichtsverwaltung",
+      "dim": {
+        "importdata": "Anket & Lead Datası",
+        "main": "DİM Rapor Yönetimi",
+        "report": "DİM Rapor"
+      },
+      "main": "Startseite",
+      "management": {
+        "company": "Firma",
+        "connection": "Links",
+        "department": "Abteilungen",
+        "main": "Administrator",
+        "project": "Projekte",
+        "role": "Rolle",
+        "team": "Teams",
+        "title": "Titel",
+        "user": "User"
+      },
+      "opportunity": {
+        "data": {
+          "check": "Datenkontrolle",
+          "import": "Datenimport",
+          "main": "Datenverwaltung"
+        },
+        "definitions": {
+          "campaigns": "Kampagnen",
+          "finishcodes": "Ergebniscodes",
+          "main": "Begriffsbestimmungen",
+          "marketinglist": "Marketing Liste",
+          "salesteams": "Außendienst"
+        },
+        "leads": "Opportunities",
+        "main": "Opportunity Management",
+        "report": {
+          "endofdayreport": "Tagesabschlussbericht",
+          "main": "Berichte",
+          "rawreport": "Rohbericht",
+          "salesteamreport": "Außendienst Berichte",
+          "situationanalysisreport": "Situationsanalysebericht"
+        }
+      },
+      "performance": {
+        "bonusandpenalties": "Bonus & Strafen",
+        "dashboard": "Dashboard",
+        "extrauserstatus": "Zusätzlicher Status",
+        "importdata": "Datenimport",
+        "main": "Leistungsmanagement",
+        "netpromoterscore": "NPS Punkte",
+        "scorecard": "Userzeugnis",
+        "surveyandcontactpoint": "Umfrage & Kontakt",
+        "tables": "Leistungstabellen",
+        "weltbilddashboard": "Weltbild Dashboard"
+      },
+      "questionnaire": {
+        "dashboard": "Allgemeiner Status",
+        "evaluatedquestionnaires": "User Bewertungen",
+        "evaluation": "Neue Bewertung",
+        "forms": "Formeln",
+        "main": "Administrator Bewertung",
+        "reports": {
+          "criteriareport": "Kritik Bericht",
+          "main": "Raporlar",
+          "periodicalgroupreport": "Gruppenbericht",
+          "periodicalreport": "Periodischer Bericht",
+          "periodicaltotalpointreport": "Gesamtpunktebericht"
+        }
+      },
+      "quiz": {
+        "list": "List Quiz",
+        "main": "Quiz",
+        "quizzes": "Forms"
+      },
+      "task": "Aufgabenverwaltung",
+      "ticket": "Nachfragemanagement",
+      "timeplanning": {
+        "additionalworks": "Zusätzliche Arbeitstage",
+        "definitions": {
+          "approvalprocesses": "Genehmigungsverfahren",
+          "holidays": "Urlaubstage",
+          "leaverules": "Urlaubsregeln",
+          "leavetypes": "Urlaubstyp",
+          "main": "Begriffsbestimmungen",
+          "workingcalendars": "Arbeitskalender"
+        },
+        "leavedays": "Urlaubstage",
+        "main": "Scoring-Management",
+        "workingdaysreport": "Scoringbericht"
+      }
+    }
+  },
+  "page": {
+    "custom": {
+      "customfinishcode": {
+        "agentname": "Kundenvertreter",
+        "amount": "Betrag",
+        "calldetail": "Anrufverlauf",
+        "callid": "Anruf ID",
+        "category": "Kategrorie",
+        "description": "Erklärung",
+        "finishcode": "Ergebniscode",
+        "interactiondate": "Anrufsdatum",
+        "noresult": "Keine Datensätze zur Anzeige gefunden.",
+        "phonenumber": "Telefonnummer",
+        "price": "Preis",
+        "products": "Produkte",
+        "quantity": "Anzahl",
+        "title": "Ergebniscode",
+        "workgroup": "Workgroup"
+      }
+    },
+    "customreport": {
+      "allreports": "Alle Berichte",
+      "breadcrumb": {
+        "reports": "Berichte"
+      },
+      "description": "Neue Berichte erstellen und verwalten.",
+      "header": "Berichtsverwaltung",
+      "lists": "Listen",
+      "newreport": "Neuer Bericht",
+      "newreportmodal": {
+        "controls": {
+          "labels": {
+            "company": "Firmenauswahl",
+            "list": "Liste",
+            "name": {
+              "label": "Name",
+              "placeholder": "Berichtname eingeben."
+            }
+          }
+        },
+        "header": "Neuer Bericht"
+      },
+      "sharemodal": {
+        "controls": {
+          "labels": {
+            "project": "Projekt",
+            "user": "Benutzer"
+          }
+        },
+        "header": "Bericht teilen"
+      },
+      "table": {
+        "button": {
+          "execute": "Bericht ausführen",
+          "sharing": "gemeinsam genutzte Berichte"
+        },
+        "confirmmessage": "Der von Ihnen ausgewählte Bericht und alles, was damit verbunden ist, wird gelöscht !",
+        "created": "Erstellt",
+        "execution": "Ausführung",
+        "name": "Name",
+        "object": "Objekt",
+        "status": "Status"
+      },
+      "title": "Berichtsverwaltung - Qua Services"
+    },
+    "customreportdetail": {
+      "allreports": "Alle Berichte",
+      "breadcrumb": {
+        "reports": "Berichte"
+      },
+      "code": "Berichtkode",
+      "columns": {
+        "avg": "Durchschnitt",
+        "confirmmessage": "ausgewählte Spalte wird gelöscht !",
+        "count": "Gesamtzahl",
+        "formulaplaceholder": "Spalten und Formeln",
+        "header": "Spalten",
+        "importcolumn": "Spalte imortieren",
+        "importcolumnheader": "Spalte importieren",
+        "labels": {
+          "group": "Gruppierung",
+          "name": "Spaltenname",
+          "nullvalue": "Leerwert",
+          "round": "Runden"
+        },
+        "newcolumn": "Neue Spalte",
+        "nullif": "Leerenkontrolle",
+        "operator": "Operatörler",
+        "placeholders": {
+          "name": "Spaltenname eingeben.",
+          "nullvalue": "Spaltenabstandswert eingeben.",
+          "nullvaluehelp": "Wenn die Spalte leer ist, wird der Wert im Textfeld angezeigt."
+        },
+        "sum": "Summe"
+      },
+      "description": "Neue Berichte erstellen und Berichte verwalten.",
+      "execute": "ausführen",
+      "filters": {
+        "and": "UND",
+        "confirmmessage": "ausgewählter Filter wird gelöscht !",
+        "control": "Kontroletikett",
+        "controldescription": "Kontrol açıklaması",
+        "controldescriptionplaceholder": "Kontrolbeschreibung eingeben.",
+        "controlplaceholder": "Kontroletikett eingeben.",
+        "datacolumns": "Datenfilter",
+        "dynamic": "Dynamischer Wert",
+        "filtertype": "Filtertyp",
+        "filtervalue": "Filterwert",
+        "filtervalueplaceholder": "Filterwert eingeben.",
+        "header": "Filter",
+        "newfilter": "Neue Filter",
+        "or": "ODER"
+      },
+      "header": "Rapor Yönetimi",
+      "lists": "Listen",
+      "newreport": "Neuer Bericht",
+      "newreportmodal": {
+        "controls": {
+          "labels": {
+            "company": "Firma auswählen",
+            "list": "Liste",
+            "name": {
+              "label": "Name",
+              "placeholder": "Berichtname eingeben."
+            }
+          }
+        },
+        "header": "Neuer Bericht"
+      },
+      "orders": {
+        "asc": "wachsend",
+        "confirmmessage": "ausgewählte Sortierkriterium wird gelöscht !",
+        "datacolumns": "Datenspalte",
+        "desc": "abnehmend",
+        "header": "Reihenfolge",
+        "neworder": "Neue Reihenfolge",
+        "sorttype": "Typ der Reihenfolge"
+      },
+      "parameters": {
+        "and": "UND",
+        "confirmmessage": "Ausgewählte Parameter werden gelöscht !",
+        "control": "Kontrolle Etikett",
+        "controldescription": "Steueranweisung",
+        "controldescriptionplaceholder": "Kontrollbeschreibung eingeben.",
+        "controlplaceholder": "Kontrolletikett eingeben.",
+        "dynamic": "Dynamischer Wert",
+        "name": "Parameter",
+        "newparameter": "Neue Parameter",
+        "or": "ODER",
+        "parametervalue": "Parameterwert",
+        "parametervalueplaceholder": "Parameterwert eingeben.",
+        "title": "Parameter"
+      },
+      "reportsidebar": {
+        "controls": {
+          "button": {
+            "confirmmessage": "Alle Links, die Sie ausgewählt haben, werden gelöscht !",
+            "create": "erstellen",
+            "newreport": "Neuer Bericht"
+          },
+          "input": {
+            "displayrecord": {
+              "help": "Leer lassen um alle Einträge zu sehen.",
+              "placeholder": "Anzahl der Datensätze die angezeigt werden sollen.."
+            },
+            "reportname": {
+              "placeholder": "Name des Berichts eingeben."
+            },
+            "timeout": {
+              "help": "Der Standardwert ist 30 Sekunden.",
+              "placeholder": "Geben Sie die Zeitüberschreitung ein."
+            }
+          },
+          "label": {
+            "connection": "Verbindung",
+            "database": "Database",
+            "displayrecord": "Anzahl der angezeigten Datensätz",
+            "object": "Objekt",
+            "objecttype": "Objekttyp",
+            "reportlist": "Berichtliste",
+            "reportname": "Berichtname",
+            "timeout": "Time-out-Zeit"
+          }
+        },
+        "title": "Bericht informationen"
+      },
+      "share": "Teilen",
+      "table": {
+        "button": {
+          "execute": "Bericht ausführen",
+          "sharing": "geteilte"
+        },
+        "confirmmessage": "Ausgewählter Bericht und alles, was damit verbunden ist, wird gelöscht !",
+        "created": "erstellen",
+        "execution": "ausführen",
+        "name": "Name",
+        "object": "Objekt",
+        "status": "Status"
+      }
+    },
+    "customreportexecute": {
+      "breadcrumb": {
+        "reports": "Berichte"
+      },
+      "edit": "Bearbeiten",
+      "reportsidebar": {
+        "controls": {
+          "button": {
+            "excel": "Excel",
+            "execute": "ausführen",
+            "pdf": "Pdf"
+          }
+        },
+        "help": "Sie können bis zu 500 Datensätze anzeigen. Alle Datensätze anzeigen;",
+        "parameters": "Parameter",
+        "title": "BERICHT INFORMATIONEN"
+      },
+      "share": "teilen"
+    },
+    "firstlogingeneratepassword": {
+      "control": {
+        "submit": "Passwort erstellen",
+        "textbox": {
+          "password": "Passwort"
+        }
+      },
+      "description": "Bitte erstellen Sie Ihr Passwort.",
+      "header": "Passwort erstellen",
+      "title": "Passwort erstellen - Qua Services"
+    },
+    "firstloginupdatepassword": {
+      "control": {
+        "submit": "Passwort ändern",
+        "textbox": {
+          "password": "Passwort"
+        }
+      },
+      "description": "Ändern Sie Ihr Passwort für Ihre Sicherheit.",
+      "header": "Passwort ändern",
+      "title": "Passwort ändern - Qua Services"
+    },
+    "forgotpassword": {
+      "control": {
+        "submit": "Passwort zurücksetzen",
+        "textbox": {
+          "username": "Benutzername oder E-Mail-Adresse"
+        }
+      },
+      "description": "Geben Sie Ihren Benutzernamen oder Ihre E-Mail Adresse ein.",
+      "header": "Passwort vergessen",
+      "signin": "Anmeldung",
+      "title": "Passwort vergessen - Qua Services"
+    },
+    "index": {
+      "header": "Startseite",
+      "title": "Startseite - Qua Services"
+    },
+    "management": {
+      "departments": {
+        "addtitle": "Departman Ekle",
+        "header": "Departmanlar",
+        "labels": {
+          "titlename": "Departman Adı"
+        },
+        "placeholders": {
+          "titlename": "Departman adını giriniz."
+        },
+        "table": {
+          "companyname": "Firma Adı",
+          "confirmmessage": "Seçtiğiniz departman silinecektir !",
+          "created": "Oluşturulma",
+          "lastupdate": "Son Güncelleme",
+          "name": "Adı",
+          "usercount": "Kullanıcı Sayısı"
+        },
+        "title": "Departmanlar - Qua Services"
+      },
+      "titles": {
+        "addtitle": "Ünvan Ekle",
+        "header": "Ünvanlar",
+        "labels": {
+          "titlename": "Ünvan Adı"
+        },
+        "placeholders": {
+          "titlename": "Ünvan adını giriniz."
+        },
+        "table": {
+          "companyname": "Firma Adı",
+          "confirmmessage": "Seçtiğiniz ünvan silinecektir !",
+          "created": "Oluşturulma",
+          "lastupdate": "Son Güncelleme",
+          "name": "Adı",
+          "usercount": "Kullanıcı Sayısı"
+        },
+        "title": "Ünvanlar - Qua Services"
+      }
+    },
+    "performance": {
+      "dashboard": {
+        "getdashboard": "Grafiken bringen",
+        "header": "Leistungs-Dashboard",
+        "performancevalues": {
+          "legends": {
+            "actual": "realisiert",
+            "average": "Durchschnitt",
+            "total": "Gesamt"
+          },
+          "suffix": {
+            "day": "gün",
+            "euro": "€",
+            "minute": "dk",
+            "percent": "%",
+            "point": "Punkt",
+            "second": "sn"
+          },
+          "title": "Benutzernumerierung",
+          "values": {
+            "acht": "ACHT",
+            "acw": "ACW",
+            "admtekliforani": "ADM Teklif Oranı",
+            "asa": "ASA",
+            "breaktime": "Pausezeit",
+            "callqualityscore": "Qualitätsbewertung aufrufen",
+            "chat": "Chat Beantwortung",
+            "chatqualityscore": "Chat qualität score",
+            "completedsurvey": "Erfüllte Umragendurchschnitt",
+            "contactqualityscore": "kontakt qualität score",
+            "customersatisfactionscore": "Kundenzufriedenheit score",
+            "email": "E-mail Beantwortung",
+            "emailqualityscore": "E-mail qualität score",
+            "hold": "Hold",
+            "kapaniskodugirisorani": "Kapanış Kodu Giriş Oranı",
+            "login": "Login Anpassung",
+            "mailaht": "Mail AHT",
+            "opencontactrate": "geöffnete Kontaktrate",
+            "orderaht": "Order AHT",
+            "outbound": "Outbound anrufe",
+            "productivity": "Produktivität",
+            "qualityscore": "Süreç kalitesi puanı",
+            "quizandcompletedsurvey": "schriftliche prüfung und vollendede Umfrage score ",
+            "quizandcustomersatisfactionandopencontactrate": "schriftliche prüfung, Kundenzufriedenheit score, , geöffnete Kontaktrate score",
+            "quizandcustomersatisfactionscore": "schriftliche prüfung und Kundenzufriedenheit score",
+            "quizscore": "schriftliche Prüfung",
+            "salesamount": "Verkauf (ADM) Euro",
+            "servicelevel": "Service level",
+            "servicelevelorder": "Order Service level",
+            "servicelevelsupport": "Support Service level",
+            "socialmedia": "Social Media Beantwortung",
+            "socialmediaqualityscore": "Social Media schreibqualität score",
+            "supportaht": "Support AHT",
+            "ticketqualityscore": "Ticketqualität",
+            "totalleaveday": "Versäumnis",
+            "totaluserscount": "Kullanıcılar",
+            "userrank": "Kullanıcı Sıralaması",
+            "usersales": "Kullanıcı Satışı - Almanca",
+            "verintquality": "Verint Anrufqualität",
+            "workgroup": "Workgroup Leistung"
+          }
+        },
+        "title": "Leistungs-Dashboard - Qua Services"
+      },
+      "importdata": {
+        "cancelandnewupload": "Vazgeç ve yeni yükle",
+        "excelsheets": "Excel sayfası",
+        "header": "Performans Datası Yükle",
+        "selectfile": "Dosya seçimi",
+        "title": "Performans Datası Yükle - Qua Services",
+        "upload": "Yükle"
+      },
+      "scorecard": {
+        "getresult": "berechnen",
+        "header": "Userzeugnis",
+        "title": "Userzeugnis - Qua Services"
+      }
+    },
+    "questionnaire": {
+      "criteriareport": {
+        "header": "Kritikbericht",
+        "title": "Kritikbericht - Qua Services"
+      },
+      "dashboard": {
+        "charts": {
+          "headers": {
+            "averagescore": "Durchschnittswert",
+            "callduration": "Anrufzeiten",
+            "employeebasedaveragescore": "Mitarbeiterbasierter Durchschnittswert",
+            "evaluationdistribution": "Bewertungsverteilung",
+            "evaluationstatus": "Bewertungsfälle",
+            "pointdistribution": "Punkteverteilung",
+            "pointhistogram": "Punkte-Histogramm",
+            "projectmustbeselected": "Projektinformationen sollten zuerst ausgewählt werden.",
+            "projectmustbeselecteddetail": "Sobald die Projektinformationen ausgewählt sind, können Sie das Diagramm anzeigen, indem Sie die Benutzer in der oberen rechten Ecke auswählen."
+          },
+          "values": {
+            "callduration": {
+              "1_2minutes": "1-2 min",
+              "2_3minutes": "2-3 min",
+              "3_4minutes": "3-4 min",
+              "4_5minutes": "4-5 min",
+              "lessthan1minute": "< 1 min",
+              "morethan5minutes": "> 5 min",
+              "text": "Anrufzeiten"
+            },
+            "employeebasedaveragescore": {
+              "projectaverage": "Projektdurchschnitt : ",
+              "user": "Benutzer"
+            },
+            "evaluationdistribution": {
+              "failed": "Gescheitert",
+              "success": "Erfolgreich",
+              "total": "Gesamt"
+            },
+            "evaluationstatuses": {
+              "failed": "Gescheitert",
+              "success": "Erfolgreich",
+              "total": "Gesamt"
+            },
+            "pointdistribution": {
+              "average": "Durchschnitt"
+            },
+            "pointhistogram": {
+              "point": "Punkte"
+            }
+          }
+        },
+        "filteroptions": "Optionen",
+        "formfilter": "FORMFILTER",
+        "header": "Bewertungen dashboard",
+        "title": "Bewertungen dashboard - Qua Services",
+        "userfilter": "BENUTZERFILTER"
+      },
+      "detail": {
+        "addanswer": "Antwort hinzufügen",
+        "answerdefinition": "Antwortdefinition",
+        "confirm": {
+          "answer": "Die ausgewählte Antwort wird gelöscht !",
+          "group": "Die ausgewählte Fragengruppe wird gelöscht !",
+          "question": "Die ausgewählte Frage wird gelöscht !"
+        },
+        "controls": {
+          "buttons": {
+            "add": "Hinzufügen"
+          },
+          "help": {
+            "failedformscore": "Eine nicht erfolgreiche Bewertung bestimmt die Punktzahl. Wenn Sie es leer lassen, wird das Ergebnis aus den Antworten geschrieben.",
+            "minimumformscore": "Değerlendirme sonucu eksiye düştüğünde değerlendirmenin skorunu belirler"
+          },
+          "labels": {
+            "answername": "Antworttext",
+            "answerscore": "Antwortbewertung",
+            "canbefileuploaded": "Datei kann hochgeladen werden",
+            "canbescored": "kann bewertet werden",
+            "canscore": "kann bewertet werden",
+            "defaultselectedanswer": "Default ausgewählt",
+            "failedformscore": "Fehlgeschlagen",
+            "gradepoints": "Punktzahl",
+            "isrequired": "Pflichtfrage",
+            "minimumformscore": "Minimum Form Skoru",
+            "name": "Formenname",
+            "questiongroup": "Fragengruppe",
+            "questiongroupname": "Gruppenname",
+            "questionname": "Fragenname",
+            "questionscore": "Fragenbewertung",
+            "questiontype": "Fragetyp"
+          },
+          "placeholders": {
+            "answername": "Antworttext eingeben.",
+            "answerscore": "Antwortzahl eingeben.",
+            "failedformscore": "Fehlerhafte Formbewertung angeben.",
+            "formscore": "Formbewertung angeben.",
+            "gradedefinition": "Definition",
+            "gradepoint": "Punkte",
+            "maxfileoperations": "Maksimum dosya işlem sayısını giriniz.",
+            "minimumformscore": "Formun minimum skorunu giriniz.",
+            "name": "Formname angeben.",
+            "questiongroupname": "Gruppenname eingeben.",
+            "questionname": "Fragenname eingeben.",
+            "questionscore": "Fragenbewertung eingeben."
+          }
+        },
+        "groupprocess": "Gruppenprozess",
+        "header": "Bewertungsformular aktualisieren",
+        "newquestion": "Neue Frage",
+        "newquestiongroup": "Neue Fragegruppe",
+        "noquestions": "Keine Fragen im Bewertungsformular !",
+        "questiondefinition": "Fragendefinition",
+        "questiongroupdefinition": "Fragegruppendefinition",
+        "questionprocess": "Frageprozess",
+        "questions": "Fragen",
+        "title": "Bewertungsformular aktualisieren - Qua Services"
+      },
+      "evaluationdate": "Bewertungstag",
+      "evaluationresult": {
+        "header": "Değerlendirme Sonucu",
+        "labels": {
+          "answer": "Cevap",
+          "answerscore": "Cevap Skoru",
+          "feedback": "Öneri",
+          "lastdownload": "Son indiren",
+          "lastlistener": "Son dinleyen",
+          "nocomment": "Henüz bir yorum eklenmemiş.",
+          "nolistenauthority": "Dinleme yetkiniz bulunmamaktadır.",
+          "nosuggestions": "Henüz bir öneri eklenmemiş.",
+          "question": "Soru",
+          "questionscore": "Soru Skoru"
+        },
+        "title": "Değerlendirme Sonucu - Qua Services"
+      },
+      "forms": {
+        "controls": {
+          "inputs": {
+            "placeholders": {
+              "questionnaireformname": "Formularname",
+              "questionnaireformscore": "Formularbewertung"
+            }
+          },
+          "labels": {
+            "questionnaireformname": "Formularname",
+            "questionnaireformscore": "Formularbewertung"
+          }
+        },
+        "header": "Bewertungsformulare",
+        "newform": "Neues Bewertungsformular",
+        "table": {
+          "confirmmessage": "Das von Ihnen ausgewählte formular und alles, was damit verbunden ist, wird gelöscht !",
+          "created": "Erstellt",
+          "lastmodified": "Zuletzt bearbeitet",
+          "name": "Name",
+          "project": "Projekt",
+          "score": "Score",
+          "totalevaluation": "Gesamtbewertung"
+        },
+        "title": "Bewertungsformulare - Qua Services"
+      },
+      "interactiondate": "Interaktionsdatum",
+      "newevaluation": {
+        "controls": {
+          "labels": {
+            "interactiondate": "Inetraktionsdatum",
+            "interactionid": "Interaktions ID"
+          },
+          "placeholders": {
+            "interactiondate": "Interaktionsdatum eingeben.",
+            "interactionid": "Interaktions ID eingeben."
+          }
+        },
+        "header": "Neue Bewertung",
+        "title": "Neue Bewertung - Qua Services"
+      },
+      "periodicalgroupreport": {
+        "header": "Dönemsel Grup Raporu Almanca",
+        "title": "Dönemsel Grup Raporu Almanca - Qua Services"
+      },
+      "periodicalreport": {
+        "header": "Periodischer Bericht",
+        "title": "Periodischer Bericht - Qua Services"
+      },
+      "statustypes": {
+        "failed": "gescheitert",
+        "pending": "anstehend",
+        "success": "erfolgreich"
+      },
+      "totalpointreport": {
+        "header": "Gesamtpunktzahlbericht",
+        "title": "Gesamtpunktzahlbericht - Qua Services"
+      },
+      "userevaluation": {
+        "buttons": {
+          "removerecord": "Ses kaydını sil"
+        },
+        "header": "Kullanıcı Değerlendir",
+        "inputs": {
+          "placeholders": {
+            "comment": "Değerlendirme yorumunuzu giriniz.",
+            "interactiondate": "Interaktionsdatum eingeben.",
+            "interactionid": "Interaktions ID eingeben.",
+            "phonenumber": "Telefon numarasını giriniz.",
+            "questionfeedback": "Soruyla ilgili geri bildirim yapabilirsiniz.",
+            "suggestion": "Değerlendirme önerilerinizi giriniz.",
+            "tags": "Birşeyler yazın ve enter'a basın."
+          }
+        },
+        "labels": {
+          "answerscore": "Seçilen Cevap Skoru : ",
+          "comment": "Yorum",
+          "deletefileconfirmmessage": "Seçtiğiniz dosya silinecektir !",
+          "evaluationdate": "Değerlendirme tarihi",
+          "finishcodetags": "Sonuç kodu etiketleri",
+          "includereport": "Raporlara dahil et",
+          "interactiondate": "Inetraktionsdatum",
+          "interactionid": "Interaktions ID",
+          "interactiontags": "Görüşme etiketleri",
+          "phonenumber": "Telefon numarası",
+          "questionaverage": "Ortalama Puan : ",
+          "questionscore": "Soru Skoru : ",
+          "soundfile": "Ses dosyası",
+          "suggestion": "Öneriler",
+          "totalscore": "Toplam Puan"
+        },
+        "requiredquestions": "Aşağıdaki soruların yanıtlanması gerekmektedir.",
+        "title": "Kullanıcı Değerlendir - Qua Services"
+      },
+      "userevaluations": {
+        "controls": {
+          "buttons": {
+            "questiongroupreport": "Fragegruppenbericht",
+            "questionreport": "Fragenbericht"
+          },
+          "labels": {
+            "finishcodetags": "Ergebniscode-Tags",
+            "interactiontags": "Interaktionstagsi"
+          },
+          "placeholders": {
+            "finishscore": "Ende",
+            "startscore": "Anfang"
+          }
+        },
+        "header": "Nutzerbewertungen",
+        "scorefilter": "SCORE-FILTER",
+        "statusfilter": "STATUSFILTER",
+        "table": {
+          "columns": {
+            "evaluateeuser": "bewerteter Nutzer",
+            "evaluatorinfo": "bewertete Information",
+            "formname": "Formenname",
+            "interactioninfo": "Interaktionsinformationen",
+            "score": "Bewertung",
+            "status": "Status"
+          },
+          "confirmmessage": "ausgewählte Bewertung wird gelöscht !"
+        },
+        "tags": "Etikett",
+        "title": "Nutzerbewertungen - Qua Services"
+      }
+    },
+    "quiz": {
+      "list": {
+        "header": "Quiz List",
+        "title": "Quiz List"
+      }
+    },
+    "resetpassword": {
+      "control": {
+        "submit": "Passwort ändern",
+        "textbox": {
+          "password": "Passwort"
+        }
+      },
+      "description": "Bitte neues Passwort eingeben.",
+      "header": "Passwort ändern",
+      "title": "Passwort ändern - Qua Services"
+    },
+    "signin": {
+      "control": {
+        "checkbox": {
+          "rememberme": "Eingeloggt bleiben"
+        },
+        "submit": "Einloggen",
+        "textbox": {
+          "password": "Passwort",
+          "username": "Benutzername oder E-Mail-Adresse"
+        }
+      },
+      "description": "Geben sie Ihre D.",
+      "forgotpassword": "Passwort vergessen",
+      "header": "Melden Sie sich in Ihrem Konto an",
+      "title": "Anmeldung - Qua Services"
+    },
+    "weltbilddashboard": {
+      "answeredcall": "Angenommene Anrufe",
+      "callcount": "Anzahl der Anrufe",
+      "incomingcall": "Eingehende Anrufe"
+    }
+  }
+}
