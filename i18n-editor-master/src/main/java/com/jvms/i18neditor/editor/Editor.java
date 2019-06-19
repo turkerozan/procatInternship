@@ -609,7 +609,7 @@ public class Editor extends JFrame {
     	Path currentRelativePath = Paths.get("");
     	Path s = currentRelativePath.toAbsolutePath();
     	System.out.println("Current relative path is: " + s);
-    	importProject(s,true);
+    	importProject(s,true	);
     	/*
     	 * 
     	 * 
