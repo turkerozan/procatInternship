@@ -182,14 +182,13 @@ public class Editor extends JFrame {
 			restoreProjectState(project);
 			
 			Optional<ResourceType> type = Optional.ofNullable(project.getResourceType());
-			List<Resource> resourceList = Resources.get(dir, 
-					project.getResourceFileDefinition(), project.getResourceFileStructure(), type);
+			List<Resource> resourceList = Resources.get(dir,project.getResourceFileDefinition(), project.getResourceFileStructure(), type);
 			Map<String,String> keys = Maps.newTreeMap();
 			System.out.println("list size:" + resourceList.size());
 			if (resourceList.isEmpty()) {
 				project = null;
 				if (showEmptyProjectError) {
-					JOptionPane.showMessageDialog(contentPane, "JSON cannot be found or bad structure.Exiting..");
+					JOptionPane.showMessageDialog(contentPane, "JSON cannot be found or bad structure. Current relative path is " + dir.toString() +  ".Exiting..");
 					exitCauser();
 					//System.exit(-1);
 				}
@@ -607,7 +606,14 @@ public class Editor extends JFrame {
 		
     	pack();
     	setVisible(true);
-    	
+    	Path currentRelativePath = Paths.get("");
+    	Path s = currentRelativePath.toAbsolutePath();
+    	System.out.println("Current relative path is: " + s);
+    	importProject(s,true);
+    	/*
+    	 * 
+    	 * 
+    	 *
 		List<String> dirs = settings.getHistory();
     	if (!dirs.isEmpty()) {
     		String lastDir = dirs.get(dirs.size()-1);
@@ -636,8 +642,8 @@ public class Editor extends JFrame {
 				translationTree.setSelectionNode(selectedNode);
 			}
 		}
-		
-		showImportProjectDialog();
+		*/
+		//showImportProjectDialog();
 	}
 	
 	public void updateUI() {
@@ -1024,6 +1030,7 @@ public class Editor extends JFrame {
 	}
 	
 	private void restoreEditorState() {
+		
 		ExtendedProperties props = new ExtendedProperties();
 		props.load(Paths.get(SETTINGS_DIR, SETTINGS_FILE));
 		settings.setWindowWidth(props.getIntegerProperty("window_width", 1024));
@@ -1043,6 +1050,7 @@ public class Editor extends JFrame {
 		settings.setResourceFileDefinition(props.getProperty("resource_definition", EditorSettings.DEFAULT_RESOURCE_FILE_DEFINITION));
 		settings.setResourceFileStructure(props.getEnumProperty("resource_structure", FileStructure.class, FileStructure.Flat));
 		settings.setEditorLanguage(props.getLocaleProperty("editor_language"));
+		
 	}
 	
 	private class TranslationTreeMouseListener extends MouseAdapter {
